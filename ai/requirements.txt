@@ -8,5 +8,3 @@ pytube
 flask
 flask-cors
 python-dotenv
-ipython
-flask
