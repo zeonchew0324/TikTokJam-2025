@@ -8,4 +8,3 @@ pytube
 flask
 flask-cors
 python-dotenv
-faiss-cpu
