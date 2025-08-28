@@ -1,13 +1,20 @@
+import '../stylesheets/Leaderboard.css'
+
 export function LeaderboardPage() {
+    const categories = ["Cooking", "Gaming", "Sports", "Music", "Travel", "Beauty"];
+  
     return (
-      <div>
-        <h2>Leaderboard</h2>
-        <ol>
-          <li>User A</li>
-          <li>User B</li>
-          <li>User C</li>
-        </ol>
-      </div>
-    )
+        <div>
+            <h2> Select A Category </h2>
+            <div className="categories-container">
+                {categories.map((cat) => (
+                <div key={cat} className="category-box">
+                    {cat}
+                </div>
+                ))}
+            </div>
+
+        </div>
+    );
   }
   

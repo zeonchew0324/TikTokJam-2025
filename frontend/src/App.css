@@ -78,95 +78,6 @@ text {
   z-index: 100;
 }
 
-.Logo {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-
-.Logo--react {
-  width: 100px;
-  height: 100px;
-  animation: Logo--spin infinite 20s linear;
-}
-
-.Logo--lynx {
-  width: 100px;
-  height: 100px;
-  animation: Logo--shake infinite 0.5s ease;
-}
-
-@keyframes Logo--spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes Logo--shake {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.9);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.LeftNav {
-  width: 220px;
-  background: #111;
-  color: #fff;
-  padding: 16px 12px;
-}
-
-.LeftNav__toggle {
-  width: 100%;
-  margin-bottom: 12px;
-  background: #222;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 8px;
-  cursor: pointer;
-}
-
-.LeftNav__item {
-  padding: 10px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.LeftNav__item.is-active {
-  background: #333;
-}
-
-.LeftNav__icon { width: 20px; text-align: center; }
-.LeftNav__label { flex: 1; }
-
-.material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
-  font-size: 20px;
-  line-height: 20px;
-}
-
-.LeftNav.is-collapsed { width: 44px; padding: 16px 8px; }
-.LeftNav.is-collapsed .LeftNav__label { display: none; }
-.LeftNav.is-collapsed .LeftNav__toggle { padding: 6px; }
-
 .ContentArea {
   flex: 1;
   padding: 24px;
@@ -203,3 +114,5 @@ text {
   margin: 5px;
   color: rgba(255, 255, 255, 0.65);
 }
+
+

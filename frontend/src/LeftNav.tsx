@@ -1,4 +1,5 @@
 type NavKey = 'home' | 'upload' | 'leaderboard'
+import './stylesheets/Navbar.css'
 
 export function LeftNav(props: { current: NavKey; onChange: (k: NavKey) => void; collapsed?: boolean; onToggle?: () => void }) {
   const { current, onChange, collapsed, onToggle } = props
