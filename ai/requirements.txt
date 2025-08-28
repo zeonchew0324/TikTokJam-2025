@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+qdrant-client
+boto3 
+twelvelabs
+pytube
+flask
+flask-cors
+python-dotenv
+ipython
+flask
