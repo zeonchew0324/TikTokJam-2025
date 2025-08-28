@@ -1,7 +1,7 @@
 import os
 import uuid
 from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams, PointStruct
+from qdrant_client.models import Distance, VectorParams, PointStruct, PayloadSchemaType
 from prepare_embedding import prepare_embedding
 from dotenv import load_dotenv
 
@@ -28,6 +28,21 @@ if not qdrant_client.collection_exists(COLLECTION_NAME):
     print(f"✅ Created collection: {COLLECTION_NAME}")
 else:
     print(f"⚡ Collection already exists: {COLLECTION_NAME}")
+    
+# Get collection info to check for existing indexes
+collection_info = qdrant_client.get_collection(collection_name=COLLECTION_NAME)
+
+# Check if the field is already indexed
+if "video_id" not in collection_info.payload_schema:
+    print("Index for video_id not found. Creating a new index...")
+    qdrant_client.create_payload_index(
+        collection_name=COLLECTION_NAME,
+        field_name="video_id",
+        field_schema=PayloadSchemaType.KEYWORD
+    )
+    print(f"Index created successfully for video_id.")
+else:
+    print(f"Index for video_id already exists. Skipping creation.")
 
 # Function to store embed video in qdrant
 def store_in_qdrant(task_result, video_id, s3_url, original_filename):
@@ -69,4 +84,69 @@ def store_in_qdrant(task_result, video_id, s3_url, original_filename):
         print(f"Stored whole video embedding in Qdrant")
     except Exception as e:
         print(f"Error storing in Qdrant: {str(e)}")
+        raise
+
+# Function to retrieve single video embedding from qdrant using video_id
+def retrieve_single_from_qdrant(point_id):
+    if not qdrant_client:
+        raise ValueError("Qdrant client not configured")
+
+    try:
+        print(f"Retrieving video embedding for {point_id}...")
+
+        retrieved_points = qdrant_client.retrieve(
+            collection_name=COLLECTION_NAME,
+            ids=[point_id],
+            with_vectors=True,
+            with_payload=True
+        )
+
+        if retrieved_points:
+            point = retrieved_points[0]
+            vector_embedding = point.vector
+            payload = point.payload
+
+            print(f"Retrieved Vector: {vector_embedding}")
+            print(f"Retrieved Payload: {payload}")
+            return vector_embedding
+        else:
+            print(f"Point with ID {point_id} not found in collection {COLLECTION_NAME}.")
+    except Exception as e:
+        print(f"Error retrieving from Qdrant: {str(e)}")
+        raise
+    
+# Function to retrieve all video embeddings from qdrant
+def retrieve_all_from_qdrant():
+    if not qdrant_client:
+        raise ValueError("Qdrant client not configured")
+
+    try:
+        print(f"Retrieving all video embeddings...")
+
+        all_vectors = []
+
+        # Iterate through all points in the collection
+        # The scroll method returns points and a next_page_offset for pagination
+        next_page_offset = None
+        while True:
+            points, next_page_offset = qdrant_client.scroll(
+                collection_name=COLLECTION_NAME,
+                limit=100,  # Adjust limit as needed for performance
+                offset=next_page_offset,
+                with_vectors=True,
+                with_payload=True # Include payload if desired
+            )
+            if not points:
+                break # No more points to retrieve
+
+            for point in points:
+                all_vectors.append(point.vector) # Access the vector embedding
+
+            if next_page_offset is None:
+                break # Reached the end of the collection
+
+        print(f"Retrieved {len(all_vectors)} vector embeddings.")
+        return all_vectors
+    except Exception as e:
+        print(f"Error retrieving all from Qdrant: {str(e)}")
         raise
