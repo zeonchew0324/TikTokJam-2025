@@ -19,7 +19,7 @@ def create_video_embedding(video_url, max_retries=3, retry_delay=5):
     retries = 0
     while retries < max_retries:
         try:
-            print(f"Creating whole video embedding for {video_path}... (Attempt {retries+1}/{max_retries})")
+            print(f"Creating whole video embedding for {video_url}... (Attempt {retries+1}/{max_retries})")
 
             task = twelvelabs_client.embed.tasks.create(
                 model_name="Marengo-retrieval-2.7",
