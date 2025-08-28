@@ -1,55 +1,19 @@
-import { useCallback, useEffect, useState } from '@lynx-js/react'
-
+import { useCallback, useEffect, useState } from 'react'
 import './App.css'
-import arrow from './assets/arrow.png'
-import lynxLogo from './assets/lynx-logo.png'
-import reactLynxLogo from './assets/react-logo.png'
+import { LeftNav } from './LeftNav'
+import { HomePage, UploadVideoPage, LeaderboardPage } from './pages'
 
-export function App(props: {
-  onRender?: () => void
-}) {
-  const [alterLogo, setAlterLogo] = useState(false)
-
-  useEffect(() => {
-    console.info('Hello, ReactLynx')
-  }, [])
-  props.onRender?.()
-
-  const onTap = useCallback(() => {
-    'background only'
-    setAlterLogo(prevAlterLogo => !prevAlterLogo)
-  }, [])
+export function App() {
+  const [route, setRoute] = useState<'home' | 'upload' | 'leaderboard'>('home')
 
   return (
-    <view>
-      <view className='Background' />
-      <view className='App'>
-        <view className='Banner'>
-          <view className='Logo' bindtap={onTap}>
-            {alterLogo
-              ? <image src={reactLynxLogo} className='Logo--react' />
-              : <image src={lynxLogo} className='Logo--lynx' />}
-          </view>
-          <text className='Title'>React</text>
-          <text className='Subtitle'>on Lynx</text>
-        </view>
-        <view className='Content'>
-          <image src={arrow} className='Arrow' />
-          <text className='Description'>Tap the logo and have fun!</text>
-          <text className='Hint'>
-            Edit<text
-              style={{
-                fontStyle: 'italic',
-                color: 'rgba(255, 255, 255, 0.85)',
-              }}
-            >
-              {' src/App.tsx '}
-            </text>
-            to see updates!
-          </text>
-        </view>
-        <view style={{ flex: 1 }} />
-      </view>
-    </view>
+    <div className="Layout">
+      <LeftNav current={route} onChange={setRoute} />
+      <div className="ContentArea">
+        {route === 'home' && <HomePage />}
+        {route === 'upload' && <UploadVideoPage />}
+        {route === 'leaderboard' && <LeaderboardPage />}
+      </div>
+    </div>
   )
 }
