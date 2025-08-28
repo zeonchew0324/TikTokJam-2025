@@ -37,6 +37,21 @@ def about():
     """
     return render_template('about.html', title='About Us', content='This is the about page.')
 
+# ------------------------------------------
+# Real Endpoints and Logic would go below
+# ------------------------------------------
+
+@app.route('/admin/run-bot-user-check', methods=['POST'])
+def run_bot_user_check():
+    """
+    This endpoint would contain logic to check for bot users.
+    For now, it just returns a placeholder message.
+    """
+    # Placeholder for actual bot user check logic
+    return "Bot user check initiated."
+
+
+
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development
 if __name__ == '__main__':
