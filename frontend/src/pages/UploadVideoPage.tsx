@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import '../stylesheets/UploadVideoPage.css'
 
-export function UploadVideoPage() {
+export function UploadVideoPage(props: { onUploaded?: (url: string) => void }) {
   const inputRef = useRef<HTMLInputElement | null>(null)
   const [file, setFile] = useState<File | null>(null)
   const [isUploading, setIsUploading] = useState(false)
@@ -37,7 +37,8 @@ export function UploadVideoPage() {
       // Example: const res = await fetch('/api/upload', { method: 'POST', body: form })
       await new Promise(r => setTimeout(r, 800))
       console.log('Simulated upload complete:', file.name)
-      alert('Upload complete!')
+      const localUrl = previewUrl ?? URL.createObjectURL(file)
+      props.onUploaded?.(localUrl)
     } catch (err) {
       console.error(err)
       alert('Upload failed')
