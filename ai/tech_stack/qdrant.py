@@ -30,7 +30,7 @@ else:
     print(f"⚡ Collection already exists: {COLLECTION_NAME}")
 
 # Function to store embed video in qdrant
-def store_in_qdrant(video_embedding, video_id, s3_url, original_filename):
+def store_in_qdrant(video_embedding, video_id, s3_url):
     if not qdrant_client:
         raise ValueError("Qdrant client not configured")
 
@@ -44,8 +44,6 @@ def store_in_qdrant(video_embedding, video_id, s3_url, original_filename):
             payload={
                 'video_id': video_id,
                 'video_url': s3_url,  # Store the public S3 URL of the video
-                'is_url': True,
-                'original_filename': original_filename # Save the original filename
             }
         )
 

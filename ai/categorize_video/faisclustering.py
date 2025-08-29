@@ -8,13 +8,9 @@ Then it will return an array of centroids.
 
 
 '''
-
-import os
-import sys
 import faiss                   # make faiss available, and gpu can be enabled later
 import numpy as np
-
-
+from ai.tech_stack.qdrant import retrieve_single_from_qdrant, retrieve_all_from_qdrant
 
 ncentroids = 4 # the number of centroids
 
@@ -34,9 +30,6 @@ def faissclustering(vidembed, ncentroids=100, niter=20, verbose=True):
     Returns:
         List[Tuple[np.ndarray, np.ndarray]]: List of tuples, each containing a centroid embedding and its nearest video embedding.
     """
-    import faiss
-    import numpy as np
-
     d = vidembed.shape[1]
     kmeans = faiss.Kmeans(d, ncentroids, niter=niter, verbose=verbose)
     kmeans.train(vidembed)
