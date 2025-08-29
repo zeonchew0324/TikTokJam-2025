@@ -1,9 +1,9 @@
 import os
 import uuid
-from aws import upload_to_s3
-from twelve_labs import create_video_embedding
-from qdrant import store_in_qdrant
-from ai.bot_content_detection.bot_content_detection import detect_similar_videos
+from ai.tech_stack.aws import upload_to_s3
+from ai.tech_stack.twelve_labs import create_video_embedding
+from ai.tech_stack.qdrant import store_in_qdrant
+from ai.bot_content_detection.main import detect_similar_videos
 from ai.bot_content_detection.handle_flagged_content import handle_flagged_content
 
 # Get a list of video files
@@ -35,6 +35,15 @@ def embed_single_video(filename):
         handle_flagged_content(video_id, filename)
         
         print(f"Video {filename} flagged as potential bot-generated content due to similarity with existing videos.")
+        
+# Function to reembed single video file
+def reembed_single_video(video_id, s3_url):# Generate video embeddings using Twelve Labs
+    video_embedding = create_video_embedding(s3_url)
+    
+    # Store video embeddings in Qdrant
+    store_in_qdrant(video_embedding, video_id, s3_url)
+    
+    print(f"Successfully re-embedded {video_id}")
 
 # Function to embed videos from the video_content directory
 def embed_videos():
@@ -55,12 +64,12 @@ def embed_videos():
             
             if not similar_videos:
                 # Store video embeddings in Qdrant
-                store_in_qdrant(video_embedding, video_id, s3_url, filename)
+                store_in_qdrant(video_embedding, video_id, s3_url)
                 
                 print(f"Successfully processed {filename}")
             else:
                 # Handle flagged content (i.e., notify via API)
-                handle_flagged_content(video_id, filename)
+                handle_flagged_content(video_id)
         
                 print(f"Video {filename} flagged as potential bot-generated content due to similarity with existing videos.")
         except Exception as e:

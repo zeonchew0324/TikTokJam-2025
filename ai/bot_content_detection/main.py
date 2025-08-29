@@ -8,7 +8,7 @@ after that, the video embeddings are processed and classified to be flagged as p
 '''
 import faiss                   # make faiss available, and gpu can be enabled later
 import numpy as np
-from ai.embeddings.qdrant import retrieve_single_from_qdrant, retrieve_all_from_qdrant
+from ai.tech_stack.qdrant import retrieve_single_from_qdrant, retrieve_all_from_qdrant
 
 print("MAKE SURE YOU ARE READING THE EMBEDDINGS CORRECTLY AND NOT RANDOM FAKE DATA")
 print('GIVE THE VIDEO EMBEDDINGS AND QUERY EMBEDDINGS AS FIRST AND SECOND COMMAND LINE ARGUMENTS')
