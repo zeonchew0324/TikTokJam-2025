@@ -1,8 +1,9 @@
 import os
 import uuid
+import numpy as np
 from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams, PointStruct, PayloadSchemaType
-from prepare_embedding import prepare_embedding
+from qdrant_client.models import Distance, VectorParams, PointStruct
+from ai.embeddings.prepare_embedding import prepare_embedding
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -93,7 +94,7 @@ def retrieve_single_from_qdrant(point_id):
 
             print(f"Retrieved Vector: {vector_embedding}")
             print(f"Retrieved Payload: {payload}")
-            return vector_embedding
+            return np.array(vector_embedding)
         else:
             print(f"Point with ID {point_id} not found in collection {COLLECTION_NAME}.")
     except Exception as e:
@@ -131,7 +132,7 @@ def retrieve_all_from_qdrant():
                 break # Reached the end of the collection
 
         print(f"Retrieved {len(all_vectors)} vector embeddings.")
-        return all_vectors
+        return np.array(all_vectors)
     except Exception as e:
         print(f"Error retrieving all from Qdrant: {str(e)}")
         raise
