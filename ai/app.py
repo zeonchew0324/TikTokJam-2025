@@ -3,6 +3,7 @@ from flask import Flask, jsonify, render_template, request
 import pandas as pd
 
 from bot_detection.bot_user import aggregate_per_user, bot_probabilities
+from embeddings.main import embed_single_video
 
 # Create an instance of the Flask class
 # __name__ is a special variable that gets the name of the current file
@@ -70,6 +71,23 @@ def run_bot_user_check():
     # Return as JSON
     return jsonify(results.to_dict(orient="records"))
 
+@app.route('/admin/categorize-video', methods=['POST'])
+def categorize_video():
+    """
+    CATEGORIZE A VIDEO
+    EXPECTS: JSON payload with 'video_url': str
+    """
+    data = request.get_json()
+
+    if not data or "point_id" not in data:
+        return jsonify({"error": "Missing 'point_id' in request body"}), 400
+
+    point_id = data["point_id"]
+
+    try:
+        return jsonify({"status": "success", "message": f"Video at {point_id} has been processed."})
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
 
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development
