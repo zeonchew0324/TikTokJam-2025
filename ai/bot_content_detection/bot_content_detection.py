@@ -66,14 +66,17 @@ def detect_similar_videos(vidembed, qembed, k=5):
 
 
     # Generate list of (vidembed index, qembed index, distance) tuples for flagged pairs
+    # Generate list of (vidembed vector, qembed vector, distance) tuples for flagged pairs, sorted by distance
     flagged_pairs = [
-        (ind[iq, iv], iq, dist[iq, iv])
+        (vidembed[ind[iq, iv]], qembed[iq], dist[iq, iv])
         for iq in range(flagged_dist.shape[0])
         for iv in range(flagged_dist.shape[1])
         if flagged_dist[iq, iv] == 1
     ]
-    print("Flagged pairs (vidembed index, qembed index, distance):", flagged_pairs)
-    
+    flagged_pairs.sort(key=lambda x: x[2])  # Sort by distance
+
+    print("Flagged pairs (vidembed vector, qembed vector, distance):", flagged_pairs)
+
     return flagged_pairs
 
 vidembed = retrieve_all_from_qdrant() # retrieve all video embeddings from qdrant
