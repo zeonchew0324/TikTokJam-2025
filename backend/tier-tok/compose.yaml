@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres
+    container_name: tierTok-db
+    environment:
+      POSTGRES_DB: tierTok-db
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    restart: always
+    ports:
+      - '5432:5432'
