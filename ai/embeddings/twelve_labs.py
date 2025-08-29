@@ -125,5 +125,3 @@ def categorize(video_url):
     category = parsed_json.get('category', 'Unknown')
     
     return category
-            
-print(categorize("https://tiktok-video-embeddings.s3.ap-southeast-1.amazonaws.com/videos-embed/e4650511_Car2.mp4"))
