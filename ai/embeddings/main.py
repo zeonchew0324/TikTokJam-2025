@@ -2,7 +2,7 @@ import os
 import uuid
 from aws import upload_to_s3
 from twelve_labs import create_video_embedding
-from qdrant import store_in_qdrant
+from qdrant import store_in_qdrant 
 
 # Get a list of video files
 video_dir = "ai/video_content"

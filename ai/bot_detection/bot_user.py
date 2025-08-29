@@ -6,8 +6,8 @@ from sklearn.metrics import classification_report, confusion_matrix
 # ----------------------
 # Load model & scaler
 # ----------------------
-scaler = joblib.load("models/scaler.pkl")
-iso_model = joblib.load("models/isolation_forest_model.pkl")
+scaler = joblib.load("ai/bot_detection/models/scaler.pkl")
+iso_model = joblib.load("ai/bot_detection/models/isolation_forest_model.pkl")
 
 # ----------------------
 # Aggregation function (same as training)
@@ -80,8 +80,19 @@ def bot_probabilities(user_df: pd.DataFrame) -> pd.DataFrame:
     # Normalize to [0,1] probability of being a bot
     probs = 1 - (scores - scores.min()) / (scores.max() - scores.min() + 1e-9)
 
+    # Add probability column
     user_df["bot_probability"] = probs
-    return user_df[["user_id", "bot_probability"]]
+
+    # Filter suspicious users
+    suspicious = user_df[user_df["bot_probability"] > 0.5]
+
+    # Sort by probability (descending, most suspicious first)
+    suspicious = suspicious.sort_values("bot_probability", ascending=False)
+
+    # Limit to top 10
+    suspicious = suspicious.head(10)
+
+    return suspicious.reset_index(drop=True)
 
 # ----------------------
 # Main evaluation
