@@ -46,4 +46,30 @@
     font-size: 16px;
     line-height: 16px;
   }
+
+  /* Video metadata input styles */
+  .metadata-input {
+    padding: 8px 12px;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 14px;
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+
+  .metadata-input:focus {
+    outline: none;
+    border-color: #ff2d55;
+    background-color: #333;
+  }
+
+  .metadata-input::placeholder {
+    color: #888;
+  }
+
+  .video-metadata label {
+    font-size: 14px;
+  }
   

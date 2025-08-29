@@ -1,5 +1,14 @@
 import { useState, useEffect, useRef } from "react"
 
+// Video data type from App
+export type UploadedVideo = {
+  id: string;
+  url: string;
+  title: string;
+  description: string;
+  hashtags: string[];
+}
+
 // Mock comment data
 type Comment = {
   id: string;
@@ -53,7 +62,7 @@ const mockComments: Comment[][] = Array(10).fill(0).map(() => [
   }
 ])
 
-export function HomePage(props: { videos?: string[] }) {
+export function HomePage(props: { videos?: UploadedVideo[] }) {
   const { videos = [] } = props
   const [likes, setLikes] = useState<number[]>(Array(videos.length).fill(0))
   const [liked, setLiked] = useState<boolean[]>(Array(videos.length).fill(false))
@@ -180,15 +189,15 @@ export function HomePage(props: { videos?: string[] }) {
         <h3>No videos uploaded yet. Go to "Upload Video" to add your first video!</h3>
       ) : (
         <div className="VerticalFeed" style={{ paddingRight: activeCommentSection !== null ? '380px' : '0' }}>
-          {videos.map((src, idx) => (
+          {videos.map((video, idx) => (
             <div 
-              key={idx} 
+              key={video.id} 
               className={`VerticalFeed__item ${activeCommentSection === idx ? 'with-comment-section' : ''}`}
               style={{ position: 'relative' }}
             >
               <video
                 className="VerticalFeed__video"
-                src={src}
+                src={video.url}
                 ref={el => (videoRefs.current[idx] = el)}
                 playsInline
                 preload="auto"
@@ -204,7 +213,19 @@ export function HomePage(props: { videos?: string[] }) {
                   }
                 }}
               />
-              <div className="ActionBar" >
+              {!(activeCommentSection === idx) && 
+                <div className="video_description">
+                  <div style={{ fontWeight: 800, marginBottom: '16px' }}>{video.title}</div>
+                  <div style={{ fontWeight: 400 }}>{video.description}</div>
+                  <div style={{ fontSize: '12px', color: '#5de9ff', fontWeight: 400 }}>
+                    {video.hashtags.map((tag, tagIdx) => (
+                      <span key={tagIdx}>#{tag} </span>
+                    ))}
+                  </div>
+                </div>
+              }
+              {/* Action bar - positioned absolutely via CSS */}
+              <div className="ActionBar">
                 <button
                   className={`ActionBar__btn${liked[idx] ? ' liked' : ''}`}
                   aria-label="Like"

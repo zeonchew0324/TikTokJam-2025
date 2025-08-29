@@ -2,12 +2,12 @@
 /* TikTok-style Action Bar for Vertical Feed */
 .ActionBar {
   position: relative;
-  margin-left: 20px;
+  left: 20px;
+  top: 175px; 
   display: flex;
   flex-direction: column;
   gap: 10px;
-  z-index: 2;
-  top: 200px;
+  z-index: 10;
 }
 
 .ActionBar__btn.liked.CommentSection {
@@ -54,6 +54,7 @@
   font-size: 14px;
   color: lightgray;
   font-weight: 600;
+  width: 50px;
 }
 
 .ActionBar__btn:hover, .ActionBar__btn:focus {
@@ -164,7 +165,7 @@ text {
 
 /* Vertical video feed */
 .VerticalFeed {
-  height: calc(100vh - 48px);
+  height: calc(100vh - 72px);
   overflow-y: auto;
   scroll-snap-type: y mandatory;
   position: relative;
@@ -184,16 +185,19 @@ text {
   justify-content: center;
   scroll-snap-align: start;
   transition: padding 0.3s ease;
+  position: relative; /* Add relative positioning */
 }
 
 .VerticalFeed__video {
-  max-height: 90vh;
+  height: 80vh; /* Fixed height */
   max-width: 60vw;
   border-radius: 25px;
   transition: transform 0.3s ease;
   cursor: pointer;
   object-fit: contain;
   background-color: rgba(0, 0, 0, 0.2);
+  position: relative; /* Add positioning */
+  z-index: 1; /* Lower z-index than description */
 }
 
 .VerticalFeed::-webkit-scrollbar {
@@ -373,8 +377,26 @@ text {
 
 /* Comment section layout styles */
 .with-comment-section {
-  margin-left: -190px !important;
+  margin-left: -80px !important;
   transition: margin-left 0.3s ease !important;
 }
 
-
+/* Video Description Container Section */
+.video_description {
+  position: absolute;
+  bottom: 80px; /* Position from bottom instead of top */
+  left: 20px; /* Align with left side of video */
+  width: 250px; /* Fixed width */
+  height: auto; /* Auto height based on content */
+  min-height: 100px; /* Minimum height */
+  max-height: 200px; /* Maximum height */
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: 800;
+  text-wrap: wrap;
+  overflow-y: auto; /* Scroll for overflow content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Ensure it's above the video */
+} 
