@@ -191,6 +191,9 @@ text {
   max-width: 60vw;
   border-radius: 25px;
   transition: transform 0.3s ease;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .VerticalFeed::-webkit-scrollbar {

@@ -137,13 +137,31 @@ export function HomePage(props: { videos?: string[] }) {
       const observer = new window.IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {
-            video.play().catch(() => {})
+            // Play video when it comes into view
+            video.play()
+              .then(() => {
+                // Once playing, unmute
+                video.muted = false;
+              })
+              .catch((error) => {
+                // Handle autoplay restrictions
+                console.log("Autoplay prevented:", error);
+                // Keep video muted if autoplay is restricted
+                video.muted = true;
+                video.play().catch(() => {});
+              });
           } else {
-            video.pause()
-            video.currentTime = 0
+            // Pause and reset when out of view
+            video.pause();
+            video.currentTime = 0;
+            // Mute for next visibility
+            video.muted = true;
           }
         },
-        { threshold: 0.6 }
+        { 
+          threshold: 0.7,  // Increased threshold for better detection
+          rootMargin: "-10% 0px" // Only trigger when video is well in view
+        }
       )
       observer.observe(video)
       observers.push(observer)
@@ -171,11 +189,20 @@ export function HomePage(props: { videos?: string[] }) {
               <video
                 className="VerticalFeed__video"
                 src={src}
-                controls
                 ref={el => (videoRefs.current[idx] = el)}
                 playsInline
                 preload="auto"
                 muted
+                loop
+                onClick={(e) => {
+                  // Toggle play/pause on video click
+                  const video = e.currentTarget as HTMLVideoElement;
+                  if (video.paused) {
+                    video.play();
+                  } else {
+                    video.pause();
+                  }
+                }}
               />
               <div className="ActionBar" >
                 <button
