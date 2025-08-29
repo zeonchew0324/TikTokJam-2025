@@ -169,8 +169,9 @@ text {
 }
 
 .VerticalFeed__video {
-  max-height: 80vh;
+  max-height: 90vh;
   max-width: 60vw;
+  border-radius: 25px;
 }
 
 .VerticalFeed::-webkit-scrollbar {

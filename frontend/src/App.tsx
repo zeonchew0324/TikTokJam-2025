@@ -2,7 +2,6 @@ import { useCallback, useEffect, useState } from 'react'
 import './App.css'
 import { LeftNav } from './LeftNav'
 import { HomePage } from './pages/HomePage'
-import { LeaderboardPage } from './pages/LeaderboardPage'
 import { UploadVideoPage } from './pages/UploadVideoPage'
 import { RevenueOverviewPage } from './pages/revenue/RevenueOverviewPage'
 import { VideoAnalyticsPage } from './pages/revenue/VideoAnalyticsPage'
@@ -24,7 +23,6 @@ export function App() {
       <div className="ContentArea">
         {route === 'home' && <HomePage videos={uploadedVideos} />}
         {route === 'upload' && <UploadVideoPage onUploaded={handleVideoUploaded} />}
-        {route === 'leaderboard' && <LeaderboardPage />}
         {route === 'revenue' && (
           <RevenueOverviewPage onSelectVideo={(videoId) => setRoute({ name: 'video-analytics', videoId })} />
         )}

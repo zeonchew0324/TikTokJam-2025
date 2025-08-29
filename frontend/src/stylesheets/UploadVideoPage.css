@@ -12,6 +12,8 @@
     cursor: pointer;
     appearance: none;
     overflow: hidden; 
+    font-size: 14px;
+    font-weight: 600;
   }
   
   .upload-button:hover {

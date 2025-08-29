@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { fetchUserVideosMock, type VideoSummary } from './mockRevenue'
+import '../../stylesheets/Revenue.css'
 
 export function RevenueOverviewPage(props: { onSelectVideo: (videoId: string) => void }) {
   const { onSelectVideo } = props
@@ -24,7 +25,7 @@ export function RevenueOverviewPage(props: { onSelectVideo: (videoId: string) =>
     return () => { cancelled = true }
   }, [])
 
-  if (loading) return <div>Loading videos…</div>
+  if (loading) return <div></div>
   if (error) return <div style={{ color: 'tomato' }}>Error: {error}</div>
 
   return (
@@ -32,19 +33,9 @@ export function RevenueOverviewPage(props: { onSelectVideo: (videoId: string) =>
       <h2>Revenue</h2>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
         {videos.map(v => (
-          <button key={v.videoId} onClick={() => onSelectVideo(v.videoId)} style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 12,
-            padding: 12,
-            borderRadius: 8,
-            border: '1px solid rgba(255,255,255,0.12)',
-            background: 'rgba(255,255,255,0.04)',
-            cursor: 'pointer',
-            textAlign: 'left'
-          }}>
+          <button key={v.videoId} onClick={() => onSelectVideo(v.videoId)} className='revenue_container'>
             <img src={v.thumbnailUrl} alt="thumbnail" width={120} height={120} style={{ objectFit: 'cover', borderRadius: 8 }} />
-            <div style={{ display: 'flex', flexDirection: 'column', color: '#fff' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', color: '#fff', fontSize: 16 }}>
               <div style={{ fontWeight: 600 }}>{v.title}</div>
               <div style={{ opacity: 0.85, marginTop: 8 }}>Revenue: ${v.totalRevenue.toFixed(2)}</div>
               <div style={{ opacity: 0.85, marginTop: 6, display: 'flex', gap: 12 }}>
