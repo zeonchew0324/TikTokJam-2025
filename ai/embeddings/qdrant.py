@@ -28,21 +28,6 @@ if not qdrant_client.collection_exists(COLLECTION_NAME):
     print(f"✅ Created collection: {COLLECTION_NAME}")
 else:
     print(f"⚡ Collection already exists: {COLLECTION_NAME}")
-    
-# Get collection info to check for existing indexes
-collection_info = qdrant_client.get_collection(collection_name=COLLECTION_NAME)
-
-# Check if the field is already indexed
-if "video_id" not in collection_info.payload_schema:
-    print("Index for video_id not found. Creating a new index...")
-    qdrant_client.create_payload_index(
-        collection_name=COLLECTION_NAME,
-        field_name="video_id",
-        field_schema=PayloadSchemaType.KEYWORD
-    )
-    print(f"Index created successfully for video_id.")
-else:
-    print(f"Index for video_id already exists. Skipping creation.")
 
 # Function to store embed video in qdrant
 def store_in_qdrant(task_result, video_id, s3_url, original_filename):
