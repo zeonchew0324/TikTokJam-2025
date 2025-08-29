@@ -1,3 +1,52 @@
+/* TikTok-style Action Bar for Vertical Feed */
+.ActionBar {
+  position: absolute;
+  right: 16px;
+  bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 2;
+}
+
+.ActionBar__btn {
+  background: rgba(0,0,0,0.35);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.ActionBar__btn:hover, .ActionBar__btn:focus {
+  background: rgba(255,255,255,0.18);
+  color: #ff2d55;
+  transform: scale(1.08);
+}
+
+.ActionBar__btn svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.ActionBar__btn div {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+
 :root {
   background-color: #000;
   --color-text: #fff;
