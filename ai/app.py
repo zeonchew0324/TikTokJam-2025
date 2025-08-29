@@ -1,5 +1,8 @@
 # Import the Flask class from the flask module
-from flask import Flask, render_template
+from flask import Flask, jsonify, render_template, request
+import pandas as pd
+
+from bot_detection.bot_user import aggregate_per_user, bot_probabilities
 
 # Create an instance of the Flask class
 # __name__ is a special variable that gets the name of the current file
@@ -36,6 +39,37 @@ def about():
     You can pass data to the template using keyword arguments.
     """
     return render_template('about.html', title='About Us', content='This is the about page.')
+
+# ------------------------------------------
+# Real Endpoints and Logic would go below
+# ------------------------------------------
+
+@app.route('/admin/run-bot-user-check', methods=['POST'])
+def run_bot_user_check():
+    """
+    CHECK IF USERS ARE BOTS
+    EXPECTS: JSON payload with 'events': list of event dicts
+    """
+    # Get JSON data from request
+    data = request.get_json()
+
+    if not data or "events" not in data:
+        return jsonify({"error": "Missing 'events' in request body"}), 400
+
+    events = data["events"]
+
+    # Convert list of events → DataFrame
+    df = pd.DataFrame(events)
+
+    # Aggregate per user
+    user_features = aggregate_per_user(df)
+
+    # Get bot probabilities
+    results = bot_probabilities(user_features)
+
+    # Return as JSON
+    return jsonify(results.to_dict(orient="records"))
+
 
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development
