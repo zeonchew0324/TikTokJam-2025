@@ -1,4 +1,4 @@
-type NavKey = 'home' | 'upload' | 'leaderboard'
+type NavKey = 'home' | 'upload' | 'leaderboard' | 'revenue'
 import './stylesheets/Navbar.css'
 
 export function LeftNav(props: { current: NavKey; onChange: (k: NavKey) => void; collapsed?: boolean; onToggle?: () => void }) {
@@ -17,6 +17,10 @@ export function LeftNav(props: { current: NavKey; onChange: (k: NavKey) => void;
       <div className={`LeftNav__item ${current === 'leaderboard' ? 'is-active' : ''}`} onClick={() => onChange('leaderboard')}>
         <span className="material-symbols-outlined">leaderboard</span>
         <span className="LeftNav__label">Leaderboard</span>
+      </div>
+      <div className={`LeftNav__item ${current === 'revenue' ? 'is-active' : ''}`} onClick={() => onChange('revenue')}>
+        <span className="material-symbols-outlined">attach_money</span>
+        <span className="LeftNav__label">Revenue</span>
       </div>
     </div>
   )
