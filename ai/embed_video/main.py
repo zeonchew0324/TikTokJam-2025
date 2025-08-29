@@ -32,6 +32,8 @@ def embed_single_video(filename):
         print(f"Successfully processed {filename}")
     else:
         # Handle flagged content (i.e., notify via API)
+        similarity_score = round(float(similar_videos[0][2]) * 100)
+        print(f"Similarity score: {similarity_score}, Type: {type(similarity_score)}")
         handle_flagged_content(video_id, filename)
         
         print(f"Video {filename} flagged as potential bot-generated content due to similarity with existing videos.")
@@ -69,7 +71,9 @@ def embed_videos():
                 print(f"Successfully processed {filename}")
             else:
                 # Handle flagged content (i.e., notify via API)
-                handle_flagged_content(video_id)
+                similarity_score = round(float(similar_videos[0][2]) * 100, 2)
+                print(f"Similarity score: {similarity_score}, Type: {type(similarity_score)}")
+                handle_flagged_content(video_id, similarity_score)
         
                 print(f"Video {filename} flagged as potential bot-generated content due to similarity with existing videos.")
         except Exception as e:

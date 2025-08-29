@@ -1,19 +1,17 @@
 import requests
 
-def handle_flagged_content(video_id):
-    endpoint_url = "https://your-api-endpoint.com/flagged-videos"  # Replace with your actual endpoint
+def handle_flagged_content(video_id, similarity_score):
+    api_endpoint = "https://your-api-endpoint.com/api/video/receive-creator-bots"
     
-    payload = {
-        "video_id": video_id
+    params = {
+        "videoId": video_id,
+        "similarityScore": similarity_score
     }
     
-    headers = {
-        "Content-Type": "application/json"
-    }
-    
-    response = requests.post(endpoint_url, json=payload, headers=headers)
+    response = requests.post(api_endpoint, params=params)
     
     if response.status_code == 200:
         print(f"Successfully flagged video {video_id} as potential bot content.")
     else:
-        print(f"Failed to flag video {video_id}. Status code: {response.status_code}, Response: {response.text}")
+        print(f"Failed to flag video {video_id}. "
+              f"Status code: {response.status_code}, Response: {response.text}")

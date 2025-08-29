@@ -3,7 +3,6 @@ from flask import Flask, jsonify, render_template, request
 import pandas as pd
 
 from bot_detection.bot_user import aggregate_per_user, bot_probabilities
-from embeddings.main import embed_single_video
 
 # Create an instance of the Flask class
 # __name__ is a special variable that gets the name of the current file

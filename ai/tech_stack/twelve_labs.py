@@ -6,7 +6,7 @@ from twelvelabs.types import VideoSegment
 from twelvelabs.embed import TasksStatusResponse
 from twelvelabs.indexes import IndexesCreateRequestModelsItem
 from twelvelabs.tasks import TasksRetrieveResponse
-from ai.embeddings.prepare_embedding import prepare_embedding
+from ai.embed_video.prepare_embedding import prepare_embedding
 import time
 from dotenv import load_dotenv
 
