@@ -19,20 +19,6 @@ print('GIVE THE VIDEO EMBEDDINGS AND QUERY EMBEDDINGS AS FIRST AND SECOND COMMAN
 #qembed = np.array(eval(qembed))
 ####
 
-##fake random data, for testing purposes
-
-# set seed
-np.random.seed(42)
-vidembed = np.random.rand(100, 2048).astype(np.float32)
-qembed = np.random.rand(10, 2048).astype(np.float32)
-print(f"Generated fake vidembed shape: {vidembed.shape}")
-print(f"Generated fake qembed shape: {qembed.shape}")
-print("example video embedding:")
-print(vidembed[:10])
-print("example query embedding:")
-print(qembed[:10])
-####
-
 def detect_similar_videos(vidembed, qembed, k=5):
     #since we are going to use l2distance for similarity, the input needs to be l2 normalized
     vidembed = vidembed / np.linalg.norm(vidembed, axis=1, keepdims=True)
@@ -57,7 +43,6 @@ def detect_similar_videos(vidembed, qembed, k=5):
 
     # now we find the 5% most similar video pairs (from vid and query) and report it out to the user
     flat_dist = dist.flatten()
-    flat_ind = ind.flatten()
 
     top_n = int(0.05 * flat_dist.size)
 
@@ -80,7 +65,8 @@ def detect_similar_videos(vidembed, qembed, k=5):
     return flagged_pairs
 
 vidembed = retrieve_all_from_qdrant() # retrieve all video embeddings from qdrant
-qembed = retrieve_single_from_qdrant(9274612216458326251) # retrieve a single video embedding from qdrant using point_id
-qembed = qembed.reshape(-1, 2048) # reshape to 2D array with one row
+embed1 = retrieve_single_from_qdrant(9274612216458326251) # retrieve a single video embedding from qdrant using point_id
+embed2 = retrieve_single_from_qdrant(10693639038944902041) # retrieve a single video embedding from qdrant using point_id
+qembed = np.array([embed1, embed2]) # create a query embedding array with the two retrieved embeddings
 
-print(detect_similar_videos(vidembed, qembed, k=5)) # run the bot content detection
+detect_similar_videos(vidembed, qembed, k=5) # run the bot content detection
