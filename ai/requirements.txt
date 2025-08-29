@@ -9,3 +9,5 @@ flask
 flask-cors
 python-dotenv
 ipython
+flask
+scikit-learn
