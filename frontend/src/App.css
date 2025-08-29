@@ -10,6 +10,21 @@
   top: 200px;
 }
 
+.ActionBar__btn.liked.CommentSection {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 380px;
+  background-color: #000;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.3s ease-out;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+}
+
 .ActionBar__btn.liked {
   color: #ff2d55;
 }
@@ -152,6 +167,8 @@ text {
   height: calc(100vh - 48px);
   overflow-y: auto;
   scroll-snap-type: y mandatory;
+  position: relative;
+  transition: padding-right 0.3s ease;
 
   /* Firefox */
   scrollbar-width: none;
@@ -166,12 +183,14 @@ text {
   align-items: center;
   justify-content: center;
   scroll-snap-align: start;
+  transition: padding 0.3s ease;
 }
 
 .VerticalFeed__video {
   max-height: 90vh;
   max-width: 60vw;
   border-radius: 25px;
+  transition: transform 0.3s ease;
 }
 
 .VerticalFeed::-webkit-scrollbar {
@@ -207,6 +226,152 @@ text {
   font-size: 12px;
   margin: 5px;
   color: rgba(255, 255, 255, 0.65);
+}
+
+/* Comment Section Styles */
+.CommentSection {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 360px;
+  background-color: rgba(255,255,255,0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.3s ease-out;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.CommentSection__header {
+  padding: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CommentSection__header h3 {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+}
+
+.CommentSection__close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.CommentSection__list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.Comment {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Comment__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.Comment__content {
+  flex: 1;
+}
+
+.Comment__username {
+  font-weight: 600;
+  color: white;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.Comment__text {
+  color: white;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.Comment__meta {
+  display: flex;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  gap: 16px;
+}
+
+.Comment__like, .Comment__reply {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.Comment__like:hover, .Comment__reply:hover {
+  color: #ff2d55;
+}
+
+.CommentSection__compose {
+  padding: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  gap: 12px;
+}
+
+.CommentSection__compose input {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 16px;
+  color: white;
+}
+
+.CommentSection__compose input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.CommentSection__post {
+  background-color: #ff2d55;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.CommentSection__post:disabled {
+  background-color: rgba(255, 45, 85, 0.5);
+  cursor: not-allowed;
+}
+
+.ActionBar__btn.active {
+  color: #ff2d55;
+  background: rgba(255, 45, 85, 0.2);
+}
+
+/* Comment section layout styles */
+.with-comment-section {
+  margin-left: -190px !important;
+  transition: margin-left 0.3s ease !important;
 }
 
 
