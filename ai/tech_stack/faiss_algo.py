@@ -87,6 +87,15 @@ def categorize_video(vidquery, centroid_categories, k=3):
         results.append((vidquery[i], *similar_centroids))
     return results
 
+def pca_projection(vects, n_components=3):
+    '''
+    Projects the input vectors (embeddings) into a n_component dimensional space using PCA.
+    args:
+        vects (np.ndarray): Input vectors(embeddings and centroids) to project.
+        n_components (int): Number of components to keep.
+    '''
+    
+
 
 if __name__ == "__main__":
     vidembed = retrieve_all_from_qdrant() # retrieve all video embeddings from qdrant
