@@ -1,0 +1,49 @@
+/* Upload Video Page CSS*/
+.upload-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border-radius: 6px;
+    background-color: #eeeeee;
+    color: #000;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    appearance: none;
+    overflow: hidden; 
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .upload-button:hover {
+    background-color: #cccccc;
+  }
+  
+  .upload-button:focus {
+    outline: 2px solid #888;
+    outline-offset: 2px;
+  }
+  
+  .upload-button {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .remove-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px; /* reduce height */
+    padding: 0 8px;
+    border-radius: 6px;
+    background-color: #2b2b2b;
+    color: #fff;
+    border: 1px solid #3a3a3a;
+    cursor: pointer;
+  }
+  
+  .remove-button .material-symbols-outlined {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  

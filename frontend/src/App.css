@@ -1,6 +1,109 @@
+
+/* TikTok-style Action Bar for Vertical Feed */
+.ActionBar {
+  position: relative;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 2;
+  top: 200px;
+}
+
+.ActionBar__btn.liked {
+  color: #ff2d55;
+}
+
+.ActionBar__btn {
+  background: rgba(255,255,255,0.18);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.ActionBar_label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: lightgray;
+  font-weight: 600;
+}
+
+.ActionBar__btn:hover, .ActionBar__btn:focus {
+  background: rgba(255,255,255,0.18);
+  color: #ff2d55;
+  transform: scale(1.08);
+}
+
+.ActionBar__btn svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.ActionBar__btn div {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+
 :root {
   background-color: #000;
   --color-text: #fff;
+  --font-sans: 'TikTok Sans', system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+}
+
+/* TikTok Sans font-face declarations (drop font files into src/assets/fonts/) */
+@font-face {
+  font-family: 'TikTok Sans';
+  src: url('/src/assets/fonts/TikTokSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TikTok Sans';
+  src: url('/src/assets/fonts/TikTokSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TikTok Sans';
+  src: url('/src/assets/fonts/TikTokSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TikTok Sans';
+  src: url('/src/assets/fonts/TikTokSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: var(--font-sans);
+}
+
+button, input, select, textarea {
+  font-family: inherit;
 }
 
 .Background {
@@ -20,13 +123,9 @@
   transform: rotate(15.25deg);
 }
 
-.App {
-  position: relative;
-  min-height: 100vh;
+.Layout {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  min-height: 100vh;
 }
 
 text {
@@ -42,51 +141,41 @@ text {
   z-index: 100;
 }
 
-.Logo {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
+.ContentArea {
+  flex: 1;
+  padding: 24px;
+  color: #fff;
 }
 
-.Logo--react {
-  width: 100px;
-  height: 100px;
-  animation: Logo--spin infinite 20s linear;
+/* Vertical video feed */
+.VerticalFeed {
+  height: calc(100vh - 48px);
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+
+  /* Firefox */
+  scrollbar-width: none;
+
+  /* IE / Edge Legacy */
+  -ms-overflow-style: none;
 }
 
-.Logo--lynx {
-  width: 100px;
-  height: 100px;
-  animation: Logo--shake infinite 0.5s ease;
-}
-
-@keyframes Logo--spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes Logo--shake {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.9);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.Content {
+.VerticalFeed__item {
+  height: calc(100vh - 80px);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  scroll-snap-align: start;
+}
+
+.VerticalFeed__video {
+  max-height: 90vh;
+  max-width: 60vw;
+  border-radius: 25px;
+}
+
+.VerticalFeed::-webkit-scrollbar {
+  display: none;
 }
 
 .Arrow {
@@ -97,6 +186,7 @@ text {
 .Title {
   font-size: 36px;
   font-weight: 700;
+  color: white;
 }
 
 .Subtitle {
@@ -104,6 +194,7 @@ text {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 8px;
+  color: white;
 }
 
 .Description {
@@ -117,3 +208,5 @@ text {
   margin: 5px;
   color: rgba(255, 255, 255, 0.65);
 }
+
+
