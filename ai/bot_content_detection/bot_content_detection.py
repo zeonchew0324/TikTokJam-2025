@@ -65,17 +65,17 @@ def detect_similar_videos(vidembed, qembed, k=5):
     flagged_dist = np.where(dist <= dist_threshold, 1, 0) # set distances above the threshold to infinity
 
 
-    # Generate list of (vidembed index, qembed index, distance) tuples for flagged pairs
-    # Generate list of (vidembed vector, qembed vector, distance) tuples for flagged pairs, sorted by distance
+    
+    # Generate list of (vidembed vector, qembed vector, cosine similiarity) tuples for flagged pairs, sorted by cosine similiarity
     flagged_pairs = [
-        (vidembed[ind[iq, iv]], qembed[iq], dist[iq, iv])
+        (vidembed[ind[iq, iv]], qembed[iq], 1 - 0.5 * dist[iq, iv])
         for iq in range(flagged_dist.shape[0])
         for iv in range(flagged_dist.shape[1])
         if flagged_dist[iq, iv] == 1
     ]
-    flagged_pairs.sort(key=lambda x: x[2])  # Sort by distance
+    flagged_pairs.sort(key=lambda x: x[2])  # Sort by cosine similarity
 
-    print("Flagged pairs (vidembed vector, qembed vector, distance):", flagged_pairs)
+    print("Flagged pairs (vidembed vector, qembed vector, cosine similarity):", flagged_pairs)
 
     return flagged_pairs
 
