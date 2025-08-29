@@ -6,14 +6,22 @@ import { UploadVideoPage } from './pages/UploadVideoPage'
 import { RevenueOverviewPage } from './pages/revenue/RevenueOverviewPage'
 import { VideoAnalyticsPage } from './pages/revenue/VideoAnalyticsPage'
 
+export type UploadedVideo = {
+  id: string;
+  url: string;
+  title: string;
+  description: string;
+  creator: string;
+  hashtags: string[];
+}
 
 export function App() {
   const [route, setRoute] = useState<'home' | 'upload' | 'revenue' | { name: 'video-analytics', videoId: string }>('home')
   const [collapsed, setCollapsed] = useState(false)
-  const [uploadedVideos, setUploadedVideos] = useState<string[]>([])
+  const [uploadedVideos, setUploadedVideos] = useState<UploadedVideo[]>([])
 
-  function handleVideoUploaded(url: string) {
-    setUploadedVideos(prev => [url, ...prev])
+  function handleVideoUploaded(video: UploadedVideo) {
+    setUploadedVideos(prev => [video, ...prev])
     setRoute('home')
   }
 
