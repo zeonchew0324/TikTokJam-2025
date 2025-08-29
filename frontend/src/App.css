@@ -1,22 +1,26 @@
+
 /* TikTok-style Action Bar for Vertical Feed */
 .ActionBar {
-  position: absolute;
-  right: 16px;
-  bottom: 32px;
+  position: relative;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  gap: 10px;
   z-index: 2;
+  top: 200px;
+}
+
+.ActionBar__btn.liked {
+  color: #ff2d55;
 }
 
 .ActionBar__btn {
-  background: rgba(0,0,0,0.35);
+  background: rgba(255,255,255,0.18);
   border: none;
   border-radius: 50%;
   color: #fff;
-  width: 56px;
-  height: 56px;
+  width: 50px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,6 +29,16 @@
   cursor: pointer;
   transition: background 0.2s, transform 0.2s;
   box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.ActionBar_label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: lightgray;
+  font-weight: 600;
 }
 
 .ActionBar__btn:hover, .ActionBar__btn:focus {
@@ -156,7 +170,7 @@ text {
 
 .VerticalFeed__video {
   max-height: 80vh;
-  max-width: 90vw;
+  max-width: 60vw;
 }
 
 .VerticalFeed::-webkit-scrollbar {
