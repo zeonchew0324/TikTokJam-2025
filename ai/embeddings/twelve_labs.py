@@ -6,6 +6,7 @@ from twelvelabs.types import VideoSegment
 from twelvelabs.embed import TasksStatusResponse
 from twelvelabs.indexes import IndexesCreateRequestModelsItem
 from twelvelabs.tasks import TasksRetrieveResponse
+from ai.embeddings.prepare_embedding import prepare_embedding
 import time
 from dotenv import load_dotenv
 
@@ -77,10 +78,24 @@ def create_video_embedding(video_url, max_retries=3, retry_delay=5):
             if task_result.status != 'ready':
                 raise ValueError(f"Task failed with status: {task_result.status}")
 
-            if task_result.video_embedding is not None and task_result.video_embedding.segments is not None:
+            if task_result.video_embedding and task_result.video_embedding.segments:
                 print_segments(task_result.video_embedding.segments)
+                
+                # The embedding will be in the segments with embedding_scope="clip"
+                video_segments = [s for s in task_result.video_embedding.segments
+                                if hasattr(s, 'embedding_scope') and s.embedding_scope == 'clip']
 
-            return task_result
+                if video_segments:
+                    print(f"Found clip-scope embedding")
+                else:
+                    raise ValueError("No clip-scope embedding found")
+            else:
+                raise ValueError("No embeddings found in the response")
+
+            # Prepare embedding from video segments
+            video_embedding = prepare_embedding(video_segments)
+
+            return video_embedding
 
         except Exception as e:
             print(f"Error creating embedding (attempt {retries+1}): {str(e)}")

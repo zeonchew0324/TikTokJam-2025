@@ -85,24 +85,6 @@ def run_bot_user_check():
 
     return jsonify(response_list)
 
-@app.route('/admin/categorize-video', methods=['POST'])
-def categorize_video():
-    """
-    CATEGORIZE A VIDEO
-    EXPECTS: JSON payload with 'video_url': str
-    """
-    data = request.get_json()
-
-    if not data or "point_id" not in data:
-        return jsonify({"error": "Missing 'point_id' in request body"}), 400
-
-    point_id = data["point_id"]
-
-    try:
-        return jsonify({"status": "success", "message": f"Video at {point_id} has been processed."})
-    except Exception as e:
-        return jsonify({"status": "error", "message": str(e)}), 500
-
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development
 if __name__ == '__main__':

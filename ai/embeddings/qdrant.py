@@ -3,7 +3,6 @@ import uuid
 import numpy as np
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
-from ai.embeddings.prepare_embedding import prepare_embedding
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -31,32 +30,17 @@ else:
     print(f"⚡ Collection already exists: {COLLECTION_NAME}")
 
 # Function to store embed video in qdrant
-def store_in_qdrant(task_result, video_id, s3_url, original_filename):
+def store_in_qdrant(video_embedding, video_id, s3_url, original_filename):
     if not qdrant_client:
         raise ValueError("Qdrant client not configured")
 
     try:
-        print(f"Processing video embedding for {video_id}...")
-
-        # The embedding will be in the segments with embedding_scope="clip"
-        if task_result.video_embedding and task_result.video_embedding.segments:
-            video_segments = [s for s in task_result.video_embedding.segments
-                             if hasattr(s, 'embedding_scope') and s.embedding_scope == 'clip']
-
-            if video_segments:
-                print(f"Found clip-scope embedding")
-            else:
-                raise ValueError("No clip-scope embedding found")
-        else:
-            raise ValueError("No embeddings found in the response")
-
-        # Prepare embedding from video segments
-        embedding_vector = prepare_embedding(video_segments)
+        print(f"Storing video embedding for {video_id}...")
 
         # Create a unique point structure for Qdrant storage
         point = PointStruct(
             id=uuid.uuid4().int & ((1<<64)-1), # Generate a unique 64-bit integer ID
-            vector=embedding_vector, # Store the extracted embedding vector
+            vector=video_embedding, # Store the extracted embedding vector
             payload={
                 'video_id': video_id,
                 'video_url': s3_url,  # Store the public S3 URL of the video
