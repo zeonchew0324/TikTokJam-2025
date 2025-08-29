@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "user_id": "u1",
+      "video_id": "v1",
+      "event_id": "e1",
+      "engagement_duration": 10.2,
+      "account_age_days": 100,
+      "followers_count": 50,
+      "following_count": 10,
+      "profile_pic": 1,
+      "bio_length": 20,
+      "verified": 0,
+      "location_consistent": 1,
+      "timezone_offset": 8
+    },
+    {
+      "user_id": "u1",
+      "video_id": "v2",
+      "event_id": "e2",
+      "engagement_duration": 5.5,
+      "account_age_days": 100,
+      "followers_count": 50,
+      "following_count": 10,
+      "profile_pic": 1,
+      "bio_length": 20,
+      "verified": 0,
+      "location_consistent": 1,
+      "timezone_offset": 8
+    },
+    {
+      "user_id": "u2",
+      "video_id": "v3",
+      "event_id": "e3",
+      "engagement_duration": 2.1,
+      "account_age_days": 3,
+      "followers_count": 2,
+      "following_count": 200,
+      "profile_pic": 0,
+      "bio_length": 0,
+      "verified": 0,
+      "location_consistent": 0,
+      "timezone_offset": 8
+    }
+  ]
+}
