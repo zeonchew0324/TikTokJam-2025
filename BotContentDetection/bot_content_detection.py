@@ -59,7 +59,25 @@ index = faiss.IndexFlatL2(vidembed.shape[1])   # build the index with the dimens
 print(index.is_trained)
 index.add(vidembed)                  # add vectors to the index
 print(index.ntotal)
+
+############
+# uncomment the block of code to use gpu 
+'''
+res = faiss.StandardGpuResources()  # use a single GPU
+# build a flat (CPU) index
+index_flat = faiss.IndexFlatL2(vidembed.shape[1])
+# make it into a gpu index
+gpu_index_flat = faiss.index_cpu_to_gpu(res, 0, index_flat)
+
+gpu_index_flat.add(vidembed)         # add vectors to the index
+print(gpu_index_flat.ntotal)
+'''
+#then, use gpu_index_flat if gpu is required
+
+
+###########
 dist, ind = index.search(qembed, k)     # (squared)l2distance, and  index for each query
+
 
 
 # now we find the 5% most similar video pairs (from vid and query) and report it out to the user
