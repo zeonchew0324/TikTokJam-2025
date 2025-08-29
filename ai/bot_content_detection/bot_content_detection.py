@@ -73,7 +73,7 @@ def detect_similar_videos(vidembed, qembed, k=5):
         for iv in range(flagged_dist.shape[1])
         if flagged_dist[iq, iv] == 1
     ]
-    flagged_pairs.sort(key=lambda x: x[2])  # Sort by cosine similarity
+    flagged_pairs.sort(key=lambda x: x[2], reverse=True)  # Sort by cosine similarity
 
     print("Flagged pairs (vidembed vector, qembed vector, cosine similarity):", flagged_pairs)
 
