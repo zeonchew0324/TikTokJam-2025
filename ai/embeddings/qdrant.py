@@ -94,7 +94,7 @@ def retrieve_single_from_qdrant(point_id):
 
             print(f"Retrieved Vector: {vector_embedding}")
             print(f"Retrieved Payload: {payload}")
-            return np.array(vector_embedding)
+            return np.array(vector_embedding, dtype=np.float32)
         else:
             print(f"Point with ID {point_id} not found in collection {COLLECTION_NAME}.")
     except Exception as e:
@@ -126,13 +126,14 @@ def retrieve_all_from_qdrant():
                 break # No more points to retrieve
 
             for point in points:
-                all_vectors.append(point.vector) # Access the vector embedding
+                vector_embedding = np.array(point.vector, dtype=np.float32)
+                all_vectors.append(vector_embedding) # Access the vector embedding
 
             if next_page_offset is None:
                 break # Reached the end of the collection
 
         print(f"Retrieved {len(all_vectors)} vector embeddings.")
-        return np.array(all_vectors)
+        return np.array(all_vectors, dtype=np.float32)
     except Exception as e:
         print(f"Error retrieving all from Qdrant: {str(e)}")
         raise
