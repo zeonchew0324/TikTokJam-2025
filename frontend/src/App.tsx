@@ -5,10 +5,11 @@ import { HomePage } from './pages/HomePage'
 import { UploadVideoPage } from './pages/UploadVideoPage'
 import { RevenueOverviewPage } from './pages/revenue/RevenueOverviewPage'
 import { VideoAnalyticsPage } from './pages/revenue/VideoAnalyticsPage'
+import { AdminPage } from './pages/admin/AdminPage'
 
 
 export function App() {
-  const [route, setRoute] = useState<'home' | 'upload' | 'leaderboard' | 'revenue' | { name: 'video-analytics', videoId: string }>('home')
+  const [route, setRoute] = useState<'home' | 'upload' | 'leaderboard' | 'revenue' | 'admin' | { name: 'video-analytics', videoId: string }>('home')
   const [collapsed, setCollapsed] = useState(false)
   const [uploadedVideos, setUploadedVideos] = useState<string[]>([])
 
@@ -25,6 +26,9 @@ export function App() {
         {route === 'upload' && <UploadVideoPage onUploaded={handleVideoUploaded} />}
         {route === 'revenue' && (
           <RevenueOverviewPage onSelectVideo={(videoId) => setRoute({ name: 'video-analytics', videoId })} />
+        )}
+        {route === 'admin' && (
+          <AdminPage />
         )}
         {typeof route === 'object' && route.name === 'video-analytics' && (
           <VideoAnalyticsPage videoId={route.videoId} onBack={() => setRoute('revenue')} />
