@@ -43,9 +43,6 @@ public class VideoAnalyticsService {
     public VideoAnalyticsResponseDTO getVideoAnalytics(String videoId) {
         VideoEntity videoEntity = videoRepository.getReferenceById(videoId);
 
-        if (videoEntity == null) {
-            throw new RuntimeException("Error get video analytics");
-        }
         double engagementScore = getEngagementScore(videoEntity);
 
         return VideoAnalyticsResponseDTO.builder()
@@ -56,6 +53,7 @@ public class VideoAnalyticsService {
                 .likeCount(videoEntity.getLikeCount())
                 .pastMonthsTotalViewCount(videoEntity.getPastMonthsTotalViewCount())
                 .totalViewCount(videoEntity.getTotalViewCount())
+                .videoUrl(videoEntity.getVideoUrl())
                 .creator(videoEntity.getCreator())
                 .payoutDTOList(videoEntity.getPoolTiers().stream().map(poolTier -> PayoutDTO.builder()
                         .categoryName(poolTier.getCategoryPoolEntity().getName())

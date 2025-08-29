@@ -17,6 +17,8 @@ public class VideoAnalyticsResponseDTO {
 
     private String caption;
 
+    private String videoUrl;
+
     private double watchTime;
 
     // the total view count since video upload to last month

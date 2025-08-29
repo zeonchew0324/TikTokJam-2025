@@ -36,6 +36,8 @@ public class VideoService {
         // THE RECEIVED RESPONSE CONTAINS CATEGORY AND PERCENTAGE
         // WE NEED TO USE THESE DATA TO GET VIDEO TIERS
         // THEN WE UPDATE POOL TIER AND SAVE IT
+
+
         List<PoolTier> poolTiers = List.of();
 
         VideoEntity videoEntity = videoRepository.getReferenceById(videoId.toString());
