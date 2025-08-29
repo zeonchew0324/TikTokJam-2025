@@ -17,8 +17,8 @@ def prepare_embedding(video_segments):
         raise ValueError("No video segments provided")
     
     # Extract embeddings
-    visual_embeddings = np.array([np.array(s.float_) for s in video_segments if s.embedding_option == 'visual-text'])
-    audio_embeddings = np.array([np.array(s.float_) for s in video_segments if s.embedding_option == 'audio'])
+    visual_embeddings = [np.array(s.float_) for s in video_segments if s.embedding_option == 'visual-text']
+    audio_embeddings = [np.array(s.float_) for s in video_segments if s.embedding_option == 'audio']
 
     print(f"Visual embeddings shape: {visual_embeddings.shape}")
     print(f"Audio embeddings shape: {audio_embeddings.shape}")
