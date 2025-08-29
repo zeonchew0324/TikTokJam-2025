@@ -19,7 +19,9 @@ print('GIVE THE VIDEO EMBEDDINGS AND QUERY EMBEDDINGS AS FIRST AND SECOND COMMAN
 #qembed = np.array(eval(qembed))
 ####
 
-def detect_similar_videos(vidembed, qembed, k=5):
+video_embeddings = retrieve_all_from_qdrant() # retrieve all video embeddings from qdrant
+
+def detect_similar_videos(qembed, vidembed=video_embeddings, k=5):
     #since we are going to use l2distance for similarity, the input needs to be l2 normalized
     vidembed = vidembed / np.linalg.norm(vidembed, axis=1, keepdims=True)
 
@@ -28,6 +30,7 @@ def detect_similar_videos(vidembed, qembed, k=5):
     #vidembed is the video embeddings array of preexisting video vector embeddings
 
     #now lets do some query
+    qembed = qembed.reshape(-1,2048) # reshape the query embedding to be 1 * 2048 dimensional numpy array
     qembed = qembed / np.linalg.norm(qembed, axis=1, keepdims=True)
 
     print(f"Received query embedding shape: {qembed.shape}")
@@ -40,17 +43,9 @@ def detect_similar_videos(vidembed, qembed, k=5):
     print(index.ntotal)
     dist, ind = index.search(qembed, k)     # (squared)l2distance, and  index for each query
 
-
-    # now we find the 5% most similar video pairs (from vid and query) and report it out to the user
-    flat_dist = dist.flatten()
-
-    top_n = int(0.05 * flat_dist.size)
-
-    dist_threshold = flat_dist[np.argsort(flat_dist)[:top_n][-1]] # this is the maximum distance for the top 5% most similar videos
+    dist_threshold = 0.2
     flagged_dist = np.where(dist <= dist_threshold, 1, 0) # set distances above the threshold to infinity
 
-
-    
     # Generate list of (vidembed vector, qembed vector, cosine similiarity) tuples for flagged pairs, sorted by cosine similiarity
     flagged_pairs = [
         (vidembed[ind[iq, iv]], qembed[iq], 1 - 0.5 * dist[iq, iv])
@@ -61,12 +56,9 @@ def detect_similar_videos(vidembed, qembed, k=5):
     flagged_pairs.sort(key=lambda x: x[2], reverse=True)  # Sort by cosine similarity
 
     print("Flagged pairs (vidembed vector, qembed vector, cosine similarity):", flagged_pairs)
+    print(f"No of flagged pairs: {len(flagged_pairs)}")
 
     return flagged_pairs
 
-vidembed = retrieve_all_from_qdrant() # retrieve all video embeddings from qdrant
-embed1 = retrieve_single_from_qdrant(9274612216458326251) # retrieve a single video embedding from qdrant using point_id
-embed2 = retrieve_single_from_qdrant(10693639038944902041) # retrieve a single video embedding from qdrant using point_id
-qembed = np.array([embed1, embed2]) # create a query embedding array with the two retrieved embeddings
-
-detect_similar_videos(vidembed, qembed, k=5) # run the bot content detection
+qembed = retrieve_single_from_qdrant(9274612216458326251)
+detect_similar_videos(qembed) # run the bot content detection

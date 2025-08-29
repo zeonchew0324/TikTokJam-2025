@@ -3,6 +3,8 @@ import uuid
 from aws import upload_to_s3
 from twelve_labs import create_video_embedding
 from qdrant import store_in_qdrant
+from ai.bot_content_detection.bot_content_detection import detect_similar_videos
+from ai.bot_content_detection.handle_flagged_content import handle_flagged_content
 
 # Get a list of video files
 video_dir = "ai/video_content"
@@ -18,12 +20,21 @@ def embed_single_video(filename):
     s3_url = upload_to_s3(video_path, video_id)
     
     # Generate video embeddings using Twelve Labs
-    task_result = create_video_embedding(s3_url)
+    video_embedding = create_video_embedding(s3_url)
     
-    # Store video embeddings in Qdrant
-    store_in_qdrant(task_result, video_id, s3_url, filename)
+    # Run the bot content detection
+    similar_videos = detect_similar_videos(video_embedding)
     
-    print(f"Successfully processed {filename}")
+    if not similar_videos:
+        # Store video embeddings in Qdrant
+        store_in_qdrant(video_embedding, video_id, s3_url, filename)
+        
+        print(f"Successfully processed {filename}")
+    else:
+        # Handle flagged content (i.e., notify via API)
+        handle_flagged_content(video_id, filename)
+        
+        print(f"Video {filename} flagged as potential bot-generated content due to similarity with existing videos.")
 
 # Function to embed videos from the video_content directory
 def embed_videos():
@@ -37,14 +48,23 @@ def embed_videos():
             s3_url = upload_to_s3(video_path, video_id)
             
             # Generate video embeddings using Twelve Labs
-            task_result = create_video_embedding(s3_url)
+            video_embedding = create_video_embedding(s3_url)
             
-            # Store video embeddings in Qdrant
-            store_in_qdrant(task_result, video_id, s3_url, filename)
+            # Run the bot content detection
+            similar_videos = detect_similar_videos(video_embedding)
             
-            print(f"Successfully processed {filename}")
+            if not similar_videos:
+                # Store video embeddings in Qdrant
+                store_in_qdrant(video_embedding, video_id, s3_url, filename)
+                
+                print(f"Successfully processed {filename}")
+            else:
+                # Handle flagged content (i.e., notify via API)
+                handle_flagged_content(video_id, filename)
+        
+                print(f"Video {filename} flagged as potential bot-generated content due to similarity with existing videos.")
         except Exception as e:
             print(f"Error processing {filename}: {str(e)}")
             
 if __name__ == "__main__":
-    embed_videos()
+    embed_single_video("Car1.mp4")

@@ -19,9 +19,6 @@ def prepare_embedding(video_segments):
     # Extract embeddings
     visual_embeddings = [np.array(s.float_) for s in video_segments if s.embedding_option == 'visual-text']
     audio_embeddings = [np.array(s.float_) for s in video_segments if s.embedding_option == 'audio']
-
-    print(f"Visual embeddings shape: {visual_embeddings.shape}")
-    print(f"Audio embeddings shape: {audio_embeddings.shape}")
     
     combined_embeddings = np.array([np.concatenate([v, a]) for v, a in zip(visual_embeddings, audio_embeddings)])
     print(f"Combined embeddings shape: {combined_embeddings.shape}")

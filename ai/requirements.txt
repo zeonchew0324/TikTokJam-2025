@@ -11,3 +11,4 @@ python-dotenv
 ipython
 flask
 scikit-learn
+requests
