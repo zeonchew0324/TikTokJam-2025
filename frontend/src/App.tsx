@@ -1,55 +1,29 @@
-import { useCallback, useEffect, useState } from '@lynx-js/react'
-
+import { useCallback, useEffect, useState } from 'react'
 import './App.css'
-import arrow from './assets/arrow.png'
-import lynxLogo from './assets/lynx-logo.png'
-import reactLynxLogo from './assets/react-logo.png'
+import { LeftNav } from './LeftNav'
+import { HomePage } from './pages/HomePage'
+import { LeaderboardPage } from './pages/LeaderboardPage'
+import { UploadVideoPage } from './pages/UploadVideoPage'
 
-export function App(props: {
-  onRender?: () => void
-}) {
-  const [alterLogo, setAlterLogo] = useState(false)
 
-  useEffect(() => {
-    console.info('Hello, ReactLynx')
-  }, [])
-  props.onRender?.()
+export function App() {
+  const [route, setRoute] = useState<'home' | 'upload' | 'leaderboard'>('home')
+  const [collapsed, setCollapsed] = useState(false)
+  const [uploadedVideos, setUploadedVideos] = useState<string[]>([])
 
-  const onTap = useCallback(() => {
-    'background only'
-    setAlterLogo(prevAlterLogo => !prevAlterLogo)
-  }, [])
+  function handleVideoUploaded(url: string) {
+    setUploadedVideos(prev => [url, ...prev])
+    setRoute('home')
+  }
 
   return (
-    <view>
-      <view className='Background' />
-      <view className='App'>
-        <view className='Banner'>
-          <view className='Logo' bindtap={onTap}>
-            {alterLogo
-              ? <image src={reactLynxLogo} className='Logo--react' />
-              : <image src={lynxLogo} className='Logo--lynx' />}
-          </view>
-          <text className='Title'>React</text>
-          <text className='Subtitle'>on Lynx</text>
-        </view>
-        <view className='Content'>
-          <image src={arrow} className='Arrow' />
-          <text className='Description'>Tap the logo and have fun!</text>
-          <text className='Hint'>
-            Edit<text
-              style={{
-                fontStyle: 'italic',
-                color: 'rgba(255, 255, 255, 0.85)',
-              }}
-            >
-              {' src/App.tsx '}
-            </text>
-            to see updates!
-          </text>
-        </view>
-        <view style={{ flex: 1 }} />
-      </view>
-    </view>
+    <div className="Layout">
+      <LeftNav current={route} onChange={setRoute} collapsed={collapsed} onToggle={() => setCollapsed(v => !v)} />
+      <div className="ContentArea">
+        {route === 'home' && <HomePage videos={uploadedVideos} />}
+        {route === 'upload' && <UploadVideoPage onUploaded={handleVideoUploaded} />}
+        {route === 'leaderboard' && <LeaderboardPage />}
+      </div>
+    </div>
   )
 }
