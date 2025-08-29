@@ -215,11 +215,20 @@ export function HomePage(props: { videos?: UploadedVideo[] }) {
               />
               {!(activeCommentSection === idx) && 
                 <div className="video_description">
-                  <div style={{ fontWeight: 800, marginBottom: '16px' }}>{video.title}</div>
-                  <div style={{ fontWeight: 400 }}>{video.description}</div>
-                  <div style={{ fontSize: '12px', color: '#5de9ff', fontWeight: 400 }}>
+                  {/* Title: */}
+                  <div style={{ fontWeight: 700, fontSize: '16px', marginBottom: '8px', lineHeight: '1.2' }}>
+                    {video.title}
+                  </div>
+
+                  {/* Description: */}
+                  <div style={{ fontWeight: 400, fontSize: '14px', marginBottom: '6px', lineHeight: '1.4' }}>
+                    {video.description}
+                  </div>
+
+                  {/* Hashtags: */}
+                  <div style={{ fontSize: '13px', color: '#4de3ff', fontWeight: 500 }}>
                     {video.hashtags.map((tag, tagIdx) => (
-                      <span key={tagIdx}>#{tag} </span>
+                      <span key={tagIdx} style={{ marginRight: '4px' }}>#{tag}</span>
                     ))}
                   </div>
                 </div>
