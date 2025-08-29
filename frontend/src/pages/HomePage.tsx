@@ -71,6 +71,13 @@ export function HomePage(props: { videos?: UploadedVideo[] }) {
   const [newComment, setNewComment] = useState('')
   const [shares, setShares] = useState<number[]>(Array(videos.length).fill(0))
   const [shared, setShared] = useState<boolean[]>(Array(videos.length).fill(false))
+  const [showRecommendation, setShowRecommendation] = useState<boolean[]>(
+    // Randomly determine which videos have low engagement for demo purposes
+    Array(videos.length).fill(0).map(() => Math.random() < 0.5)
+  )
+  const [recommendationAnswered, setRecommendationAnswered] = useState<boolean[]>(
+    Array(videos.length).fill(false)
+  )
 
   function toggleLike(idx: number) {
     setLiked((prev) => {
@@ -118,6 +125,27 @@ export function HomePage(props: { videos?: UploadedVideo[] }) {
     
     // Clear input
     setNewComment('')
+  }
+  
+  // Function to handle recommendation response
+  function handleRecommendation(idx: number, isRecommended: boolean) {
+    console.log(`User ${isRecommended ? 'recommends' : 'does not recommend'} video ${idx}`);
+    
+    // Mark this recommendation as answered
+    setRecommendationAnswered(prev => {
+      const newAnswered = [...prev];
+      newAnswered[idx] = true;
+      return newAnswered;
+    });
+    
+    // If recommended, increase shares
+    if (isRecommended) {
+      setShares(prev => {
+        const newShares = [...prev];
+        newShares[idx] += 1;
+        return newShares;
+      });
+    }
   }
 
   // Handle clicking outside comment section to close it
@@ -311,6 +339,29 @@ export function HomePage(props: { videos?: UploadedVideo[] }) {
                       disabled={!newComment.trim()}
                     >
                       Post
+                    </button>
+                  </div>
+                </div>
+              )}
+              
+              {/* Recommendation Prompt for Low Engagement Videos */}
+              {showRecommendation[idx] && !recommendationAnswered[idx] && likes[idx] < 10 && comments[idx] < 3 && (
+                <div className="RecommendationPrompt">
+                  <div className="RecommendationPrompt__text">
+                    Would you recommend this video to others?
+                  </div>
+                  <div className="RecommendationPrompt__buttons">
+                    <button 
+                      className="RecommendationPrompt__button RecommendationPrompt__button--yes"
+                      onClick={() => handleRecommendation(idx, true)}
+                    >
+                      Yes
+                    </button>
+                    <button 
+                      className="RecommendationPrompt__button RecommendationPrompt__button--no"
+                      onClick={() => handleRecommendation(idx, false)}
+                    >
+                      No
                     </button>
                   </div>
                 </div>
