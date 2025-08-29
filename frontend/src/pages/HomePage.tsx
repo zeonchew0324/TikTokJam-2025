@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 
 export function HomePage(props: { videos?: string[] }) {
   const { videos = [] } = props
@@ -50,16 +50,52 @@ export function HomePage(props: { videos?: string[] }) {
     })
   }
 
+  // Refs for all video elements
+  const videoRefs = useRef<(HTMLVideoElement | null)[]>([])
+
+  useEffect(() => {
+    const observers: IntersectionObserver[] = []
+    videoRefs.current.forEach((video, idx) => {
+      if (!video) return
+      const observer = new window.IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            video.play().catch(() => {})
+          } else {
+            video.pause()
+            video.currentTime = 0
+          }
+        },
+        { threshold: 0.6 }
+      )
+      observer.observe(video)
+      observers.push(observer)
+    })
+    return () => {
+      observers.forEach((observer, idx) => {
+        if (videoRefs.current[idx]) observer.unobserve(videoRefs.current[idx]!)
+        observer.disconnect()
+      })
+    }
+  }, [videos])
+
   return (
     <div>
-      <h2>Home</h2>
       {videos.length === 0 ? (
-        <p>Welcome!</p>
+        <h3>No videos uploaded yet. Go to "Upload Video" to add your first video!</h3>
       ) : (
         <div className="VerticalFeed">
           {videos.map((src, idx) => (
             <div key={idx} className="VerticalFeed__item" style={{ position: 'relative' }}>
-              <video className="VerticalFeed__video" src={src} controls />
+              <video
+                className="VerticalFeed__video"
+                src={src}
+                controls
+                ref={el => (videoRefs.current[idx] = el)}
+                playsInline
+                preload="auto"
+                muted
+              />
               <div className="ActionBar" >
                 <button
                   className={`ActionBar__btn${liked[idx] ? ' liked' : ''}`}
@@ -97,7 +133,7 @@ export function HomePage(props: { videos?: string[] }) {
                 <div className="ActionBar_label">{shares[idx]}</div>
               </div>
             </div>
-          ))} 
+          ))}
         </div>
       )}
     </div>
