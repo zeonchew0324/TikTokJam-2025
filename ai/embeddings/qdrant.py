@@ -86,7 +86,7 @@ def store_in_qdrant(task_result, video_id, s3_url, original_filename):
         print(f"Error storing in Qdrant: {str(e)}")
         raise
 
-# Function to retrieve single video embedding from qdrant using video_id
+# Function to retrieve single video embedding from qdrant using video id
 def retrieve_single_from_qdrant(point_id):
     if not qdrant_client:
         raise ValueError("Qdrant client not configured")
@@ -149,4 +149,31 @@ def retrieve_all_from_qdrant():
         return all_vectors
     except Exception as e:
         print(f"Error retrieving all from Qdrant: {str(e)}")
+        raise
+    
+# Function to retrieve video url from qdrant using video embedding
+def retrieve_video_url_by_embedding(query_vector, limit=1, score_threshold=0.9):
+    if not qdrant_client:
+        raise ValueError("Qdrant client not configured")
+    
+    try:
+        search_result = qdrant_client.search(
+            collection_name=COLLECTION_NAME,
+            query_vector=query_vector,
+            limit=limit,
+            score_threshold=score_threshold
+        )
+        
+        if search_result and len(search_result) > 0:
+            # Get the most similar result
+            best_match = search_result[0]
+            
+            # Extract video_url from payload
+            if hasattr(best_match, 'payload') and 'video_url' in best_match.payload:
+                return best_match.payload['video_url']
+        
+        return None
+        
+    except Exception as e:
+        print(f"Error retrieving video URL: {e}")
         raise
