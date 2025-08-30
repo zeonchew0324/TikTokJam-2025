@@ -87,12 +87,13 @@ def run_bot_user_check_endpoint():
 
     return jsonify(response_list)
 
-@app.route('/admin/categorize-video/<video_id>', methods=['GET'])
-def categorize_videos_endpoint(video_id):
+@app.route('/admin/categorize-video', methods=['GET'])
+def categorize_videos_endpoint():
     """
     CATEGORIZE VIDEO
     This endpoint triggers the video categorization process.
     """
+    video_id = request.args.get('video_id')
     try:
         if not video_id:
             return jsonify({"error": "Missing 'video_id' in request body"}), 400
@@ -102,16 +103,17 @@ def categorize_videos_endpoint(video_id):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
-@app.route('/admin/evaluate-video/<video_id>', methods=['GET'])
-def evaluate_video_endpoint(video_id):
+@app.route('/admin/evaluate-video', methods=['GET'])
+def evaluate_video_endpoint():
+    video_id = request.args.get('video_id')
+    if not video_id:
+        return jsonify({"quality_score": -1.0, "error": "Missing video_id"}), 400
+
     try:
-        if not video_id:
-            return -1.0
-        
         quality_score = evaluate_video_quality(video_id)
-        return quality_score
+        return jsonify({"quality_score": float(quality_score)})
     except Exception as e:
-        return -1.0
+        return jsonify({"quality_score": -1.0, "error": str(e)}), 500
 
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development
