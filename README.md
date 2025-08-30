@@ -12,6 +12,16 @@ TierTok is a proof-of-concept platform that categorizes videos into distinct cat
 3. **Fraud Detection Bot**: 
 
 ## Algorithm
+In contrast to the traditional accumulation video views, the total view count of a video is calculated
+based on cascade window to give more emphasis on the most recent view counts, while associating the past
+view counts with decay factor $\lambda$.
+
+$$TotalViewCount = \sum_{k=0}^n{Past \ k^{th} \ month \ views \times e^{-\lambda k}} $$
+where $k=0$ represents current month view statistics.
+
+
+
+
 Every video is evaluated quantitatively with an engagement score based on a few metrics.
 
 $$EngagementScore = \alpha \times log(TotalViewCount + 1) + \beta \times WatchTimeRatio + \gamma \times CommentRatio$$
