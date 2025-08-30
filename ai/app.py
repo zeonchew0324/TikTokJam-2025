@@ -142,20 +142,19 @@ def cluster_videos_endpoint():
         return jsonify({"error": str(e)}), 500
 
 @app.route('/admin/evaluate-video-batch', methods=['GET'])
-def evaluate_video_endpoint():
+def evaluate_video_endpoint_batch():
     """
-    EVALUATE VIDEO QUALITY
-    This endpoint triggers the video quality evaluation process.
+    EVALUATE VIDEO QUALITY BATCH
     """
-    video_id = request.args.get('video_id')
-    if not video_id:
+    video_ids = request.args.get('video_ids')
+    if not video_ids:
         return jsonify({"error": "Missing video_id"}), 400
 
     try:
-        quality_score = evaluate_video_quality_batch(video_id)
-        return jsonify({"quality_score": float(quality_score)})
+        quality_scores = evaluate_video_quality_batch(video_ids)
+        return jsonify(quality_scores)
     except Exception as e:
-        return jsonify({"quality_score": -1.0, "error": str(e)}), 500
+        return jsonify({"error": str(e)}), 500
     
 @app.route('/admin/visualize-clustering-algo', methods=['GET'])
 def visualize_clustering_algo_endpoint():
