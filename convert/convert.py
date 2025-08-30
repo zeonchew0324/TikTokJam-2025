@@ -6,12 +6,12 @@ from ai.tech_stack.aws import upload_single_to_s3
 
 VIDEO_CONTENT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'ai', 'video_content')
 SQL_OUTPUT_FILE = os.path.join(os.path.dirname(__file__), 'output.sql')
-TABLE_NAME = 'video_output'
+TABLE_NAME = 'video_entity'
 
 def get_random_watch_time(duration):
     if duration:
         return random.randint(int(duration * 0.5), int(duration))
-    return random.randint(5, 60)
+    return float(random.randint(5, 60))
 
 def get_random_views():
     return random.randint(100, 10000)
@@ -75,8 +75,9 @@ def main():
             video_id, video_url = upload_single_to_s3(video_dir, video_filename)
             caption = get_json_value(data.get('video_metadata', {}), 'description', '')
             creator_id = generate_unique_numbers(1)[0]  # single unique number
+            print(f"Generated creator_id: {creator_id}")
             duration = get_json_value(data.get('file_metadata', {}), 'duration', 0)
-            watch_time = get_json_value(data.get('video_metadata', {}), 'watch_time', None) or get_random_watch_time(duration)
+            watch_time = float(get_json_value(data.get('video_metadata', {}), 'watch_time', None) or get_random_watch_time(duration))
             pastmonthsviewcount = get_random_views()
             totalviewcount = get_json_value(data.get('video_metadata', {}), 'playcount', get_random_views())
             if pastmonthsviewcount < totalviewcount:
@@ -99,7 +100,7 @@ def main():
                 return val
 
             sql = f"INSERT INTO {TABLE_NAME} (video_id, caption, creator_id, duration, watch_time, video_url, past_months_view_count, total_view_count, like_count, comment_count, created_at) VALUES \
-('{esc(video_id)}', '{esc(caption)}', '{esc(creator_id)}', {duration}, {watch_time}, '{esc(video_url)}', {pastmonthsviewcount}, {totalviewcount}, {likecount}, {commentcount}, '{esc(createdat)}');"
+('{esc(str(video_id))}', '{esc(caption)}', {esc(int(creator_id))}, {float(duration)}, {watch_time}, '{esc(video_url)}', {pastmonthsviewcount}, {totalviewcount}, {likecount}, {commentcount}, '{esc(createdat)}');"
 
             sql_lines.append(sql)
             print(f"[DEBUG] Added SQL for {json_file}")
