@@ -54,19 +54,19 @@ to achieve mass bot content prevention and mitigate the tail risk by summing top
 Each category is divided into 4 tiers, ranked by their *EngagementScore*
 
 $$
-Tier\ 1 - Top\ 5 \\% \ of \ video - receives\ 32.5\\%\ of\ the\ pool\ fund
+Tier\ 1 - Top\ 5 \\% \ of \ video - receives\ 32.5\%\ of\ the\ pool\ fund
 $$
 
 $$
-Tier\ 2 - Top\ 5 \\%-20 \\% \ of \ video - receives\ 27.5\\%\ of\ the\ pool\ fund
+Tier\ 2 - Top\ 5 \\%-20 \\% \ of \ video - receives\ 27.5\%\ of\ the\ pool\ fund
 $$
 
 $$
-Tier\ 3 - Top\ 20\\%-50 \\% of \ video - receives\ 22.5\\%\ of\ the\ pool\ fund
+Tier\ 3 - Top\ 20\\%-50 \\% of \ video - receives\ 22.5\%\ of\ the\ pool\ fund
 $$
 
 $$
-Tier\ 4 - Bottom\ 17.5 \\% \ of \ video - receives\ 17.5\\%\ of\ the\ pool\ fund
+Tier\ 4 - Bottom\ 17.5 \\% \ of \ video - receives\ 17.5\%\ of\ the\ pool\ fund
 $$
 
 
@@ -98,19 +98,4 @@ The Principal Component Analysis (PCA) of the vectors is done using [Scikit-Lear
 The frontend 3D plot for the embeddings and centroids vectors is visualized with [Three.js](https://threejs.org/)
 
 
-
-## Getting Started With Our App
-1. Clone repository:
- <pre> git clone https://github.com/zeonchew0324/TikTokJam-2025.git </pre>
-
-2. Install dependencies:
- <pre> pip install -r requirements.txt </pre>
-
-3. Change to the frontend folder:
-  <pre> cd frontend </pre>
-
-4. Run our app!
- <pre> npm run dev </pre>
-
-Open your browser and navigate to the URL shown in the terminal (usually http://localhost:5173) to see the result.
 
