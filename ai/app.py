@@ -4,7 +4,7 @@ import pandas as pd
 
 from ai.bot_detection.main import aggregate_per_user, bot_probabilities
 from ai.categorize_video.main import categorize_video_into_3_categories
-from ai.evaluate_video_quality.main import evaluate_video_quality
+from ai.evaluate_video_quality.main import evaluate_video_quality, evaluate_video_quality_batch
 from ai.cluster_videos.main import cluster_videos_into_category
 from ai.visualize_clustering_algo.main import visualize_clustering_algo
 
@@ -141,6 +141,22 @@ def cluster_videos_endpoint():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/admin/evaluate-video-batch', methods=['GET'])
+def evaluate_video_endpoint():
+    """
+    EVALUATE VIDEO QUALITY
+    This endpoint triggers the video quality evaluation process.
+    """
+    video_id = request.args.get('video_id')
+    if not video_id:
+        return jsonify({"error": "Missing video_id"}), 400
+
+    try:
+        quality_score = evaluate_video_quality_batch(video_id)
+        return jsonify({"quality_score": float(quality_score)})
+    except Exception as e:
+        return jsonify({"quality_score": -1.0, "error": str(e)}), 500
+    
 @app.route('/admin/visualize-clustering-algo', methods=['GET'])
 def visualize_clustering_algo_endpoint():
     """

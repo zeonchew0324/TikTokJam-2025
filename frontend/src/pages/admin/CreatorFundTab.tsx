@@ -13,52 +13,24 @@ interface ClusteringData {
   centroids: number[][];
 }
 
-// Mock API service for clustering data
-const clusteringApiService = {
-  async getClusteringData(): Promise<ClusteringData> {
-    // TODO: Replace with actual API call when server is available
-    // const response = await fetch('/api/clustering-data');
-    // const data = await response.json();
-    // return data;
-    
-    // Mock data for demonstration
-    const dataPoints = [];
-    const centroids = [];
-    
-    // Generate 100 random data points in 3 clusters
-    for (let i = 0; i < 100; i++) {
-      const cluster = Math.floor(Math.random() * 3);
-      const baseX = cluster === 0 ? -2 : cluster === 1 ? 2 : 0;
-      const baseY = cluster === 0 ? -2 : cluster === 1 ? 2 : -3;
-      const baseZ = cluster === 0 ? 1 : cluster === 1 ? -1 : 2;
-      
-      dataPoints.push([
-        baseX + (Math.random() - 0.5) * 2,
-        baseY + (Math.random() - 0.5) * 2,
-        baseZ + (Math.random() - 0.5) * 2
-      ]);
-    }
-    
-    // Generate 3 centroids
-    centroids.push([-2, -2, 1]);
-    centroids.push([2, 2, -1]);
-    centroids.push([0, -3, 2]);
-    
-    return { dataPoints, centroids };
-  }
-};
+// Real API service for data fetching
+const apiService = {
+  // async getVideoCategories(): Promise<Category[]> {
+  //   const url = "https://tiertok-ai-server.onrender.com/admin/categories";
+  //   const response = await fetch(url);
+  //   const data = await response.json();
+  //   return data;
+  // },
 
-// Mock API service (existing)
-const mockApiService = {
-  async getVideoCategories(): Promise<Category[]> {
-    return [
-      { categoryId: '1', name: 'Gaming', popularityPercentage: 25.5 },
-      { categoryId: '2', name: 'Music', popularityPercentage: 22.3 },
-      { categoryId: '3', name: 'Comedy', popularityPercentage: 18.7 },
-      { categoryId: '4', name: 'Education', popularityPercentage: 15.2 },
-      { categoryId: '5', name: 'Food', popularityPercentage: 12.1 },
-      { categoryId: '6', name: 'Travel', popularityPercentage: 6.2 }
-    ];
+  async getClusteringData(): Promise<ClusteringData> {
+    // const url = "https://tiertok-ai-server.onrender.com/admin/visualize-clustering-algo";
+    const url = "skibidi"
+    const response = await fetch(url);
+    const data = await response.json();
+    return { 
+      dataPoints: data.video_embeddings_3d, 
+      centroids: data.centroid_embeddings_3d 
+    };
   }
 };
 
@@ -321,8 +293,8 @@ export function CreatorFundTab() {
   const [clusteringData, setClusteringData] = useState<ClusteringData>({ dataPoints: [], centroids: [] })
 
   useEffect(() => {
-    mockApiService.getVideoCategories().then(setCategories)
-    clusteringApiService.getClusteringData().then(setClusteringData)
+    // apiService.getVideoCategories().then(setCategories)
+    apiService.getClusteringData().then(setClusteringData)
   }, [])
 
   // Retrieve value from backend
@@ -376,7 +348,7 @@ export function CreatorFundTab() {
           <div style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>Clustering Controls</div>
           <div style={{ background: '#121212', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 12, padding: 12 }}>
             <button
-              onClick={() => clusteringApiService.getClusteringData().then(setClusteringData)}
+              onClick={() => apiService.getClusteringData().then(setClusteringData)}
               style={{ 
                 width: '100%',
                 padding: '8px 12px', 
