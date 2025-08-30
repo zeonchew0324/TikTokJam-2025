@@ -36,6 +36,53 @@ $$EngagementScore = \alpha \times log(TotalViewCount + 1) + \beta \times WatchTi
 
 where $\alpha, \beta, \gamma$ are dynamic coeffiecients that can be adjusted to represent holistic engagement metrics.
 
+### Payout
+
+The total payout is aggregated and allocated to *category pool* using weights calculated from the videos in each pool
+
+$${pool \ fund}_{i} = \frac{w_i}{\sum{w}} \times total \ fund$$
+
+
+where $w_i$ is the *weights* for each category, calculated by:
+
+$$w_i = \sum_{k=1}^n{EngagementScore_{sorted}}$$
+
+to achieve mass bot content prevention and mitigate the tail risk by summing top n engagement scores 
+
+### Tier fund allocation
+
+Each category is divided into 4 tiers, ranked by their *EngagementScore*
+
+$$
+Tier\ 1 - Top\ 5 \\% \ of \ video - receives\ 32.5\\%\ of\ the\ pool\ fund
+$$
+
+$$
+Tier\ 2 - Top\ 5 \\%-20 \\% \ of \ video - receives\ 27.5\\%\ of\ the\ pool\ fund
+$$
+
+$$
+Tier\ 3 - Top\ 20\\%-50 \\% of \ video - receives\ 22.5\\%\ of\ the\ pool\ fund
+$$
+
+$$
+Tier\ 4 - Bottom\ 17.5 \\% \ of \ video - receives\ 17.5\\%\ of\ the\ pool\ fund
+$$
+
+
+### Allcoate Allocate payout from tier fund to video (content creators)
+
+Each video in the tier is allocated fund based on their individual weights $IW$
+
+$$IW = log(EngagementScore+1) \times QM$$
+
+where $QM$, quality multiplier is defined as
+
+$$QM = 1 + CQS \times MaxBonus \times e^{- EngagementScore/k}$$
+
+where $CQS$ is ContentQualityScore given by Gemini, MaxBonus is the maximum bonus multiplier , $k$ is the scaling factor. 
+
+$$Individual Payout = \frac{IW}{\sum{IW}}\times TierFund $$
 ## Getting Started With Our App
 1. Clone repository:
  <pre> git clone https://github.com/zeonchew0324/TikTokJam-2025.git </pre>
