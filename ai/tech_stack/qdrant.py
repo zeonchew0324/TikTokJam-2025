@@ -234,6 +234,3 @@ def retrieve_category_by_embedding(query_vector, limit=1, score_threshold=0.9):
     except Exception as e:
         print(f"Error retrieving category: {e}")
         raise
-    
-result = retrieve_video_embedding_by_id("83bcfadf_Car1.mp4")
-print(result)

@@ -1,10 +1,8 @@
-import os
-import uuid
-from ai.tech_stack.aws import upload_to_s3
 from ai.tech_stack.twelve_labs import create_video_embedding
 from ai.tech_stack.qdrant import store_video_in_qdrant
 from ai.bot_content_detection.main import detect_similar_videos
 from ai.send_requests_to_java_server.flag_creator_bots import flag_creator_bots
+from ai.embed_video.parse_video_ids_and_s3_urls import parse_video_url_map
 
 # Function to embed a single video file
 def embed_single_video(video_id, s3_url):
@@ -66,4 +64,6 @@ def embed_videos(video_ids_and_urls):
             print(f"Error processing {video_id}: {str(e)}")
             
 if __name__ == "__main__":
-    embed_videos()
+    input_file = "ai/embed_video/video_url_map.txt"
+    video_ids_and_urls = parse_video_url_map(input_file)
+    embed_videos(video_ids_and_urls)

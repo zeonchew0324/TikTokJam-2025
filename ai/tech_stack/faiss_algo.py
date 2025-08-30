@@ -147,7 +147,6 @@ def visualize_embeddings_centroids_pca(vidembed, centroids):
     
     plt.title('3D PCA Projection of Video Embeddings and Centroids')
     ax.legend()
-    plt.show()
     #return the plot object to be used in frontend
     return fig
 

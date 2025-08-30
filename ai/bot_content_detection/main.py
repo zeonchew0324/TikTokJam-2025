@@ -8,7 +8,7 @@ after that, the video embeddings are processed and classified to be flagged as p
 '''
 import faiss                   # make faiss available, and gpu can be enabled later
 import numpy as np
-from ai.tech_stack.qdrant import retrieve_single_from_qdrant, retrieve_all_from_qdrant
+from ai.tech_stack.qdrant import retrieve_single_from_qdrant, retrieve_all_from_qdrant, VIDEO_COLLECTION_NAME
 
 print("MAKE SURE YOU ARE READING THE EMBEDDINGS CORRECTLY AND NOT RANDOM FAKE DATA")
 print('GIVE THE VIDEO EMBEDDINGS AND QUERY EMBEDDINGS AS FIRST AND SECOND COMMAND LINE ARGUMENTS')
@@ -19,7 +19,7 @@ print('GIVE THE VIDEO EMBEDDINGS AND QUERY EMBEDDINGS AS FIRST AND SECOND COMMAN
 #qembed = np.array(eval(qembed))
 ####
 
-video_embeddings = retrieve_all_from_qdrant() # retrieve all video embeddings from qdrant
+video_embeddings = retrieve_all_from_qdrant(VIDEO_COLLECTION_NAME) # retrieve all video embeddings from qdrant
 
 def detect_similar_videos(qembed, vidembed=video_embeddings, k=5):
     #since we are going to use l2distance for similarity, the input needs to be l2 normalized
@@ -59,6 +59,3 @@ def detect_similar_videos(qembed, vidembed=video_embeddings, k=5):
     print(f"No of flagged pairs: {len(flagged_pairs)}")
 
     return flagged_pairs
-
-qembed = retrieve_single_from_qdrant(9274612216458326251)
-detect_similar_videos(qembed) # run the bot content detection
