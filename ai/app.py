@@ -2,7 +2,7 @@
 from flask import Flask, jsonify, render_template, request
 import pandas as pd
 
-from bot_detection.bot_user import aggregate_per_user, bot_probabilities
+from ai.bot_detection.main import aggregate_per_user, bot_probabilities
 from ai.cluster_videos.main import cluster_videos_into_category
 from ai.categorize_video.main import categorize_video_into_3_categories
 

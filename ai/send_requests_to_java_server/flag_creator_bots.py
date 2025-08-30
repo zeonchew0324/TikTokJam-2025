@@ -1,6 +1,6 @@
 import requests
 
-def handle_flagged_content(video_id, similarity_score):
+def flag_creator_bots(video_id, similarity_score):
     api_endpoint = "https://your-api-endpoint.com/api/video/receive-creator-bots"
     
     params = {

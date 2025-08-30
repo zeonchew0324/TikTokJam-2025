@@ -4,7 +4,7 @@ from ai.tech_stack.aws import upload_to_s3
 from ai.tech_stack.twelve_labs import create_video_embedding
 from ai.tech_stack.qdrant import store_video_in_qdrant
 from ai.bot_content_detection.main import detect_similar_videos
-from ai.bot_content_detection.handle_flagged_content import handle_flagged_content
+from ai.send_requests_to_java_server.flag_creator_bots import flag_creator_bots
 
 # Get a list of video files
 video_dir = "ai/video_content"
@@ -29,7 +29,7 @@ def embed_single_video(video_id, s3_url):
         # Handle flagged content (i.e., notify via API)
         similarity_score = round(float(similar_videos[0][2]) * 100, 2)
         print(f"Similarity score: {similarity_score}, Type: {type(similarity_score)}")
-        handle_flagged_content(video_id)
+        flag_creator_bots(video_id, similarity_score)
         
         print(f"Video {video_id} flagged as potential bot-generated content due to similarity with existing videos.")
         
@@ -63,7 +63,7 @@ def embed_videos(video_ids_and_urls):
                 # Handle flagged content (i.e., notify via API)
                 similarity_score = round(float(similar_videos[0][2]) * 100, 2)
                 print(f"Similarity score: {similarity_score}, Type: {type(similarity_score)}")
-                handle_flagged_content(video_id, similarity_score)
+                flag_creator_bots(video_id, similarity_score)
         
                 print(f"Video {video_id} flagged as potential bot-generated content due to similarity with existing videos.")
         except Exception as e:

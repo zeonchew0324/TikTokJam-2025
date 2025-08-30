@@ -258,7 +258,7 @@ if __name__ == "__main__":
         print(f"\nTesting with: {s3_url}")
         
         print("Scoring video...")
-        result = score_video_normalized(s3_url, PROMPT)
+        result = score_video_normalized(s3_url)
         print(result)
 
     except Exception as e:
