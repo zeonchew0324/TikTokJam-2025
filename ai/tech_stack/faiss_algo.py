@@ -12,8 +12,9 @@ Then it will return an array of centroids.
 
 
 
-
 import faiss                   # make faiss available, and gpu can be enabled later
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 from sklearn.decomposition import PCA
 from ai.tech_stack.qdrant import retrieve_single_from_qdrant, retrieve_all_from_qdrant
@@ -117,6 +118,38 @@ def pca_projection(vects, n_components=3):
     return projmatrix
     
 
+def visualize_embeddings_centroids_pca(vidembed, centroids):
+    '''
+    Visualize the 3D PCA Projection of the video embeddings and centroid vectors with matplotlib
+    Args:
+    vidembed : np.ndarray with shape (nb, 2048) containing video embedding vectors
+    centroids : np.ndarray with shape (ncentroids, 2048) containing centroid vectors
+    '''
+
+    allembed = np.concatenate([vidembed, centroids], axis=0)
+    allproj = pca_projection(allembed, n_components=3)
+
+    #split back (to plot differently)
+    vidproj = allproj[:len(vidembed)]
+    centproj = allproj[len(vidembed):]
+    print("vidproj shape:", vidproj.shape)
+    print("centproj shape:", centproj.shape)
+    # Assume vidproj (vidembed.shape[0], 3) and centproj (ncentroids, 3)
+    fig = plt.figure(figsize=(10, 8))
+    ax = fig.add_subplot(111, projection='3d')  # Create 3D axes
+
+    ax.scatter(vidproj[:, 0], vidproj[:, 1], vidproj[:, 2], c='b', marker='o', label='Video Embeddings', alpha=0.5)
+    ax.scatter(centproj[:, 0], centproj[:, 1], centproj[:, 2], c='r', marker='^', s=100, label='Centroids')
+
+    ax.set_xlabel('PCA 1')
+    ax.set_ylabel('PCA 2')
+    ax.set_zlabel('PCA 3')
+    
+    plt.title('3D PCA Projection of Video Embeddings and Centroids')
+    ax.legend()
+    plt.show()
+    #return the plot object to be used in frontend
+    return fig
 
 if __name__ == "__main__":
     VIDEO_COLLECTION_NAME = "video_embeddings"
@@ -150,3 +183,5 @@ if __name__ == "__main__":
 
     print(pca_proj)
     print("PCA projection completed.")
+    print("Visualizing embeddings and centroids in 3D PCA projection...")
+    print(visualize_embeddings_centroids_pca(vidembed, centroids))
