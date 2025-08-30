@@ -1,0 +1,214 @@
+{
+    "video_metadata": {
+        "id": 7478773217700744470,
+        "time_created": "2025-03-07T02:59:46",
+        "author_id": 7342295569560241184,
+        "description": "De jumbling game #funnylastborn #foodchallenge #jumbling #papaifeanyi #broda2muchtalk0 #tiktok_india #broda2muchtalk0 #usa🇺🇸 #burnaboy #wizkid #davido #india ",
+        "hashtags": [
+            "funnylastborn",
+            "foodchallenge",
+            "jumbling",
+            "papaifeanyi",
+            "broda2muchtalk0",
+            "tiktok_india",
+            "broda2muchtalk0",
+            "usa🇺🇸",
+            "burnaboy",
+            "wizkid",
+            "davido",
+            "india"
+        ],
+        "mentions": null,
+        "music_id": 7478773244464532246,
+        "schedule_time": 0,
+        "location_created": "NG",
+        "is_ad": false,
+        "suggested_words": [
+            "funny last born",
+            "Food challenge",
+            "food cooking",
+            "Funny Videos"
+        ],
+        "diggcount": 5269,
+        "sharecount": 224,
+        "commentcount": 262,
+        "playcount": 533600,
+        "collectcount": 330,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Scripted Comedy",
+            "Comedy",
+            "Performance"
+        ],
+        "diversification_id": 10000,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7478773217700744470,
+        "filepath": "test_folder/tiktok_7478773217700744470_*",
+        "duration": 24,
+        "height": 852,
+        "width": 480,
+        "ratio": 480,
+        "volume_loudness": -10.3,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7478773244464532246,
+        "title": "original sound",
+        "author_name": "funnylastborn",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 24.137,
+            "preciseShootDuration": 24.137,
+            "preciseAuditionDuration": 24.137,
+            "preciseVideoDuration": 24.137
+        }
+    },
+    "author_metadata": {
+        "id": 7342295569560241184,
+        "username": "funny_lastborn",
+        "name": "funnylastborn",
+        "signature": "Welcome  am Lastborn AKA FunnyLastborn subscriber to my YouTube channel",
+        "create_time": 1709513490,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "funnylastborn",
+            "id": 7035585600833421317,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foodchallenge",
+            "id": 121807,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "jumbling",
+            "id": 37451638,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "papaifeanyi",
+            "id": 1652713692070918,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "broda2muchtalk0",
+            "id": 7444479709435396128,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "tiktok_india",
+            "id": 1583257167130638,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Describe your #challenge cutenesss"
+        },
+        {
+            "name": "broda2muchtalk0",
+            "id": 7444479709435396128,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "usa🇺🇸",
+            "id": 1592388850236422,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "burnaboy",
+            "id": 12385,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "wizkid",
+            "id": 2132,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "davido",
+            "id": 7327,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "india",
+            "id": 14116,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Hi India!!!😘😘😘"
+        }
+    ]
+}

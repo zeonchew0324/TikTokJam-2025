@@ -1,0 +1,218 @@
+{
+    "video_metadata": {
+        "id": 7513930734860619016,
+        "time_created": "2025-06-09T20:48:54",
+        "author_id": 7424776555661378578,
+        "description": "Pizza delivery 🥴 - - - - - - - - - - - - #fyp #clips #young #family #chef #food #food #viral #recommendations #anime #animation #funny ",
+        "hashtags": [
+            "fyp",
+            "clips",
+            "young",
+            "family",
+            "chef",
+            "food",
+            "food",
+            "viral",
+            "recommendations",
+            "anime",
+            "animation",
+            "funny"
+        ],
+        "mentions": null,
+        "music_id": 7513930769937582849,
+        "schedule_time": 0,
+        "location_created": "PH",
+        "is_ad": false,
+        "suggested_words": [
+            "pizza delivery",
+            "nobodys perfect",
+            "pizza",
+            "Animation",
+            "pizza delivery guy",
+            "Pizza Delivery Part 2",
+            "Work at a pizza place",
+            "Cheese Pizza",
+            "Kostos art"
+        ],
+        "diggcount": 82100,
+        "sharecount": 2101,
+        "commentcount": 1295,
+        "playcount": 2200000,
+        "collectcount": 24221,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Comedy",
+            "Performance"
+        ],
+        "diversification_id": 10003,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7513930734860619016,
+        "filepath": "test_folder/tiktok_7513930734860619016_*",
+        "duration": 13,
+        "height": 724,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -15.5,
+        "volume_peak": 0.73282,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7513930769937582849,
+        "title": "original sound - zaks",
+        "author_name": "zaks",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 13.270188,
+            "preciseShootDuration": 13.270188,
+            "preciseAuditionDuration": 13.270188,
+            "preciseVideoDuration": 13.270188
+        }
+    },
+    "author_metadata": {
+        "id": 7424776555661378578,
+        "username": "zaks_910",
+        "name": "zaks",
+        "signature": "FOLLOW FOR MORE VIDEOS...",
+        "create_time": 1728715684,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "fyp",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "clips",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "young",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "family",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "chef",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "food",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "food",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "viral",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "recommendations",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "anime",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "animation",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "funny",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "video_metadata": {
+        "id": 7402375932108983583,
+        "time_created": "2024-08-13T05:59:31",
+        "author_id": 6691682515508020229,
+        "description": "He’s hungry for the answer. #SausageParty #Foodtopia #SethRogen #KristenWiig #PrimeVideo #FoodtopiaPV ",
+        "hashtags": [
+            "sausageparty",
+            "foodtopia",
+            "sethrogen",
+            "kristenwiig",
+            "primevideo",
+            "foodtopiapv"
+        ],
+        "mentions": null,
+        "music_id": 7402375905584220958,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "Food Videos",
+            "foodtopia kiss indo",
+            "Foods"
+        ],
+        "diggcount": 8391,
+        "sharecount": 498,
+        "commentcount": 600,
+        "playcount": 1200000,
+        "collectcount": 740,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Comics & Cartoon, Anime",
+            "Anime & Comics",
+            "Entertainment"
+        ],
+        "diversification_id": 10052,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7402375932108983583,
+        "filepath": "test_folder/tiktok_7402375932108983583_*",
+        "duration": 51,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -23.7,
+        "volume_peak": 0.35892,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7402375905584220958,
+        "title": "original sound",
+        "author_name": "Prime Video",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 51.67019,
+            "preciseShootDuration": 51.67019,
+            "preciseAuditionDuration": 51.67019,
+            "preciseVideoDuration": 51.67019
+        }
+    },
+    "author_metadata": {
+        "id": 6691682515508020229,
+        "username": "primevideo",
+        "name": "Prime Video",
+        "signature": "Next stop: The Map That Leads to You",
+        "create_time": 1558029132,
+        "verified": true,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "sausageparty",
+            "id": 8706843,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foodtopia",
+            "id": 1619240665472005,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "sethrogen",
+            "id": 218148,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "kristenwiig",
+            "id": 2712155,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "primevideo",
+            "id": 12305013,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foodtopiapv",
+            "id": 7390383821075513390,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

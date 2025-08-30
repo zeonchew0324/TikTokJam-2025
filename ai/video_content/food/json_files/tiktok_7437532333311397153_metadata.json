@@ -1,0 +1,139 @@
+{
+    "video_metadata": {
+        "id": 7437532333311397153,
+        "time_created": "2024-11-17T01:05:00",
+        "author_id": 6680887403933631493,
+        "description": "This customer won a discounted price on her meal after pulling off what can only be described as an extraordinary cheese pull. Jenny Flor Cagulang from the Phillippines stretched her cheesy dish to an impressive 3.6 feet (100cm). #phillipines #travel #cheesepull #foodtok #foodies #winner #challenge",
+        "hashtags": [
+            "phillipines",
+            "foodtok",
+            "foodies"
+        ],
+        "mentions": null,
+        "music_id": 7260946369865681690,
+        "schedule_time": 0,
+        "location_created": "GB",
+        "is_ad": false,
+        "suggested_words": [
+            "cheese pull",
+            "Cheese",
+            "Foodtok",
+            "Food mukbang",
+            "cheese pull mukbang",
+            "Food challenge",
+            "10 yen cheese pull",
+            "cheese mukbangs",
+            "food fyp",
+            "best cheese pull"
+        ],
+        "diggcount": 388000,
+        "sharecount": 3847,
+        "commentcount": 1930,
+        "playcount": 27300000,
+        "collectcount": 15819,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Non-Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10057,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7437532333311397153,
+        "filepath": "test_folder/tiktok_7437532333311397153_*",
+        "duration": 16,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -23.2,
+        "volume_peak": 0.29512,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7260946369865681690,
+        "title": "original sound",
+        "author_name": "idkminkeyidkminke",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 49.76325,
+            "preciseShootDuration": 49.76325,
+            "preciseAuditionDuration": 49.76325,
+            "preciseVideoDuration": 49.76325
+        }
+    },
+    "author_metadata": {
+        "id": 6680887403933631493,
+        "username": "metrouk",
+        "name": "Metro",
+        "signature": "We give the people what they want",
+        "create_time": 1555515484,
+        "verified": true,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "phillipines",
+            "id": 769008,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foodtok",
+            "id": 1617319982244870,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Perfect recipes, incredible restaurants, and delicious food. Welcome to #FoodTok."
+        },
+        {
+            "name": "foodies",
+            "id": 229998,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Shout-out to all #Foodies! The only thing better than talking about food is eating it."
+        }
+    ]
+}

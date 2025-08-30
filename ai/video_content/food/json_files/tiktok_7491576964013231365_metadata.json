@@ -1,0 +1,174 @@
+{
+    "video_metadata": {
+        "id": 7491576964013231365,
+        "time_created": "2025-04-10T15:04:54",
+        "author_id": 7186183235520054298,
+        "description": "bring your plate, the soup is here 😋 #grandma #fypシ゚viral #fypシ゚vir #dancing #trendingsong #loveyou #soup ",
+        "hashtags": [
+            "grandma",
+            "fypシ゚viral",
+            "fypシ゚vir",
+            "dancing",
+            "trendingsong",
+            "loveyou",
+            "soup"
+        ],
+        "mentions": null,
+        "music_id": 7491576963124955909,
+        "schedule_time": 0,
+        "location_created": "NG",
+        "is_ad": false,
+        "suggested_words": [
+            "SOUP",
+            "grandma"
+        ],
+        "diggcount": 2913,
+        "sharecount": 41,
+        "commentcount": 142,
+        "playcount": 207900,
+        "collectcount": 281,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "my Melon soup with bitter leaf is ready "
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Cooking",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10040,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7491576964013231365,
+        "filepath": "test_folder/tiktok_7491576964013231365_*",
+        "duration": 25,
+        "height": 854,
+        "width": 480,
+        "ratio": 480,
+        "volume_loudness": -24.5,
+        "volume_peak": 0.5821,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7491576963124955909,
+        "title": "original sound",
+        "author_name": "Dancerzaram (ATF)",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 25.364876,
+            "preciseShootDuration": 25.364876,
+            "preciseAuditionDuration": 25.364876,
+            "preciseVideoDuration": 25.364876
+        }
+    },
+    "author_metadata": {
+        "id": 7186183235520054298,
+        "username": "dancerzaram1",
+        "name": "Dancerzaram (ATF)",
+        "signature": "My name is Dancer zaram, I am from Anambra state",
+        "create_time": 1673689015,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "grandma",
+            "id": 6836,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fypシ゚viral",
+            "id": 1664119477821441,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fypシ゚vir",
+            "id": 1674568054169602,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "dancing",
+            "id": 5867,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trendingsong",
+            "id": 379407,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "loveyou",
+            "id": 6244,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "soup",
+            "id": 9608,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "It's officially soup season. Show us your favourite good soup recipes 🥣"
+        }
+    ]
+}

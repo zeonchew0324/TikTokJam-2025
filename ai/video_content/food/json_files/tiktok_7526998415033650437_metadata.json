@@ -1,0 +1,182 @@
+{
+    "video_metadata": {
+        "id": 7526998415033650437,
+        "time_created": "2025-07-15T01:58:12",
+        "author_id": 7380470968249091077,
+        "description": "when i’m eating my food but then i realize… | also what do we think about the warp chroma when looping ? | #charlesleclerc #cl16 #charlesleclercedit #ferrarif1 #f1 #f1edit #formula1 #fyp ",
+        "hashtags": [
+            "charlesleclerc",
+            "cl16",
+            "charlesleclercedit",
+            "ferrarif1",
+            "f1",
+            "f1edit",
+            "formula1",
+            "fyp"
+        ],
+        "mentions": null,
+        "music_id": 7526998416199846662,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "CHARLES LECLERC",
+            "Charles Leclerc edits",
+            "Eating Food",
+            "my food",
+            "leclerc brothers",
+            "My food type",
+            "When I'm Eating And Then I Remember Trend",
+            "when im eating and then i remember"
+        ],
+        "diggcount": 156100,
+        "sharecount": 15700,
+        "commentcount": 715,
+        "playcount": 1900000,
+        "collectcount": 26854,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Extreme Sports",
+            "Sports",
+            "Sport & Outdoor"
+        ],
+        "diversification_id": 10058,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7526998415033650437,
+        "filepath": "test_folder/tiktok_7526998415033650437_*",
+        "duration": 18,
+        "height": 576,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -31.1,
+        "volume_peak": 0.13646,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7526998416199846662,
+        "title": "original sound",
+        "author_name": "ace¹⁶",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 18.050564,
+            "preciseShootDuration": 18.050564,
+            "preciseAuditionDuration": 18.050564,
+            "preciseVideoDuration": 18.050564
+        }
+    },
+    "author_metadata": {
+        "id": 7380470968249091077,
+        "username": "lecl_rc",
+        "name": "ace¹⁶",
+        "signature": "sixteen\nyour fav charles editor\nI DON'T EDIT ON AE!!!! (or do i 😏)",
+        "create_time": 1718399954,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "charlesleclerc",
+            "id": 1623390026868742,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "cl16",
+            "id": 22388750,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "charlesleclercedit",
+            "id": 1658446389194758,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "ferrarif1",
+            "id": 1644037426111509,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "f1",
+            "id": 16520,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "22 races, 20 drivers, 10 teams. Welcome to the world's most prestigious motor racing competition – Formula 1. Use #F1 to join the action."
+        },
+        {
+            "name": "f1edit",
+            "id": 1663809661248514,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "formula1",
+            "id": 402512,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}
