@@ -21,10 +21,14 @@ where $k=0$ represents current month view statistics.
 
 We shall define $WatchTimeRatio$ as follow:
 
-$$WatchTimeRatio = \frac{WatchTime}{views \times VideoLength}$$
+$$WatchTimeRatio = \frac{WatchTime}{Views \times VideoLength}$$
 
 This gives a more insightful statistic related to $WatchTime$, as $WatchTimeRatio$ measures the 
 viewer's retention on a particular video.
+
+Another important metric, $CommentRatio$ measures
+$$CommentRatio = \frac{Comments}{Likes}$$
+to gauge the viewers' engagement via comments and mitigate the influence of inauthentic likes.
 
 Every video is evaluated quantitatively with an engagement score based on a few metrics.
 
