@@ -66,28 +66,24 @@ def run_bot_user_check():
     user_features = aggregate_per_user(df)
 
     # Get bot probabilities
-    results = bot_probabilities(user_features)
+    results_df = bot_probabilities(user_features)
 
-    # Return as JSON
-    return jsonify(results.to_dict(orient="records"))
+    # Split user_id, metadata, and probability
+    response_list = []
+    for _, row in results_df.iterrows():
+        user_id = row["user_id"]
+        prob = row["bot_probability"]
 
-@app.route('/admin/categorize-video', methods=['POST'])
-def categorize_video():
-    """
-    CATEGORIZE A VIDEO
-    EXPECTS: JSON payload with 'video_url': str
-    """
-    data = request.get_json()
+        # Metadata: all other columns except user_id & bot_probability
+        metadata = row.drop(labels=["user_id", "bot_probability"]).to_dict()
 
-    if not data or "point_id" not in data:
-        return jsonify({"error": "Missing 'point_id' in request body"}), 400
+        response_list.append({
+            "user_id": user_id,
+            "metadata": metadata,
+            "bot_probability": prob
+        })
 
-    point_id = data["point_id"]
-
-    try:
-        return jsonify({"status": "success", "message": f"Video at {point_id} has been processed."})
-    except Exception as e:
-        return jsonify({"status": "error", "message": str(e)}), 500
+    return jsonify(response_list)
 
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development
