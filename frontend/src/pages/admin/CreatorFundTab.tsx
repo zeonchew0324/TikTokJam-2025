@@ -10,20 +10,39 @@ export function CreatorFundTab() {
     mockApiService.getVideoCategories().then(setCategories)
   }, [])
 
+  // Retrieve value from backend
+  // EXPECT: total fund 
+  // useEffect(() => {
+  //   fetch("/api/getValue") // adjust endpoint
+  //     .then((res) => res.json())
+  //     .then((data) => setAmount(data.value)) 
+  //     .catch((err) => console.error(err));
+  // }, []);
+
+  //Retrieve categories and popularity 
+  // EXPECT: category name, popularity percentage
+  // useEffect(() => {
+  //   fetch("/api/video-categories") // adjust endpoint
+  //     .then((res) => res.json())
+  //     .then((data: Category[]) => {
+  //       setCategories(data)
+  //     })
+  //     .catch((err) => {
+  //       console.error("Failed to load categories:", err)
+  //     })
+  // }, []);
+
   const total = useMemo(() => Number(amount || 0), [amount])
 
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '360px 1fr', gap: 16, color: '#fff', fontFamily: 'sans-serif', padding: 20, background: '#000' }}>
       <div>
-        <div style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>Fund Allocation Controls</div>
+        <div style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>Fund Allocation </div>
         <div style={{ background: '#121212', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 12, padding: 12 }}>
           <label style={{ display: 'block', color: 'rgba(255,255,255,0.8)', marginBottom: 8 }}>
             Total Fund Amount ($)
           </label>
-          <input
-            value={amount}
-            onChange={e => setAmount(e.target.value)}
-            placeholder="100000"
+          <div
             style={{
               width: '100%',
               padding: '8px 10px',
@@ -33,20 +52,7 @@ export function CreatorFundTab() {
               color: '#fff',
               boxSizing: 'border-box'  // Add this line
             }}
-          />
-          <div style={{ marginTop: 12, display: 'flex', gap: 8 }}>
-            <button
-              onClick={() => setAmount('100000')}
-              style={{ padding: '8px 12px', borderRadius: 8, border: '1px solid rgba(255,255,255,0.2)', background: 'transparent', color: '#fff', cursor: 'pointer' }}
-            >
-              Quick: 100k
-            </button>
-            <button
-              onClick={() => setAmount('250000')}
-              style={{ padding: '8px 12px', borderRadius: 8, border: '1px solid rgba(255,255,255,0.2)', background: 'transparent', color: '#fff', cursor: 'pointer' }}
-            >
-              Quick: 250k
-            </button>
+          > { amount || "Loading..." }
           </div>
         </div>
       </div>
