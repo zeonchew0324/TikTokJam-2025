@@ -1,25 +1,36 @@
 {
     "video_metadata": {
-        "id": 7524676327295749384,
-        "time_created": "2025-07-08T19:47:15",
-        "author_id": 7015422992856908805,
-        "description": "spicy food#asmr spicy🌶🌶 food eating #asmr eating #eatingfyp ",
+        "id": 7542505173940260103,
+        "time_created": "2025-08-25T20:52:19",
+        "author_id": 7422538347636114433,
+        "description": "#eat #food #mukbang ",
         "hashtags": [
-            "asmr",
-            "asmr",
-            "eatingfyp"
+            "eat",
+            "food",
+            "mukbang"
         ],
         "mentions": null,
-        "music_id": 6684790151849183233,
+        "music_id": 7542505210334235408,
         "schedule_time": 0,
-        "location_created": "PK",
+        "location_created": "KR",
         "is_ad": false,
-        "suggested_words": [],
-        "diggcount": 129,
-        "sharecount": 3,
-        "commentcount": 10,
-        "playcount": 9737,
-        "collectcount": 9,
+        "suggested_words": [
+            "food eat mukbang",
+            "Mukbang Food",
+            "eat mukbang",
+            "eat food videos mukbang",
+            "food eating video",
+            "eat",
+            "Mukbang Makanan Pedas",
+            "mukbang kepala sapi",
+            "mukbang spicy foods",
+            "mukbang kepala kambing full"
+        ],
+        "diggcount": 68400,
+        "sharecount": 1900,
+        "commentcount": 691,
+        "playcount": 1900000,
+        "collectcount": 3517,
         "repostcount": 0,
         "warn_info": [],
         "original_item": false,
@@ -52,43 +63,43 @@
         "ai_gc_description": null
     },
     "file_metadata": {
-        "id": 7524676327295749384,
-        "filepath": "test_folder/tiktok_7524676327295749384_*",
-        "duration": 110,
-        "height": 1024,
-        "width": 576,
-        "ratio": 540,
-        "volume_loudness": -10.9,
+        "id": 7542505173940260103,
+        "filepath": "test_folder/tiktok_7542505173940260103_*",
+        "duration": 171,
+        "height": 1280,
+        "width": 720,
+        "ratio": 720,
+        "volume_loudness": -19.4,
         "volume_peak": 1,
         "has_original_audio": true,
         "enable_audio_caption": true,
-        "no_caption_reason": 3,
+        "no_caption_reason": null,
         "is_slide": false
     },
     "music_metadata": {
-        "id": 6684790151849183233,
-        "title": "MIC Drop (Steve Aoki Remix) [Full Length Edition]",
-        "author_name": "BTS",
-        "original": false,
+        "id": 7542505210334235408,
+        "title": "原声 - Food",
+        "author_name": "Food",
+        "original": true,
         "schedule_search_time": 0,
         "collected": false,
         "precise_duration": {
-            "preciseDuration": 60,
-            "preciseShootDuration": 60,
-            "preciseAuditionDuration": 60,
-            "preciseVideoDuration": 60
+            "preciseDuration": 171.4155,
+            "preciseShootDuration": 171.4155,
+            "preciseAuditionDuration": 171.4155,
+            "preciseVideoDuration": 171.4155
         }
     },
     "author_metadata": {
-        "id": 7015422992856908805,
-        "username": "asmrbliss0",
-        "name": "AHSANG 🌈🩵☁",
-        "signature": "",
-        "create_time": 1643262880,
+        "id": 7422538347636114433,
+        "username": "seabinoo7",
+        "name": "Food",
+        "signature": "Share more food\nThank you for your Attention \n        사랑해요❤️❤️❤️",
+        "create_time": 1728194619,
         "verified": false,
         "ftc": false,
         "relation": 0,
-        "open_favorite": true,
+        "open_favorite": false,
         "comment_setting": 0,
         "duet_setting": 0,
         "stitch_setting": 0,
@@ -101,28 +112,28 @@
     },
     "hashtags_metadata": [
         {
-            "name": "asmr",
-            "id": 1248236,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
-        },
-        {
-            "name": "asmr",
-            "id": 1248236,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
-        },
-        {
-            "name": "eatingfyp",
-            "id": 1669605020722182,
+            "name": "eat",
+            "id": 15069,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
             "description": ""
+        },
+        {
+            "name": "food",
+            "id": 5718,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mukbang",
+            "id": 5600217,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "나는 먹는다. 고로 존재한다\nI eat, therefore I am"
         }
     ]
 }

@@ -1,38 +1,38 @@
 {
     "video_metadata": {
-        "id": 7540477425814179079,
-        "time_created": "2025-08-20T09:43:39",
-        "author_id": 7203364177024238619,
-        "description": "#spicynoodles #spicyfood #asmr #spicychicken #mukbang ",
+        "id": 7543564075293248823,
+        "time_created": "2025-08-28T17:23:26",
+        "author_id": 7540724737677198391,
+        "description": "SPICY KOREAN NOODLES | MUKBANG ASMR EATING | #shorts #food #mukbang #eating #asmreating  ",
         "hashtags": [
-            "spicynoodles",
-            "spicyfood",
-            "asmr",
-            "spicychicken",
-            "mukbang"
+            "shorts",
+            "food",
+            "mukbang",
+            "eating",
+            "asmreating"
         ],
         "mentions": null,
-        "music_id": 7540477467186694929,
+        "music_id": 7543564476759526199,
         "schedule_time": 0,
-        "location_created": "ID",
+        "location_created": "US",
         "is_ad": false,
         "suggested_words": [
-            "mukbang ",
-            "mukbang spicy foods",
-            "Mukbang Food",
-            "Mukbang asmr",
-            "Mukbang Food ASMR",
-            "spicy food",
-            "Spicy Mukbang",
-            "Spicy Noodles",
-            "ASMR Food",
-            "Mukbang Asmr Spicy Noodle"
+            "Mukbang ASMR Eating",
+            "People Eating Spicy Noodles",
+            "food eating videos",
+            "korean noodles eating mukbang",
+            "eating spicy korean noodles mukbang",
+            "mukbang food eating",
+            "eating spicy food",
+            "eating noodles mukbang",
+            "mukbang eating asmr korean spicy noodles",
+            "Spicy Food Mukbang"
         ],
-        "diggcount": 47200,
-        "sharecount": 5016,
-        "commentcount": 2001,
-        "playcount": 1500000,
-        "collectcount": 4188,
+        "diggcount": 1489,
+        "sharecount": 58,
+        "commentcount": 101,
+        "playcount": 112000,
+        "collectcount": 187,
         "repostcount": 0,
         "warn_info": [],
         "original_item": false,
@@ -65,39 +65,39 @@
         "ai_gc_description": null
     },
     "file_metadata": {
-        "id": 7540477425814179079,
-        "filepath": "test_folder/tiktok_7540477425814179079_*",
-        "duration": 102,
-        "height": 1024,
+        "id": 7543564075293248823,
+        "filepath": "test_folder/tiktok_7543564075293248823_*",
+        "duration": 53,
+        "height": 768,
         "width": 576,
         "ratio": 540,
-        "volume_loudness": -30.2,
-        "volume_peak": 0.69984,
+        "volume_loudness": -12.8,
+        "volume_peak": 1,
         "has_original_audio": true,
         "enable_audio_caption": true,
-        "no_caption_reason": null,
+        "no_caption_reason": 3,
         "is_slide": false
     },
     "music_metadata": {
-        "id": 7540477467186694929,
-        "title": "suara asli - whizky mukbang",
-        "author_name": "whizky mukbang",
+        "id": 7543564476759526199,
+        "title": "original sound",
+        "author_name": "Food Time !!",
         "original": true,
         "schedule_search_time": 0,
         "collected": false,
         "precise_duration": {
-            "preciseDuration": 102.03425,
-            "preciseShootDuration": 102.03425,
-            "preciseAuditionDuration": 102.03425,
-            "preciseVideoDuration": 102.03425
+            "preciseDuration": 53.472626,
+            "preciseShootDuration": 53.472626,
+            "preciseAuditionDuration": 53.472626,
+            "preciseVideoDuration": 53.472626
         }
     },
     "author_metadata": {
-        "id": 7203364177024238619,
-        "username": "princewhizky",
-        "name": "whizky mukbang",
-        "signature": "Mau jajanan murah dan enak😋😋?\nscroll aja keranjang di bawah\n👇👇",
-        "create_time": 1677164008,
+        "id": 7540724737677198391,
+        "username": "food_time37",
+        "name": "Food Time !!",
+        "signature": "Video of eating, cooking in the world is on my account !!",
+        "create_time": 1755711819,
         "verified": false,
         "ftc": false,
         "relation": 0,
@@ -114,32 +114,16 @@
     },
     "hashtags_metadata": [
         {
-            "name": "spicynoodles",
-            "id": 8357018,
+            "name": "shorts",
+            "id": 15667,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
             "description": ""
         },
         {
-            "name": "spicyfood",
-            "id": 4144632,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "asmr",
-            "id": 1248236,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
-        },
-        {
-            "name": "spicychicken",
-            "id": 2485056,
+            "name": "food",
+            "id": 5718,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
@@ -152,6 +136,22 @@
             "sub_type": 0,
             "is_commerce": false,
             "description": "나는 먹는다. 고로 존재한다\nI eat, therefore I am"
+        },
+        {
+            "name": "eating",
+            "id": 10367,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "asmreating",
+            "id": 26321930,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
         }
     ]
 }

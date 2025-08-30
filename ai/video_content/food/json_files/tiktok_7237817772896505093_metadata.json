@@ -1,42 +1,33 @@
 {
     "video_metadata": {
-        "id": 7519689047476849938,
-        "time_created": "2025-06-25T09:14:07",
-        "author_id": 7314916294272582664,
-        "description": "Mukbang asmr eat with boki fried chicken cheese sticks #asmr #mukbang #eating #food #eatwithboki #bokimukbang #friedchicken #chicken #cheese ",
+        "id": 7237817772896505093,
+        "time_created": "2023-05-27T19:09:33",
+        "author_id": 6814494772582892546,
+        "description": "Mukbang spicy seafood (Yt:Bonggil) #bonggil #mukbangkorea #mukbangseafood #spicyseafood #mukbangeatingshow #koreanfood #mukbangvideo #fyp #mukbang #asmr #bonggil_asmr ",
         "hashtags": [
-            "asmr",
+            "bonggil",
+            "mukbangkorea",
+            "mukbangseafood",
+            "spicyseafood",
+            "mukbangeatingshow",
+            "koreanfood",
+            "mukbangvideo",
+            "fyp",
             "mukbang",
-            "eating",
-            "food",
-            "eatwithboki",
-            "bokimukbang",
-            "friedchicken",
-            "chicken",
-            "cheese"
+            "asmr",
+            "bonggil_asmr"
         ],
         "mentions": null,
-        "music_id": 7314369902348224513,
+        "music_id": 7216244997174249473,
         "schedule_time": 0,
-        "location_created": "VN",
+        "location_created": "ID",
         "is_ad": false,
-        "suggested_words": [
-            "boki mukbang",
-            "mukbang Asmr",
-            "chicken mukbang",
-            "Eat With Boki Mukbang",
-            "eating with boki fried chicken",
-            "Asmr food",
-            "mukbang eating food",
-            "Asmr Food Eating",
-            "Fried Chicken Mukbang",
-            "boki mukbang fried chicken"
-        ],
-        "diggcount": 204300,
-        "sharecount": 27900,
-        "commentcount": 1381,
-        "playcount": 4200000,
-        "collectcount": 10184,
+        "suggested_words": [],
+        "diggcount": 471500,
+        "sharecount": 15100,
+        "commentcount": 8003,
+        "playcount": 17400000,
+        "collectcount": 34205,
         "repostcount": 0,
         "warn_info": [],
         "original_item": false,
@@ -49,7 +40,7 @@
         "effect_stickers": null,
         "private_item": false,
         "duet_enabled": true,
-        "stitch_enabled": true,
+        "stitch_enabled": false,
         "stickers_on_item": null,
         "share_enabled": true,
         "comments": null,
@@ -69,39 +60,39 @@
         "ai_gc_description": null
     },
     "file_metadata": {
-        "id": 7519689047476849938,
-        "filepath": "test_folder/tiktok_7519689047476849938_*",
-        "duration": 123,
+        "id": 7237817772896505093,
+        "filepath": "test_folder/tiktok_7237817772896505093_*",
+        "duration": 325,
         "height": 576,
-        "width": 860,
+        "width": 576,
         "ratio": 540,
-        "volume_loudness": -21.3,
-        "volume_peak": 0.91201,
+        "volume_loudness": -18.4,
+        "volume_peak": 1,
         "has_original_audio": true,
         "enable_audio_caption": true,
         "no_caption_reason": 3,
         "is_slide": false
     },
     "music_metadata": {
-        "id": 7314369902348224513,
-        "title": "Cute, relaxed, relaxing song(1431417)",
-        "author_name": "sanusagi",
+        "id": 7216244997174249473,
+        "title": "FLOWER",
+        "author_name": "JISOO",
         "original": false,
         "schedule_search_time": 0,
         "collected": false,
         "precise_duration": {
-            "preciseDuration": 153.857,
-            "preciseShootDuration": 153.857,
-            "preciseAuditionDuration": 153.857,
-            "preciseVideoDuration": 6000
+            "preciseDuration": 60,
+            "preciseShootDuration": 60,
+            "preciseAuditionDuration": 60,
+            "preciseVideoDuration": 60
         }
     },
     "author_metadata": {
-        "id": 7314916294272582664,
-        "username": "dailymukbang_here_",
-        "name": "Daily mukbang",
-        "signature": "✨ Delight in every bite ✨",
-        "create_time": 1703221282,
+        "id": 6814494772582892546,
+        "username": "asmrrfoodie",
+        "name": "asmrrfoodie",
+        "signature": "Gak selera makan nonton mukbang solusinya🤤",
+        "create_time": 1605616804,
         "verified": false,
         "ftc": false,
         "relation": 0,
@@ -118,12 +109,68 @@
     },
     "hashtags_metadata": [
         {
-            "name": "asmr",
-            "id": 1248236,
+            "name": "bonggil",
+            "id": 1616034753135622,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
+            "description": ""
+        },
+        {
+            "name": "mukbangkorea",
+            "id": 1619823641147394,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mukbangseafood",
+            "id": 1637453096186886,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "spicyseafood",
+            "id": 78020503,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mukbangeatingshow",
+            "id": 1635585588619265,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "koreanfood",
+            "id": 298623,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mukbangvideo",
+            "id": 72201549,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
         },
         {
             "name": "mukbang",
@@ -134,60 +181,20 @@
             "description": "나는 먹는다. 고로 존재한다\nI eat, therefore I am"
         },
         {
-            "name": "eating",
-            "id": 10367,
+            "name": "asmr",
+            "id": 1248236,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "All the soothing sounds you need to massage your brain."
+        },
+        {
+            "name": "bonggil_asmr",
+            "id": 1702646830596101,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
             "description": ""
-        },
-        {
-            "name": "food",
-            "id": 5718,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "eatwithboki",
-            "id": 1646445865745410,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "bokimukbang",
-            "id": 1668635581331458,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "friedchicken",
-            "id": 80443,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "chicken",
-            "id": 13532,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "cheese",
-            "id": 23351,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": "From satisfying cheese pulls to gourmet dishes, show us your favourite cheesy recipes 🧀"
         }
     ]
 }
