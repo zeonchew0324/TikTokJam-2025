@@ -11,6 +11,12 @@ TierTok is a proof-of-concept platform that categorizes videos into distinct cat
 
 3. **Fraud Detection Bot**: 
 
+## Algorithm
+Every video is evaluated quantitatively with an engagement score based on a few metrics.
+
+$$EngagementScore = \alpha \times log(TotalViewCount + 1) + \beta \times WatchTimeRatio + \gamma \times CommentRatio$$
+
+
 ## Getting Started With Our App
 1. Clone repository:
  <pre> git clone https://github.com/zeonchew0324/TikTokJam-2025.git </pre>
