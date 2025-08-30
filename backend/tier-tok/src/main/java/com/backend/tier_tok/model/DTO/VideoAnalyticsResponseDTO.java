@@ -34,4 +34,10 @@ public class VideoAnalyticsResponseDTO {
     private UserEntity creator;
 
     private List<PayoutDTO> payoutDTOList;
+
+    // this rank shows the video is top n %
+    private double rank;
+
+    // this shows the engagement score needed to the next tier
+    private double engagementScoreToNextTier;
 }

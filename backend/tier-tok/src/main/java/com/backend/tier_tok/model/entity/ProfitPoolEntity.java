@@ -23,6 +23,6 @@ public class ProfitPoolEntity {
 
     private double totalCategoryWeight;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<CategoryPoolEntity> categoryPoolList;
 }

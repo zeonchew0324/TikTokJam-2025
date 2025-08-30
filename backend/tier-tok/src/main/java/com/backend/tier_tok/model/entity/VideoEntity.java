@@ -16,12 +16,11 @@ import java.util.List;
 @Builder
 public class VideoEntity {
 
-    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     // the id is the point id
+    @Id
     private String id;
 
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(name = "creatorId")
     private UserEntity creator;
 
@@ -43,12 +42,12 @@ public class VideoEntity {
 
     private long commentCount;
 
+    @Column(updatable = false, nullable = false)
+    private LocalDateTime createdAt;
+
     // Top 3 category allocation for the video
     @OneToMany(mappedBy = "videoEntity", cascade = CascadeType.ALL)
     private List<PoolTier> poolTiers;
-
-    @Column(updatable = false, nullable = false)
-    private LocalDateTime createdAt;
 
     @PrePersist
     protected void onCreate() {
