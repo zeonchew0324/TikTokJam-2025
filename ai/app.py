@@ -107,5 +107,8 @@ def categorize_videos_endpoint():
 
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development
-if __name__ == '__main__':
-    app.run(debug=True)
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # Render gives $PORT
+    app.run(host="0.0.0.0", port=port)
