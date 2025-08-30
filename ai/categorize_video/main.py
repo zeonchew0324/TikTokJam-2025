@@ -15,7 +15,7 @@ def categorize_video_into_3_categories(video_id):
 
     category_embeddings_and_similarity_scores = categorize_video(video_embedding, centroid_embeddings)
     
-    total_score = sum(score for _, score in category_embeddings_and_similarity_scores)
+    total_score = sum(float(score) for _, score in category_embeddings_and_similarity_scores)
     
     if total_score == 0:
         print("Total similarity score is zero, cannot compute percentages.")
@@ -26,7 +26,7 @@ def categorize_video_into_3_categories(video_id):
     for embedding, score in category_embeddings_and_similarity_scores:
         category = retrieve_category_by_embedding(embedding)
         if category:
-            percentage = (score / total_score) * 100
+            percentage = (float(score) / total_score) * 100
             percentage = round(percentage, 2)
             print(f"Video ID {video_id} is categorized as {category} with a percentage of {percentage}.")
             result = {
@@ -36,3 +36,5 @@ def categorize_video_into_3_categories(video_id):
             results.append(result)
     
     return results
+
+categorize_video_into_3_categories("1c747767_tiktok_7522090387679268102_video.mp4")
