@@ -1,0 +1,153 @@
+{
+    "video_metadata": {
+        "id": 7541688872556678422,
+        "time_created": "2025-08-23T16:04:44",
+        "author_id": 6796357591896376325,
+        "description": "I love learning 😋 #fyp  #education  #funnytiktok  #criminalminds  #learning ",
+        "hashtags": [
+            "fyp",
+            "education",
+            "funnytiktok",
+            "criminalminds",
+            "learning"
+        ],
+        "mentions": null,
+        "music_id": 7522608186151488270,
+        "schedule_time": 0,
+        "location_created": "GB",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 1086,
+        "sharecount": 282,
+        "commentcount": 90,
+        "playcount": 10900,
+        "collectcount": 111,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "Pov:\nLearning is fun"
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Lip-sync",
+            "Lip-sync",
+            "Performance"
+        ],
+        "diversification_id": 10071,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7541688872556678422,
+        "filepath": "test_folder/tiktok_7541688872556678422_*",
+        "duration": 61,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -16.8,
+        "volume_peak": 0.5188,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7522608186151488270,
+        "title": "original sound",
+        "author_name": "Criminal Tiktok",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 61.100376,
+            "preciseShootDuration": 61.100376,
+            "preciseAuditionDuration": 61.100376,
+            "preciseVideoDuration": 61.100376
+        }
+    },
+    "author_metadata": {
+        "id": 6796357591896376325,
+        "username": "the_tiktok_baker",
+        "name": "🍩TIKTOK BAKER🍩",
+        "signature": "Baking lives @\nAymestrey Patisserie\nSAFE SPACE\nToy photography",
+        "create_time": 1582400595,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "education",
+            "id": 97277,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funnytiktok",
+            "id": 1585934800789506,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "criminalminds",
+            "id": 28144,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "learning",
+            "id": 19175,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

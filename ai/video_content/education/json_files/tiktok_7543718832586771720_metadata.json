@@ -1,0 +1,110 @@
+{
+    "video_metadata": {
+        "id": 7543718832586771720,
+        "time_created": "2025-08-29T03:21:58",
+        "author_id": 6974536020529759258,
+        "description": "",
+        "hashtags": [],
+        "mentions": null,
+        "music_id": 7467661750487583510,
+        "schedule_time": 0,
+        "location_created": "PH",
+        "is_ad": false,
+        "suggested_words": [
+            "a man can leave you one day",
+            "A man",
+            "a man a man"
+        ],
+        "diggcount": 55300,
+        "sharecount": 2424,
+        "commentcount": 43,
+        "playcount": 240100,
+        "collectcount": 4790,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "A man can leave you one day but an education, financial stability & freedom is forever your independence is your power"
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Lip-sync",
+            "Lip-sync",
+            "Performance"
+        ],
+        "diversification_id": 10071,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7543718832586771720,
+        "filepath": "test_folder/tiktok_7543718832586771720_*",
+        "duration": 13,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -14.8,
+        "volume_peak": 0.5188,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7467661750487583510,
+        "title": "original sound",
+        "author_name": "𝐀𝐄𝐂𝐙𝐑𝐕",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 28.839125,
+            "preciseShootDuration": 28.839125,
+            "preciseAuditionDuration": 28.839125,
+            "preciseVideoDuration": 28.839125
+        }
+    },
+    "author_metadata": {
+        "id": 6974536020529759258,
+        "username": "itsyour_andi",
+        "name": "ig : @karll_ea",
+        "signature": "collab 💌: andasanandrea@gmail.com\n\ntalent.inquiries@stardigitalsolutionsph.com",
+        "create_time": 1623982092,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": []
+}

@@ -1,0 +1,174 @@
+{
+    "video_metadata": {
+        "id": 7508846941736930582,
+        "time_created": "2025-05-27T04:01:12",
+        "author_id": 7283371539654231072,
+        "description": "Studying doesn’t mean only studying for school & for good grades, in this video it’s more about studying different topics & things in life, just being knowledgeable & not only studious at school. ✨ #studytok #study #studying #motivation #fyp ",
+        "hashtags": [
+            "studytok",
+            "study",
+            "studying",
+            "motivation",
+            "fyp"
+        ],
+        "mentions": null,
+        "music_id": 7300996036331522821,
+        "schedule_time": 0,
+        "location_created": "FR",
+        "is_ad": false,
+        "suggested_words": [
+            "STUDYTOK",
+            "Study motivation",
+            "studying motivation studytok",
+            "studying topics",
+            "studytok studying",
+            "studying about topics",
+            "studytok for motivation",
+            "Study Tips",
+            "reasons to study hard",
+            "study motivation toxic"
+        ],
+        "diggcount": 90600,
+        "sharecount": 2931,
+        "commentcount": 290,
+        "playcount": 498600,
+        "collectcount": 16015,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "10 reasons to study \n📚🎧🎀",
+                    "Study because you can ",
+                    "Study because education \nIs the one thing no \none can take from you ",
+                    "Study because studying \nIs a privelege some people \nCan only dream of ",
+                    "Study because \nknowledge is power ",
+                    "Study to make yourself \nProud ",
+                    "Study not because \n« You have to » but \nbecause you get to. ",
+                    "Study because let’s be\nHonest, being able to \nAnswer any question \nIs such a flex 💅",
+                    "Study to prove to yourself \nThat you can do it ",
+                    "Study because not \nEveryone gets the chance to",
+                    "Study to avoid\nHaving regrets later \nJust because you let your \nProcrastination \nRuin your potential "
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Diary & VLOG",
+            "Daily Life",
+            "Lifestyle"
+        ],
+        "diversification_id": 10014,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7508846941736930582,
+        "filepath": "test_folder/tiktok_7508846941736930582_*",
+        "duration": 32,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -17.5,
+        "volume_peak": 0.35481,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7300996036331522821,
+        "title": "suara asli - 🎧",
+        "author_name": "N",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 53.106937,
+            "preciseShootDuration": 53.106937,
+            "preciseAuditionDuration": 53.106937,
+            "preciseVideoDuration": 53.106937
+        }
+    },
+    "author_metadata": {
+        "id": 7283371539654231072,
+        "username": "skyvlogs2",
+        "name": "Sky 🎀",
+        "signature": "Your daily dose of motivation 💗\nAnime playlist on ytb 🌺Skydailylife8@gmail.com",
+        "create_time": 1695792186,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "studytok",
+            "id": 1621382854945957,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Take a seat and study with TikTok."
+        },
+        {
+            "name": "study",
+            "id": 73549,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "studying",
+            "id": 173990,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "motivation",
+            "id": 22835,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Tell us what helps you to keep your #Motivation"
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

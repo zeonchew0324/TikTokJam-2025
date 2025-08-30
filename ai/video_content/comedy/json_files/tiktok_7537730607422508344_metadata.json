@@ -1,0 +1,153 @@
+{
+    "video_metadata": {
+        "id": 7537730607422508344,
+        "time_created": "2025-08-13T00:04:37",
+        "author_id": 6879253994363995138,
+        "description": "😂😂😂🏃🏾🏃🏾#Comedy #dog #dogsoftiktok #viralvideos #😂😂😂 ",
+        "hashtags": [
+            "Comedy",
+            "dog",
+            "dogsoftiktok",
+            "viralvideos",
+            "😂😂😂"
+        ],
+        "mentions": null,
+        "music_id": 7537730628851075896,
+        "schedule_time": 0,
+        "location_created": "BR",
+        "is_ad": false,
+        "suggested_words": [
+            "dog comedy video",
+            "Comedy Video",
+            "Comedy Videos TikTok",
+            "comedy funny videos",
+            "comedy",
+            "Trending Comedy"
+        ],
+        "diggcount": 10700,
+        "sharecount": 536,
+        "commentcount": 323,
+        "playcount": 247400,
+        "collectcount": 717,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Pets",
+            "Animals",
+            "Nature"
+        ],
+        "diversification_id": 10019,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7537730607422508344,
+        "filepath": "test_folder/tiktok_7537730607422508344_*",
+        "duration": 20,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -17.2,
+        "volume_peak": 0.51286,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7537730628851075896,
+        "title": "son original",
+        "author_name": "Ha🏃🏾kimdao224",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 20.715063,
+            "preciseShootDuration": 20.715063,
+            "preciseAuditionDuration": 20.715063,
+            "preciseVideoDuration": 20.715063
+        }
+    },
+    "author_metadata": {
+        "id": 6879253994363995138,
+        "username": "hakimdao_224",
+        "name": "Ha🏃🏾kimdao224",
+        "signature": "GO FOLLOW MY CHAÎNE YOUTUBE ⬇️ CLICK⤵️",
+        "create_time": 1601701892,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "Comedy",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "dog",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "dogsoftiktok",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "viralvideos",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "😂😂😂",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        }
+    ]
+}

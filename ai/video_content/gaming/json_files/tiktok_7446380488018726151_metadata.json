@@ -1,0 +1,137 @@
+{
+    "video_metadata": {
+        "id": 7446380488018726151,
+        "time_created": "2024-12-09T19:59:26",
+        "author_id": 7242547641573295109,
+        "description": "Isa lang eh. #simulatorgames #gaming #fyp #simulator",
+        "hashtags": [
+            "simulatorgames",
+            "gaming",
+            "fyp",
+            "simulator"
+        ],
+        "mentions": null,
+        "music_id": 7446380554570402576,
+        "schedule_time": 0,
+        "location_created": "PH",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 55000,
+        "sharecount": 15300,
+        "commentcount": 320,
+        "playcount": 2200000,
+        "collectcount": 2961,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7446380488018726151,
+        "filepath": "test_folder/tiktok_7446380488018726151_*",
+        "duration": 8,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -19.5,
+        "volume_peak": 0.94406,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7446380554570402576,
+        "title": "original sound - JamSuitOfficial",
+        "author_name": "JamSuitOfficial",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 8.882,
+            "preciseShootDuration": 8.882,
+            "preciseAuditionDuration": 8.882,
+            "preciseVideoDuration": 8.882
+        }
+    },
+    "author_metadata": {
+        "id": 7242547641573295109,
+        "username": "jamsuitofficial",
+        "name": "JamSuitOfficial",
+        "signature": "Reach me at: Jamsuit0670@gmail.com",
+        "create_time": 1686287059,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "simulatorgames",
+            "id": 1650822932885509,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gaming",
+            "id": 16057,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Stock up on extra lives, because we're celebrating the #Gaming community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "simulator",
+            "id": 1786523,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

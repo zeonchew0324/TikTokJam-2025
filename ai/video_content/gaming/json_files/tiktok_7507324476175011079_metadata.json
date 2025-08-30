@@ -1,0 +1,178 @@
+{
+    "video_metadata": {
+        "id": 7507324476175011079,
+        "time_created": "2025-05-23T01:33:15",
+        "author_id": 7179976115733562373,
+        "description": "#fyp #tiktokgaming #simulatortruck #gamehptruck #simulasimengemudi #trucknyata #ulasangameandroid #gamehariantruck ",
+        "hashtags": [
+            "fyp",
+            "tiktokgaming",
+            "simulatortruck",
+            "gamehptruck",
+            "simulasimengemudi",
+            "trucknyata",
+            "ulasangameandroid",
+            "gamehariantruck"
+        ],
+        "mentions": null,
+        "music_id": 7463735247214250753,
+        "schedule_time": 0,
+        "location_created": "TR",
+        "is_ad": false,
+        "suggested_words": [
+            "games",
+            "Mobile Game",
+            "driving experience game",
+            "driving game with steering wheel"
+        ],
+        "diggcount": 2736,
+        "sharecount": 132,
+        "commentcount": 270,
+        "playcount": 499300,
+        "collectcount": 433,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7507324476175011079,
+        "filepath": "test_folder/tiktok_7507324476175011079_*",
+        "duration": 10,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -12,
+        "volume_peak": 0.72444,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7463735247214250753,
+        "title": "suara asli - PP RAMADHAN 2025",
+        "author_name": "MENUJU RAMADHAN 2026",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 33.489,
+            "preciseShootDuration": 33.489,
+            "preciseAuditionDuration": 33.489,
+            "preciseVideoDuration": 33.489
+        }
+    },
+    "author_metadata": {
+        "id": 7179976115733562373,
+        "username": "pro.games38",
+        "name": "mobile games",
+        "signature": "@PtronPlay_Digital",
+        "create_time": 1671718591,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "tiktokgaming",
+            "id": 88503810,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Power-up your vids and join #TikTokGaming. Whether you're acing LOL, have nailed your Fortnite dance or mined your way into hell we want to see it all. "
+        },
+        {
+            "name": "simulatortruck",
+            "id": 1671281069180930,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gamehptruck",
+            "id": 7505417029412487175,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "simulasimengemudi",
+            "id": 7142259978986848283,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trucknyata",
+            "id": 7505417642581164050,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "ulasangameandroid",
+            "id": 7505418189325631506,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gamehariantruck",
+            "id": 7505418319240167432,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

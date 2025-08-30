@@ -1,0 +1,148 @@
+{
+    "video_metadata": {
+        "id": 7490223559856508182,
+        "time_created": "2025-04-06T23:32:57",
+        "author_id": 7189222711858988037,
+        "description": "Kick the Buddy: Sit Happens 💺 #kickthebuddy #funnygame #stressrelief #mobilegames ",
+        "hashtags": [
+            "kickthebuddy",
+            "funnygame",
+            "stressrelief",
+            "mobilegames"
+        ],
+        "mentions": null,
+        "music_id": 7490223552890014486,
+        "schedule_time": 0,
+        "location_created": "IE",
+        "is_ad": false,
+        "suggested_words": [
+            "kick the buddy game",
+            "kick the buddy sit",
+            "kick the buddy sit happens",
+            "Mobile games",
+            "kickthebuddy",
+            "funny games",
+            "Fun Mobile Games",
+            "games",
+            "kick the buddy game stress relief",
+            "Buddy"
+        ],
+        "diggcount": 31300,
+        "sharecount": 31900,
+        "commentcount": 1535,
+        "playcount": 1600000,
+        "collectcount": 7330,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7490223559856508182,
+        "filepath": "test_folder/tiktok_7490223559856508182_*",
+        "duration": 19,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -19,
+        "volume_peak": 0.54325,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7490223552890014486,
+        "title": "original sound",
+        "author_name": "funmobilegames.youtube",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 19.9575,
+            "preciseShootDuration": 19.9575,
+            "preciseAuditionDuration": 19.9575,
+            "preciseVideoDuration": 19.9575
+        }
+    },
+    "author_metadata": {
+        "id": 7189222711858988037,
+        "username": "funmobilegames.youtube",
+        "name": "funmobilegames.youtube",
+        "signature": "Best Fun mobile game here:\n\nhttps://purelogicgames.com/mobilegames/",
+        "create_time": 1673871467,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 3,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "kickthebuddy",
+            "id": 9132363,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funnygame",
+            "id": 4764161,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "stressrelief",
+            "id": 17146,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Whether you're looking to talk to a friend who seems stressed or dealing with your own hurdles in life, join this TikTok community to find ways for #StressRelief"
+        },
+        {
+            "name": "mobilegames",
+            "id": 24059257,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "video_metadata": {
+        "id": 7467828759031270662,
+        "time_created": "2025-02-05T15:09:50",
+        "author_id": 6771386827535942658,
+        "description": "Episode 131 | ✨✨🫶🏼 #foryou #bmx #viral #foryoupage #gaming #fyp #ubisoft #ridersrepublic ",
+        "hashtags": [
+            "foryou",
+            "bmx",
+            "viral",
+            "foryoupage",
+            "gaming",
+            "fyp",
+            "ubisoft",
+            "ridersrepublic"
+        ],
+        "mentions": null,
+        "music_id": 7290627372221614081,
+        "schedule_time": 0,
+        "location_created": "ID",
+        "is_ad": false,
+        "suggested_words": [
+            "Riders Republic",
+            "ubisoft riders republic",
+            "Riders Republic Game",
+            "ubisoft riders republic gameplay",
+            "games",
+            "Bmx",
+            "Riders Republic Clips",
+            "riders republic mobile",
+            "Riders Republic Gameplay",
+            "riders republic android"
+        ],
+        "diggcount": 110400,
+        "sharecount": 3496,
+        "commentcount": 666,
+        "playcount": 5200000,
+        "collectcount": 4407,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": false,
+        "stitch_enabled": false,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7467828759031270662,
+        "filepath": "test_folder/tiktok_7467828759031270662_*",
+        "duration": 17,
+        "height": 576,
+        "width": 1024,
+        "ratio": 540,
+        "volume_loudness": -19.2,
+        "volume_peak": 0.48417,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7290627372221614081,
+        "title": "Mask Off",
+        "author_name": "Future",
+        "original": false,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 60,
+            "preciseShootDuration": 60,
+            "preciseAuditionDuration": 60,
+            "preciseVideoDuration": 60
+        }
+    },
+    "author_metadata": {
+        "id": 6771386827535942658,
+        "username": "howtocringetv",
+        "name": "HowToCRINGE TV",
+        "signature": "ma GOAL is marry you @Nann \nRed Bull please say hello\nIg:howtocringetv\nH2C🇲🇨",
+        "create_time": 1576558010,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "bmx",
+            "id": 5182,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viral",
+            "id": 20884,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "¡descubre las canciones en tendencia! 🔥➡️ https://bit.ly/TendenciasTikTok_LATAM"
+        },
+        {
+            "name": "foryoupage",
+            "id": 88764338,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gaming",
+            "id": 16057,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Stock up on extra lives, because we're celebrating the #Gaming community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "ubisoft",
+            "id": 5250695,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "ridersrepublic",
+            "id": 1677478115009542,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

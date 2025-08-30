@@ -1,0 +1,157 @@
+{
+    "video_metadata": {
+        "id": 7507265271338437910,
+        "time_created": "2025-05-22T21:43:29",
+        "author_id": 7259775484242002970,
+        "description": "#humor #animals #comedy #duo #funnyvideos ",
+        "hashtags": [
+            "humor",
+            "animals",
+            "comedy",
+            "duo",
+            "funnyvideos"
+        ],
+        "mentions": null,
+        "music_id": 7507265245989047062,
+        "schedule_time": 0,
+        "location_created": "IT",
+        "is_ad": false,
+        "suggested_words": [
+            "animals with humor",
+            "humor funny animals",
+            "gabricomedy",
+            "Funny Animals",
+            "Funny Animals Moments",
+            "funny animals video",
+            "comedy videos",
+            "comedy funny videos",
+            "comedy",
+            "Humor"
+        ],
+        "diggcount": 751700,
+        "sharecount": 94200,
+        "commentcount": 32100,
+        "playcount": 18100000,
+        "collectcount": 36721,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Pets",
+            "Animals",
+            "Nature"
+        ],
+        "diversification_id": 10019,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7507265271338437910,
+        "filepath": "test_folder/tiktok_7507265271338437910_*",
+        "duration": 10,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -12.7,
+        "volume_peak": 0.77625,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7507265245989047062,
+        "title": "suono originale",
+        "author_name": "Gabricomedy",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 10.9975,
+            "preciseShootDuration": 10.9975,
+            "preciseAuditionDuration": 10.9975,
+            "preciseVideoDuration": 10.9975
+        }
+    },
+    "author_metadata": {
+        "id": 7259775484242002970,
+        "username": "_gabricomedy",
+        "name": "Gabricomedy",
+        "signature": "Support me if you like animals🥰🫡🐯\n                 👇",
+        "create_time": 1690298228,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "humor",
+            "id": 19336,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "¡Es hora de reírte como nunca! Los videos más divertidos están aquí en TikTok. 😂😂😂"
+        },
+        {
+            "name": "animals",
+            "id": 5192,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "comedy",
+            "id": 1606334392378370,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "duo",
+            "id": 40631,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Use our Duet feature because two is always better than one"
+        },
+        {
+            "name": "funnyvideos",
+            "id": 107738,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

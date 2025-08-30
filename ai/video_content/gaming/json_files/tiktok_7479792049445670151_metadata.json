@@ -1,0 +1,243 @@
+{
+    "video_metadata": {
+        "id": 7479792049445670151,
+        "time_created": "2025-03-09T20:53:20",
+        "author_id": 7465658843838661640,
+        "description": "bus simulator game 🎮#gaming #gamer #game #gamerboy #game #mobilegame #androidgames #foryou #foryoupage #viraltiktok #tiktok #treandingvideo #games #pleaseunfrezzemyaccount ",
+        "hashtags": [
+            "gaming",
+            "gamer",
+            "game",
+            "gamerboy",
+            "game",
+            "mobilegame",
+            "androidgames",
+            "foryou",
+            "foryoupage",
+            "viraltiktok",
+            "tiktok",
+            "treandingvideo",
+            "games",
+            "pleaseunfrezzemyaccount"
+        ],
+        "mentions": null,
+        "music_id": 7261972174759168774,
+        "schedule_time": 0,
+        "location_created": "PK",
+        "is_ad": false,
+        "suggested_words": [
+            "Bus Simulator",
+            "world bus driving simulator",
+            "World Bus Driving Simulator Game Videos",
+            "Games",
+            "bus",
+            "games on tiktok",
+            "bus simulator pro autobus",
+            "games to play download"
+        ],
+        "diggcount": 1574,
+        "sharecount": 111,
+        "commentcount": 137,
+        "playcount": 257400,
+        "collectcount": 136,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "Bus simulator 😱"
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7479792049445670151,
+        "filepath": "test_folder/tiktok_7479792049445670151_*",
+        "duration": 30,
+        "height": 1280,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -12.7,
+        "volume_peak": 0.72444,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7261972174759168774,
+        "title": "original sound",
+        "author_name": "👻",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 43.023624,
+            "preciseShootDuration": 43.023624,
+            "preciseAuditionDuration": 43.023624,
+            "preciseVideoDuration": 43.023624
+        }
+    },
+    "author_metadata": {
+        "id": 7465658843838661640,
+        "username": "shuraimofficial0",
+        "name": "ACCOUNT FOR SALE",
+        "signature": "...",
+        "create_time": 1738234409,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "gaming",
+            "id": 16057,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Stock up on extra lives, because we're celebrating the #Gaming community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "gamer",
+            "id": 12299,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Find the best videos of the #Gamer world!  🕹"
+        },
+        {
+            "name": "game",
+            "id": 2006,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gamerboy",
+            "id": 805218,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "game",
+            "id": 2006,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mobilegame",
+            "id": 11057235,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Charge your battery and stock up on extra lives, because we're celebrating the #MobileGame community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "androidgames",
+            "id": 46727493,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryoupage",
+            "id": 88764338,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viraltiktok",
+            "id": 1592528792523778,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "tiktok",
+            "id": 23428,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "treandingvideo",
+            "id": 1594266593385477,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "games",
+            "id": 19274,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "pleaseunfrezzemyaccount",
+            "id": 1666313485639682,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

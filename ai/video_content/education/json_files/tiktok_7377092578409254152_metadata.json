@@ -1,0 +1,159 @@
+{
+    "video_metadata": {
+        "id": 7377092578409254152,
+        "time_created": "2024-06-06T02:46:59",
+        "author_id": 7262981240733795330,
+        "description": "Luke Belmar EXPOSES the school system. #foryou #school #system #education #lukebelmar ",
+        "hashtags": [
+            "foryou",
+            "school",
+            "system",
+            "education",
+            "lukebelmar"
+        ],
+        "mentions": null,
+        "music_id": 7377092849432627969,
+        "schedule_time": 0,
+        "location_created": "LB",
+        "is_ad": false,
+        "suggested_words": [
+            "luke belmar",
+            "school system luke belmar",
+            "luke belmar education system",
+            "luke belmar education",
+            "the luke belmar",
+            "luke belmar system",
+            "luke belmar exposes",
+            "luke belmar exposes the system",
+            "rockefeller pharmaceuticals"
+        ],
+        "diggcount": 42100,
+        "sharecount": 9010,
+        "commentcount": 535,
+        "playcount": 594700,
+        "collectcount": 11041,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "Luke Belmar EXPOSES the school system."
+                ],
+                "stickerType": 9
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": null,
+        "diversification_id": 10083,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7377092578409254152,
+        "filepath": "test_folder/tiktok_7377092578409254152_*",
+        "duration": 60,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -22.3,
+        "volume_peak": 0.32734,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7377092849432627969,
+        "title": "original sound",
+        "author_name": "The Luke Belmar",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 60.578,
+            "preciseShootDuration": 60.578,
+            "preciseAuditionDuration": 60.578,
+            "preciseVideoDuration": 60.578
+        }
+    },
+    "author_metadata": {
+        "id": 7262981240733795330,
+        "username": "thelukebelmarr",
+        "name": "The Luke Belmar",
+        "signature": "👽 Glitching Through The Matrix\n💰 Blockchain, Ecommerce\n💎 Changing Lives",
+        "create_time": 1691044629,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "school",
+            "id": 3586,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "system",
+            "id": 174862,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "education",
+            "id": 97277,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "lukebelmar",
+            "id": 7123279678189617198,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

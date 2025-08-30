@@ -1,0 +1,171 @@
+{
+    "video_metadata": {
+        "id": 7128720887397895450,
+        "time_created": "2022-08-06T19:17:59",
+        "author_id": 6548769978739332111,
+        "description": "TRUE WORDS❤ #fyp #foryou #aestheticvibes❤️ #viral #life #status #education #grow",
+        "hashtags": [
+            "fyp",
+            "foryou",
+            "aestheticvibes❤️",
+            "viral",
+            "life",
+            "status",
+            "education",
+            "grow"
+        ],
+        "mentions": null,
+        "music_id": 7128720889637620507,
+        "schedule_time": 0,
+        "location_created": "NP",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 177700,
+        "sharecount": 3815,
+        "commentcount": 650,
+        "playcount": 1500000,
+        "collectcount": 7566,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Motivation"
+        ],
+        "diversification_id": 1005,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7128720887397895450,
+        "filepath": "test_folder/tiktok_7128720887397895450_*",
+        "duration": 23,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -9.9,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7128720889637620507,
+        "title": "original sound",
+        "author_name": "filmyshilmyy",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 23.562,
+            "preciseShootDuration": 23.562,
+            "preciseAuditionDuration": 23.562,
+            "preciseVideoDuration": 23.562
+        }
+    },
+    "author_metadata": {
+        "id": 6548769978739332111,
+        "username": "underrated_vibesss",
+        "name": "filmyshilmyy",
+        "signature": "Movies recommendations | Music",
+        "create_time": 1524754329,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 3,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "aestheticvibes❤️",
+            "id": 1663697076733958,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viral",
+            "id": 20884,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "¡descubre las canciones en tendencia! 🔥➡️ https://bit.ly/TendenciasTikTok_LATAM"
+        },
+        {
+            "name": "life",
+            "id": 5434,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "status",
+            "id": 2598,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "education",
+            "id": 97277,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "grow",
+            "id": 11504,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

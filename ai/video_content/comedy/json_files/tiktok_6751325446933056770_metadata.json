@@ -1,0 +1,151 @@
+{
+    "video_metadata": {
+        "id": 6751325446933056770,
+        "time_created": "2019-10-24T19:11:05",
+        "author_id": 6547272483350396934,
+        "description": "#imranali786 #funny #comdey #vairal #BackbenchersOnFlipkart #tiktokdiwali",
+        "hashtags": [
+            "imranali786",
+            "funny",
+            "comdey",
+            "vairal",
+            "backbenchersonflipkart",
+            "tiktokdiwali"
+        ],
+        "mentions": null,
+        "music_id": 6727971819166403329,
+        "schedule_time": 0,
+        "location_created": "IN",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 3000000,
+        "sharecount": 364600,
+        "commentcount": 5173,
+        "playcount": 53100000,
+        "collectcount": 18720,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": null,
+        "diversification_id": null,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 6751325446933056770,
+        "filepath": "test_folder/tiktok_6751325446933056770_*",
+        "duration": 9,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": null,
+        "volume_peak": null,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 6727971819166403329,
+        "title": "original sound -  Romantic boy",
+        "author_name": "Romanticboy02",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 15,
+            "preciseShootDuration": 15,
+            "preciseAuditionDuration": 15,
+            "preciseVideoDuration": 15
+        }
+    },
+    "author_metadata": {
+        "id": 6547272483350396934,
+        "username": "imran..ali786",
+        "name": "Imran Ali786",
+        "signature": "",
+        "create_time": 1530184909,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": true,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "imranali786",
+            "id": 1639016787311621,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funny",
+            "id": 5424,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "What's so #Funny?"
+        },
+        {
+            "name": "comdey",
+            "id": 27959,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "vairal",
+            "id": 68425413,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "backbenchersonflipkart",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "tiktokdiwali",
+            "id": 1614991083070469,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "May the divine lights of Diwali bring to your life peace and prosperity. ✨💫 Wish you all a very Happy Diwali! 🎊 🎉Let’s be environment friendly by using our amazing Diwali Stickers instead of real crackers.🎆💥 You can also share Diwali Blessing cards to your loved ones.❤️❤️ Let’s celebrate Diwali together on Tiktok using #tiktokdiwali. Join diwali activities on Tiktok to win travel coupon and packages! ✈️📷\nTerms and Conditions:\nhttps://m.tiktok.com/magic/page/ejs/5da6dd6ac490f802350ea7c3?appType=muse"
+        }
+    ]
+}

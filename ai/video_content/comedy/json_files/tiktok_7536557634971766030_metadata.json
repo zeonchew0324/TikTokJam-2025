@@ -1,0 +1,175 @@
+{
+    "video_metadata": {
+        "id": 7536557634971766030,
+        "time_created": "2025-08-09T20:13:57",
+        "author_id": 7506805225605334062,
+        "description": "comedy show#comedy show#funny #fun #fyp #comedy #foryou #hilarious #happyvideos ",
+        "hashtags": [
+            "comedy",
+            "funny",
+            "fun",
+            "fyp",
+            "comedy",
+            "foryou",
+            "hilarious",
+            "happyvideos"
+        ],
+        "mentions": null,
+        "music_id": 7536557895702530830,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "comedy show",
+            "comedy show chinese"
+        ],
+        "diggcount": 35900,
+        "sharecount": 2298,
+        "commentcount": 333,
+        "playcount": 992700,
+        "collectcount": 2270,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Comedy",
+            "Performance"
+        ],
+        "diversification_id": 10003,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7536557634971766030,
+        "filepath": "test_folder/tiktok_7536557634971766030_*",
+        "duration": 94,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -12.4,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7536557895702530830,
+        "title": "original sound",
+        "author_name": "funny videos 4477",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 94.25,
+            "preciseShootDuration": 94.25,
+            "preciseAuditionDuration": 94.25,
+            "preciseVideoDuration": 94.25
+        }
+    },
+    "author_metadata": {
+        "id": 7506805225605334062,
+        "username": "funny.videos.4477",
+        "name": "funny videos 4477",
+        "signature": "Come with me into the world of pets🐶",
+        "create_time": 1747815496,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "comedy",
+            "id": 1606334392378370,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funny",
+            "id": 5424,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "What's so #Funny?"
+        },
+        {
+            "name": "fun",
+            "id": 605,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "comedy",
+            "id": 1606334392378370,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "hilarious",
+            "id": 8538,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "happyvideos",
+            "id": 7213992,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

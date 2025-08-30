@@ -1,0 +1,130 @@
+{
+    "video_metadata": {
+        "id": 7539046427876478230,
+        "time_created": "2025-08-16T13:10:55",
+        "author_id": 7385308548488365088,
+        "description": "#clashroyale #gameplay ",
+        "hashtags": [
+            "clashroyale",
+            "gameplay"
+        ],
+        "mentions": null,
+        "music_id": 7305203481157208838,
+        "schedule_time": 0,
+        "location_created": "DE",
+        "is_ad": false,
+        "suggested_words": [
+            "clash royale",
+            "nurbanger5",
+            "Clash Royale Game Video",
+            "clash royale clips",
+            "Game",
+            "Clash Royale Game",
+            "Gameplay",
+            "Clash Royale Videos",
+            "Playing Games",
+            "Playing Video Games"
+        ],
+        "diggcount": 8383,
+        "sharecount": 649,
+        "commentcount": 437,
+        "playcount": 1400000,
+        "collectcount": 5100,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7539046427876478230,
+        "filepath": "test_folder/tiktok_7539046427876478230_*",
+        "duration": 85,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -14.4,
+        "volume_peak": 0.5821,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7305203481157208838,
+        "title": "sonido original",
+        "author_name": "°•~𝙅~•°",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 518.6351,
+            "preciseShootDuration": 518.6351,
+            "preciseAuditionDuration": 518.6351,
+            "preciseVideoDuration": 518.6351
+        }
+    },
+    "author_metadata": {
+        "id": 7385308548488365088,
+        "username": "nurbanger5",
+        "name": "Nurbanger5",
+        "signature": "",
+        "create_time": 1719526551,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "clashroyale",
+            "id": 7869978,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Card Evolutions are taking over Clash Royale! Post your favorite gaming moments using the new evolved Troops and share your epic battles with #ClashRoyale!"
+        },
+        {
+            "name": "gameplay",
+            "id": 233163,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Grab your controllers, load up your favorite game, and show us your #Gameplay."
+        }
+    ]
+}
