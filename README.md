@@ -87,10 +87,15 @@ $$Individual Payout = \frac{IW}{\sum{IW}}\times TierFund $$
 ## AI embeddings categorization
 
 
-The videos are converted into 2048-dimension embedding vectors, and K-means clustering algorithm is employed using FAISS to find each centroid for each category.
+The videos are converted into 2048-dimension embedding vectors through [TwelveLabs](https://www.twelvelabs.io/) API
+, and K-means clustering algorithm is employed using [FAISS](https://ai.meta.com/tools/faiss/) to find each centroid for each category.
 
 Each video is classified into 3 categories represented by category centroids, weighted by cosine similarity
  to give an unbiased and automated categorization workflow.
+
+The Principal Component Analysis (PCA) of the vectors is done using [Scikit-Learn](https://scikit-learn.org/stable/index.html).
+
+The frontend 3D plot for the embeddings and centroids vectors is visualized with [Three.js](https://threejs.org/)
 
 
 
