@@ -25,6 +25,5 @@ RUN ./mvnw package -DskipTests
 FROM eclipse-temurin:21-jre-jammy
 
 WORKDIR /app
-
 # Copy JAR from build stage
 COPY --from=build /app/target/*.jar app.jar

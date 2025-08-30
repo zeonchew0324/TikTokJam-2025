@@ -140,7 +140,7 @@ public class VideoAnalyticsService {
         // For each category the video belongs to
         for (PoolTier poolTier : videoEntity.getPoolTiers()) {
             Long categoryId = poolTier.getCategoryPoolEntity().getId();
-            VideoTier currentTier = poolTier.getVideoTier();
+            VideoTier currentTier = poolTier.getVideoTier() == null ? VideoTier.BRONZE : poolTier.getVideoTier();
 
             // Get all tier thresholds for this category
             Map<VideoTier, Double> thresholds = categoryPoolService.getTierThresholds(categoryId);
