@@ -3,6 +3,7 @@ package com.backend.tier_tok.service;
 import com.backend.tier_tok.model.entity.*;
 import com.backend.tier_tok.repository.CategoryPoolRepository;
 import com.backend.tier_tok.repository.VideoRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -12,6 +13,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
+@Slf4j
 public class CategoryPoolService {
 
     @Autowired
@@ -27,13 +29,15 @@ public class CategoryPoolService {
     // Updates the category pool's total weight based on top 50% engagement scores.
     @Transactional
     public void updateCategoryPoolTotalWeight(Long categoryPoolId) {
-        CategoryPoolEntity categoryPoolEntity = categoryPoolRepository.getReferenceById(categoryPoolId);
+        CategoryPoolEntity categoryPoolEntity = categoryPoolRepository.findById(categoryPoolId).orElseThrow();
 
-        List<Double> engagementScores = videoRepository.findByPoolTiers_CategoryPoolEntity_Id(categoryPoolId)
+        List<Double> engagementScores = videoRepository.findVideosByCategoryId(categoryPoolId)
                 .stream()
-                .map(videoAnalyticsService::getEngagementScore)
+                .map(VideoEntity::getEngagementScore)
                 .sorted(Comparator.reverseOrder())
                 .toList();
+
+        log.info("Engagement score size: {}", engagementScores.size());
 
         int top50PercentCount = (int) Math.ceil(engagementScores.size() * 0.5);
         double totalWeight = engagementScores.stream()
@@ -51,11 +55,6 @@ public class CategoryPoolService {
         // and stored, or a more efficient calculation method would be used.
         // For demonstration purposes, we will fetch all scores to calculate thresholds.
         Map<VideoTier, Double> tierThresholds = getTierThresholds(categoryPoolId);
-//        List<Double> engagementScores = videoRepository.findByPoolTiers_CategoryPoolEntity_Id(categoryPoolId)
-//                .stream()
-//                .map(videoAnalyticsService::getEngagementScore)
-//                .sorted(Comparator.reverseOrder())
-//                .toList();
 
         double top5PercentThreshold = tierThresholds.get(VideoTier.PLATINUM);
         double top20PercentThreshold = tierThresholds.get(VideoTier.GOLD);
@@ -73,11 +72,13 @@ public class CategoryPoolService {
     }
 
     public Map<VideoTier, Double> getTierThresholds(Long categoryPoolId) {
-        List<Double> engagementScores = videoRepository.findByPoolTiers_CategoryPoolEntity_Id(categoryPoolId)
+        List<Double> engagementScores = videoRepository.findVideosByCategoryId(categoryPoolId)
                 .stream()
-                .map(videoAnalyticsService::getEngagementScore)
+                .map(VideoEntity::getEngagementScore)
                 .sorted(Comparator.reverseOrder())
                 .toList();
+
+        log.info("Engagement Scores List Size: {}", engagementScores.size());
 
         Map<VideoTier, Double> thresholds = new HashMap<>();
         if (!engagementScores.isEmpty()) {
@@ -90,9 +91,9 @@ public class CategoryPoolService {
     }
 
     public double getPercentileRank(Long categoryPoolId, double engagementScore) {
-        List<Double> engagementScores = videoRepository.findByPoolTiers_CategoryPoolEntity_Id(categoryPoolId)
+        List<Double> engagementScores = videoRepository.findVideosByCategoryId(categoryPoolId)
                 .stream()
-                .map(videoAnalyticsService::getEngagementScore)
+                .map(VideoEntity::getEngagementScore)
                 .sorted(Comparator.reverseOrder())  // Scores are sorted from highest to lowest
                 .toList();
 
@@ -145,10 +146,10 @@ public class CategoryPoolService {
         CategoryPoolEntity categoryPoolEntity = categoryPoolRepository.getReferenceById(categoryPoolId);
 
         // Fetch all videos in the category to calculate weights for each tier
-        Map<VideoTier, Double> videoTierToWeightMap = videoRepository.findByPoolTiers_CategoryPoolEntity_Id(categoryPoolId)
+        Map<VideoTier, Double> videoTierToWeightMap = videoRepository.findVideosByCategoryId(categoryPoolId)
                 .stream()
                 .collect(Collectors.groupingBy(
-                        video -> getVideoTier(categoryPoolId, videoAnalyticsService.getEngagementScore(video)),
+                        video -> getVideoTier(categoryPoolId, video.getEngagementScore()),
                         Collectors.summingDouble(video -> {
                             // Find the correct PoolTier for this video and category
                             double categoryPercentage = video.getPoolTiers().stream()
@@ -156,7 +157,7 @@ public class CategoryPoolService {
                                     .mapToDouble(PoolTier::getCategoryPercentage)
                                     .findFirst()
                                     .orElse(0.0);
-                            return Math.log(videoAnalyticsService.getEngagementScore(video) * categoryPercentage + 1);
+                            return Math.log(video.getEngagementScore() * categoryPercentage + 1);
                         })
                 ));
 
@@ -174,5 +175,31 @@ public class CategoryPoolService {
 
         categoryPoolEntity.setVideoTierToFundMap(videoTierToFundMap);
         categoryPoolRepository.save(categoryPoolEntity);
+    }
+
+    @Transactional
+    public void updateVideoTiersForCategoryPool(Long categoryPoolId) {
+        // 1. Get all videos associated with the category pool
+        List<VideoEntity> videos = videoRepository.findVideosByCategoryId(categoryPoolId);
+
+        log.info("Video for category {} size: {}", categoryPoolId, videos.size());
+
+        // 2. Iterate through each video and its pool tiers to update the video tier
+        for (VideoEntity video : videos) {
+            for (PoolTier poolTier : video.getPoolTiers()) {
+                if (Objects.equals(poolTier.getCategoryPoolEntity().getId(), categoryPoolId)) {
+                    // Calculate the score used for tier determination
+                    double tierScore = video.getEngagementScore() * poolTier.getCategoryPercentage();
+
+                    // Call the method to get the correct video tier
+                    VideoTier newTier = getVideoTier(categoryPoolId, tierScore);
+
+                    // Update the pool tier entity
+                    poolTier.setVideoTier(newTier);
+                }
+            }
+        }
+        // 3. Save the changes to the videos, which will cascade to pool tiers
+        videoRepository.saveAll(videos);
     }
 }

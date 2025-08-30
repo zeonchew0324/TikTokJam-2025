@@ -35,28 +35,16 @@ public class VideoController {
     private InteractionService interactionService;
 
     @GetMapping("/{videoId}/analytics")
-    public ResponseEntity<VideoAnalyticsResponseDTO> getVideoAnalytics(@PathVariable String videoId) {
+    public ResponseEntity<VideoAnalyticsResponseDTO> getVideoAnalytics(@PathVariable String videoId, @RequestParam Boolean isRefresh) {
         log.info("Getting video analytics for: {}", videoId);
         try {
-            VideoAnalyticsResponseDTO videoAnalyticsResponseDTO = videoAnalyticsService.getVideoAnalytics(videoId);
+            VideoAnalyticsResponseDTO videoAnalyticsResponseDTO = videoAnalyticsService.getVideoAnalytics(videoId, isRefresh);
             return ResponseEntity.ok().body(videoAnalyticsResponseDTO);
         } catch (Exception e) {
             log.error("Error retrieving video analytics for ID {}: {}", videoId, e.getMessage());
             return ResponseEntity.badRequest().body(null);
         }
     }
-
-//    @PostMapping("/{videoId}/process-tiers")
-//    public ResponseEntity<String> processVideoTiers(@PathVariable String videoId) {
-//        log.info("Processing video tiers for: {}", videoId);
-//        try {
-//            videoService.processVideoPoolTiers(videoId);
-//            return ResponseEntity.ok("Video pool tiers processed successfully.");
-//        } catch (Exception e) {
-//            log.error("Error processing video tiers for ID {}: {}", videoId, e.getMessage());
-//            return ResponseEntity.badRequest().body("Error processing video tiers: " + e.getMessage());
-//        }
-//    }
 
     @PostMapping("/refresh-pool-funds")
     public ResponseEntity<ProfitPoolDistributionResponseDTO> refreshPoolAndTierFund() {

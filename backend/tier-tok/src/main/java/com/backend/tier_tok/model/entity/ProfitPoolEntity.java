@@ -1,6 +1,5 @@
 package com.backend.tier_tok.model.entity;
 
-import com.backend.tier_tok.model.DTO.CategoryPoolDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -15,15 +15,17 @@ INSERT INTO user_entity (id, username, reputation_score) VALUES
 -- The `top_engagement_score_list`, `video_tier_to_weight_map`, and `video_tier_to_fund_map`
 -- are empty JSON objects initially and will be populated by the algorithm.
 INSERT INTO category_pool_entity (id, name, total_category_pool_fund, total_category_pool_weight, top_engagement_score_list, video_tier_to_weight_map, video_tier_to_fund_map) VALUES
-(1, 'Car', 0.0, 0.0, '[]', '{}', '{}'),
-(2, 'Cooking', 0.0, 0.0, '[]', '{}', '{}'),
-(3, 'Brainrot', 0.0, 0.0, '[]', '{}', '{}');
+(1, 'comedy', 0.0, 0.0, '[]', '{}', '{}'),
+(2, 'education', 0.0, 0.0, '[]', '{}', '{}'),
+(3, 'gaming', 0.0, 0.0, '[]', '{}', '{}'),
+(4, 'food', 0.0, 0.0, '[]', '{}', '{}');
 
 INSERT INTO profit_pool_entity_category_pool_list (profit_pool_entity_id, category_pool_list_id)
 VALUES
 (1, 1),
 (1, 2),
-(1, 3);
+(1, 3),
+(1, 4);
 
 -- 4. Insert videos with realistic metrics
 -- `past_months_total_view_count` and `total_view_count` are crucial for the engagement score calculation.

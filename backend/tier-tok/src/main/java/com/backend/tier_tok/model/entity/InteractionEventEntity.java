@@ -24,6 +24,7 @@ public class InteractionEventEntity {
     @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     private UserEntity creator;
 
+    @Enumerated(EnumType.STRING)
     private InteractionType interactionType;
 
     private LocalDateTime timestamp;

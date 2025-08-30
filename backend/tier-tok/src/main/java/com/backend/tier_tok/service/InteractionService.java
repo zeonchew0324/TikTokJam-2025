@@ -1,5 +1,6 @@
 package com.backend.tier_tok.service;
 
+import com.backend.tier_tok.model.DTO.InteractionEventRequestDTO;
 import com.backend.tier_tok.model.entity.SuspiciousBotEntity;
 import com.backend.tier_tok.model.entity.SuspiciousCreatorBotEntity;
 import com.backend.tier_tok.model.entity.InteractionEventEntity;
@@ -22,6 +23,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.http.HttpHeaders;
 
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.*;
 
 @Service
@@ -71,8 +73,24 @@ public class InteractionService {
 
         // Prepare request data
         Map<String, Object> requestBody = new HashMap<>();
-        requestBody.put("users", sampledUsers.stream().map(UserEntity::getId).toList());
-        requestBody.put("interactions", userInteractions);
+//        requestBody.put("users", sampledUsers.stream().map(UserEntity::getId).toList());
+        requestBody.put("events", userInteractions.stream().map(
+                interaction -> InteractionEventRequestDTO.builder()
+                        .user_id(String.valueOf(interaction.getCreator().getId()))
+                        .video_id(interaction.getVideoId())
+                        .event_id(String.valueOf(interaction.getId()))
+                        .account_age_days(ChronoUnit.DAYS.between(interaction.getCreator().getCreatedAt().toLocalDate(), LocalDateTime.now().toLocalDate()))
+                        .bio_length(interaction.getCreator().getBioLength())
+                        .followers_count(interaction.getCreator().getFollowerCount())
+                        .following_count(interaction.getCreator().getFollowingCount())
+                        .profile_pic(interaction.getCreator().isHasProfilePic() ? 1 : 0)
+                        .verified(interaction.getCreator().isVerified() ? 1 : 0)
+                        .location_consistent(interaction.getCreator().isLocationConsistent() ? 1 : 0)
+                        .engagement_duration(interaction.getEngagementDuration())
+                        .timezone_offset(interaction.getCreator().getTimezone())
+                        .build()
+                ).toList()
+        );
 
         // Set up HTTP request
         String apiUrl = base_url + "/admin/run-bot-user-check";

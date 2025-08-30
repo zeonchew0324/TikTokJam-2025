@@ -1,6 +1,5 @@
 package com.backend.tier_tok.model.entity;
 
-import com.backend.tier_tok.model.converter.PriorityQueueConverter;
 import com.backend.tier_tok.model.converter.VideoTierMapConverter;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -9,7 +8,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Map;
-import java.util.PriorityQueue;
 
 @Data
 @Entity
@@ -31,9 +29,9 @@ public class CategoryPoolEntity {
     private double totalCategoryPoolWeight;
 
     // Persist PriorityQueue by converting it to a JSON string
-    @Convert(converter = PriorityQueueConverter.class)
-    @Column(name = "top_engagement_score_list", columnDefinition = "TEXT")
-    private PriorityQueue<Double> topEngagementScoreList;
+//    @Convert(converter = PriorityQueueConverter.class)
+//    @Column(name = "top_engagement_score_list", columnDefinition = "TEXT")
+//    private PriorityQueue<Double> topEngagementScoreList;
 
     // Persist Map by converting it to a JSON string
     @Convert(converter = VideoTierMapConverter.class)
