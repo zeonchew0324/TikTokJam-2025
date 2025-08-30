@@ -107,7 +107,7 @@ def categorize_videos_endpoint():
         return jsonify({"error": str(e)}), 500
     
 @app.route('/admin/evaluate-video/<video_id>', methods=['GET'])
-def evaluate_videos_endpoint(video_id):
+def evaluate_video_endpoint(video_id):
     try:
         if not video_id:
             return -1.0
