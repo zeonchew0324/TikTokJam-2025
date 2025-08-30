@@ -149,7 +149,7 @@ def visualize_embeddings_centroids_pca(vidembed, centroids):
     ax.legend()
     plt.show()
     #return the plot object to be used in frontend
-    return plt
+    return fig
 
 if __name__ == "__main__":
     VIDEO_COLLECTION_NAME = "video_embeddings"
