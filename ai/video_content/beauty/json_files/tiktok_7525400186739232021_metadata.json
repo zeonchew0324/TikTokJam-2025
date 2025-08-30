@@ -1,0 +1,113 @@
+{
+    "video_metadata": {
+        "id": 7525400186739232021,
+        "time_created": "2025-07-10T18:36:14",
+        "author_id": 7453739720791950343,
+        "description": "so  cool#beauty",
+        "hashtags": [
+            "beauty"
+        ],
+        "mentions": null,
+        "music_id": 7525400225486228240,
+        "schedule_time": 0,
+        "location_created": "KR",
+        "is_ad": false,
+        "suggested_words": [
+            "littleradarforsle",
+            "beauty"
+        ],
+        "diggcount": 1949,
+        "sharecount": 382,
+        "commentcount": 69,
+        "playcount": 144500,
+        "collectcount": 217,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Outfit",
+            "Outfit",
+            "Beauty & Style"
+        ],
+        "diversification_id": 10029,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7525400186739232021,
+        "filepath": "test_folder/tiktok_7525400186739232021_*",
+        "duration": 9,
+        "height": 1274,
+        "width": 720,
+        "ratio": 720,
+        "volume_loudness": -7.5,
+        "volume_peak": 1,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7525400225486228240,
+        "title": "原声 - littleradarforsleep",
+        "author_name": "littleradarforsleep",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 9.927,
+            "preciseShootDuration": 9.927,
+            "preciseAuditionDuration": 9.927,
+            "preciseVideoDuration": 9.927
+        }
+    },
+    "author_metadata": {
+        "id": 7453739720791950343,
+        "username": "littleradarforsle",
+        "name": "littleradarforsleep",
+        "signature": "Welcome private customization",
+        "create_time": 1735459260,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "beauty",
+            "id": 5393,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Share your best makeup tips and get the latest in #beauty 💄💅🏾"
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "video_metadata": {
+        "id": 7392613379174649094,
+        "time_created": "2024-07-17T22:35:35",
+        "author_id": 7260094316931187717,
+        "description": "Chinese food #douyin #chinese #weibo #xuhuong ",
+        "hashtags": [
+            "douyin",
+            "chinese",
+            "weibo",
+            "xuhuong"
+        ],
+        "mentions": null,
+        "music_id": 7272950964378700546,
+        "schedule_time": 0,
+        "location_created": "ID",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 463400,
+        "sharecount": 48900,
+        "commentcount": 14300,
+        "playcount": 8500000,
+        "collectcount": 103466,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Cooking",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10040,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7392613379174649094,
+        "filepath": "test_folder/tiktok_7392613379174649094_*",
+        "duration": 27,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -8.4,
+        "volume_peak": 1,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7272950964378700546,
+        "title": "People Slowd",
+        "author_name": "Kiều Anh review sự thật❤️",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 32.80975,
+            "preciseShootDuration": 32.80975,
+            "preciseAuditionDuration": 32.80975,
+            "preciseVideoDuration": 32.80975
+        }
+    },
+    "author_metadata": {
+        "id": 7260094316931187717,
+        "username": "aaaaaaawwwaaaaaaaa",
+        "name": "𝙄𝙘𝙖𝙣",
+        "signature": "Random content chinese",
+        "create_time": 1690372462,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "douyin",
+            "id": 67816954,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "chinese",
+            "id": 14422,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "weibo",
+            "id": 6728957,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "xuhuong",
+            "id": 1604496473403393,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

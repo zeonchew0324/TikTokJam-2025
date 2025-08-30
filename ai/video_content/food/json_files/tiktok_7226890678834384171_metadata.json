@@ -1,0 +1,184 @@
+{
+    "video_metadata": {
+        "id": 7226890678834384171,
+        "time_created": "2023-04-28T08:26:57",
+        "author_id": 6917479732204651525,
+        "description": "This was so satisfying 😭 Recipe video coming soon 😋 #foodtok #yummy #ramen #spicynoodles #spicycreamynoodles #gochujangnoodles #spicynoodles #cheesynoodles  ",
+        "hashtags": [
+            "foodtok",
+            "yummy",
+            "ramen",
+            "spicynoodles",
+            "spicycreamynoodles",
+            "gochujangnoodles",
+            "spicynoodles",
+            "cheesynoodles"
+        ],
+        "mentions": null,
+        "music_id": 7208944395406625541,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "Ramen",
+            "spicy noodles",
+            "spicy creamy noodles",
+            "creamy spicy ramen noodles",
+            "spicy gochujang noodles",
+            "Food Recipes",
+            "spicy ramen",
+            "noodles",
+            "eating creamy cheesy and spicy noodles",
+            "ramen noodles"
+        ],
+        "diggcount": 5400000,
+        "sharecount": 314600,
+        "commentcount": 10600,
+        "playcount": 41100000,
+        "collectcount": 570380,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Food Display",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10039,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7226890678834384171,
+        "filepath": "test_folder/tiktok_7226890678834384171_*",
+        "duration": 5,
+        "height": 1280,
+        "width": 720,
+        "ratio": 720,
+        "volume_loudness": -15.8,
+        "volume_peak": 0.81283,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7208944395406625541,
+        "title": "Obsessed With You x All About Him",
+        "author_name": "ARNEL REMIX",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 16.692188,
+            "preciseShootDuration": 16.692188,
+            "preciseAuditionDuration": 16.692188,
+            "preciseVideoDuration": 16.692188
+        }
+    },
+    "author_metadata": {
+        "id": 6917479732204651525,
+        "username": "cupoflivvv",
+        "name": "Cup of Liv",
+        "signature": "My food diary 🧡\n📧 cupofliv@gmail.com",
+        "create_time": 1610601455,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "foodtok",
+            "id": 1617319982244870,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Perfect recipes, incredible restaurants, and delicious food. Welcome to #FoodTok."
+        },
+        {
+            "name": "yummy",
+            "id": 8694,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "ramen",
+            "id": 33639,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "spicynoodles",
+            "id": 8357018,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "spicycreamynoodles",
+            "id": 7165310386454364202,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gochujangnoodles",
+            "id": 7079228976660480043,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "spicynoodles",
+            "id": 8357018,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "cheesynoodles",
+            "id": 87804868,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

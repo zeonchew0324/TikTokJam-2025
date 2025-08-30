@@ -1,0 +1,158 @@
+{
+    "video_metadata": {
+        "id": 7521910911381048598,
+        "time_created": "2025-07-01T08:56:21",
+        "author_id": 7506711511496082454,
+        "description": "Beautiful girl play with heavy rain 🌧️🌧️🌧️ #viralvideos #viralditiktok #foryou #tiktokusa #tik_tok #beautytok ",
+        "hashtags": [
+            "viralvideos",
+            "viralditiktok",
+            "foryou",
+            "tiktokusa",
+            "tik_tok",
+            "beautytok"
+        ],
+        "mentions": null,
+        "music_id": 7362064444924824351,
+        "schedule_time": 0,
+        "location_created": "KH",
+        "is_ad": false,
+        "suggested_words": [
+            "heavy rain",
+            "rain",
+            "In The Rain"
+        ],
+        "diggcount": 724,
+        "sharecount": 87,
+        "commentcount": 46,
+        "playcount": 80800,
+        "collectcount": 81,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Random Shoot",
+            "Others"
+        ],
+        "diversification_id": 10075,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7521910911381048598,
+        "filepath": "test_folder/tiktok_7521910911381048598_*",
+        "duration": 8,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -14.5,
+        "volume_peak": 1,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7362064444924824351,
+        "title": "original sound - rainyscapes",
+        "author_name": "rainyscapes",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 327.732,
+            "preciseShootDuration": 327.732,
+            "preciseAuditionDuration": 327.732,
+            "preciseVideoDuration": 327.732
+        }
+    },
+    "author_metadata": {
+        "id": 7506711511496082454,
+        "username": "sakura.short",
+        "name": "Sakura short",
+        "signature": "hope 100k follows 🙏🙏🙏",
+        "create_time": 1747792838,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "viralvideos",
+            "id": 1549168,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viralditiktok",
+            "id": 1659497263387650,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Challenge, Musik, dan Effect paling viral minggu ini di https://bit.ly/ViralDiTikTok"
+        },
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "tiktokusa",
+            "id": 81608772,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "tik_tok",
+            "id": 517817,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "beautytok",
+            "id": 1643616491283458,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "The best trending beauty products online!"
+        }
+    ]
+}

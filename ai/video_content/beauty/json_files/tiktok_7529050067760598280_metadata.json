@@ -1,0 +1,10 @@
+{
+    "video_metadata": {
+        "id": "7529050067760598280"
+    },
+    "error_code": "V",
+    "exception": "VideoNotFoundError",
+    "file_metadata": {
+        "filepath": "test_folder/tiktok_7529050067760598280_*"
+    }
+}

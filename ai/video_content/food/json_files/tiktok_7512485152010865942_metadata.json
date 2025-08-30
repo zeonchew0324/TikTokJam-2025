@@ -1,0 +1,148 @@
+{
+    "video_metadata": {
+        "id": 7512485152010865942,
+        "time_created": "2025-06-05T23:19:17",
+        "author_id": 7439387924086637601,
+        "description": "💥 1+1 Pizza gratis zum Kennenlernen! 🍕 2 Pizzen (nur Pizze Classiche) 🥤 2 Drinks (Wasser zählt nicht) 👥 Nur zu zweit bei uns im Restaurant 💸 Die günstigere geht aufs Haus 📆 Montag, 9.6.2025, ab 15 Uhr 🔑 Beim Bezahlen: Sag „Pergola Social“, um das Angebot zu aktivieren. #wien #pizza #pizzatime #italianfood #ladolcevita ",
+        "hashtags": [
+            "wien",
+            "pizza",
+            "pizzatime",
+            "italianfood",
+            "ladolcevita"
+        ],
+        "mentions": null,
+        "music_id": 7512485141806861078,
+        "schedule_time": 0,
+        "location_created": "AT",
+        "is_ad": false,
+        "suggested_words": [
+            "pizza"
+        ],
+        "diggcount": 142700,
+        "sharecount": 91700,
+        "commentcount": 1674,
+        "playcount": 1800000,
+        "collectcount": 21234,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Food Tour & Recommendations",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10085,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7512485152010865942,
+        "filepath": "test_folder/tiktok_7512485152010865942_*",
+        "duration": 10,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -15,
+        "volume_peak": 0.74131,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7512485141806861078,
+        "title": "Originalton",
+        "author_name": "Trattoria Pergola",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 10.893063,
+            "preciseShootDuration": 10.893063,
+            "preciseAuditionDuration": 10.893063,
+            "preciseVideoDuration": 10.893063
+        }
+    },
+    "author_metadata": {
+        "id": 7439387924086637601,
+        "username": "trattoriapergola",
+        "name": "Trattoria Pergola",
+        "signature": "🇮🇹 Authentische Italienische Küche in Wien\n📍 Esteplatz 6, 1030 Wien",
+        "create_time": 1735554510,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "wien",
+            "id": 1511863,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "pizza",
+            "id": 7090,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "You want a pizza this? 🍕"
+        },
+        {
+            "name": "pizzatime",
+            "id": 149010,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "italianfood",
+            "id": 2295214,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "ladolcevita",
+            "id": 16916793,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

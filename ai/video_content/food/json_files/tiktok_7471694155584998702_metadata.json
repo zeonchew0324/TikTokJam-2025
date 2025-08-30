@@ -1,0 +1,202 @@
+{
+    "video_metadata": {
+        "id": 7471694155584998702,
+        "time_created": "2025-02-16T01:09:52",
+        "author_id": 6699037984631473157,
+        "description": "When Asian mom gets hungry and can’t wait to go home… #food #eating #mukbang #cheese #chilis #burger #ranch #asmr #chicken #fries ",
+        "hashtags": [
+            "food",
+            "eating",
+            "mukbang",
+            "cheese",
+            "chilis",
+            "burger",
+            "ranch",
+            "asmr",
+            "chicken",
+            "fries"
+        ],
+        "mentions": null,
+        "music_id": 6873822057059059714,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "cheese mukbangs",
+            "asmr food eating",
+            "mukbang Asmr",
+            "mukbang food",
+            "ASMR Food",
+            "eating",
+            "Eating Mukbang",
+            "eating food",
+            "burger mukbang",
+            "Chicken ASMR"
+        ],
+        "diggcount": 1400000,
+        "sharecount": 55800,
+        "commentcount": 12500,
+        "playcount": 30400000,
+        "collectcount": 95024,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Mukbangs & Tasting",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10041,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7471694155584998702,
+        "filepath": "test_folder/tiktok_7471694155584998702_*",
+        "duration": 72,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -13.2,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 6873822057059059714,
+        "title": "Sweet Dreams",
+        "author_name": "Golden Salt",
+        "original": false,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 60,
+            "preciseShootDuration": 60,
+            "preciseAuditionDuration": 60,
+            "preciseVideoDuration": 180
+        }
+    },
+    "author_metadata": {
+        "id": 6699037984631473157,
+        "username": "kimnlizasmr",
+        "name": "Kimlizasmr",
+        "signature": "NC/GA 🇺🇸\nBusiness inquiries DM or email:\nkimliz@undercurrent.net",
+        "create_time": 1559712623,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "food",
+            "id": 5718,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "eating",
+            "id": 10367,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mukbang",
+            "id": 5600217,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "나는 먹는다. 고로 존재한다\nI eat, therefore I am"
+        },
+        {
+            "name": "cheese",
+            "id": 23351,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "From satisfying cheese pulls to gourmet dishes, show us your favourite cheesy recipes 🧀"
+        },
+        {
+            "name": "chilis",
+            "id": 7854,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "burger",
+            "id": 21386,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "What does the perfect burger look like to you?🍔 Share your favorite burger recipes from chicken, beef, shrimp, fish, vegeterian burgers &amp; more!"
+        },
+        {
+            "name": "ranch",
+            "id": 6712,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "asmr",
+            "id": 1248236,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "All the soothing sounds you need to massage your brain."
+        },
+        {
+            "name": "chicken",
+            "id": 13532,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fries",
+            "id": 6463,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "video_metadata": {
+        "id": 7520673285961518358,
+        "time_created": "2025-06-28T00:53:26",
+        "author_id": 7435370155033953313,
+        "description": "Special food",
+        "hashtags": [],
+        "mentions": null,
+        "music_id": 7520673280416549654,
+        "schedule_time": 0,
+        "location_created": "NG",
+        "is_ad": false,
+        "suggested_words": [
+            "food special",
+            "Foods",
+            "food videos",
+            "special",
+            "special food dishes",
+            "Foodtiktok",
+            "food specials for today",
+            "Indian food",
+            "Food challenge"
+        ],
+        "diggcount": 1005,
+        "sharecount": 190,
+        "commentcount": 56,
+        "playcount": 164500,
+        "collectcount": 69,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "Special food"
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Scripted Comedy",
+            "Comedy",
+            "Performance"
+        ],
+        "diversification_id": 10000,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7520673285961518358,
+        "filepath": "test_folder/tiktok_7520673285961518358_*",
+        "duration": 60,
+        "height": 854,
+        "width": 480,
+        "ratio": 480,
+        "volume_loudness": -41.1,
+        "volume_peak": 0.38459,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7520673280416549654,
+        "title": "original sound",
+        "author_name": "realpastor1",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 60.36894,
+            "preciseShootDuration": 60.36894,
+            "preciseAuditionDuration": 60.36894,
+            "preciseVideoDuration": 60.36894
+        }
+    },
+    "author_metadata": {
+        "id": 7435370155033953313,
+        "username": "realpastor1",
+        "name": "realpastor1",
+        "signature": "Advertise with us\nFor collab: lightezejohn4@gmail.com\nInfluencer",
+        "create_time": 1731182397,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": []
+}

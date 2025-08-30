@@ -1,0 +1,191 @@
+{
+    "video_metadata": {
+        "id": 7527321278374546719,
+        "time_created": "2025-07-15T22:51:31",
+        "author_id": 6695460548303668229,
+        "description": "High protein+happiness 💖🥰💞😇 #breakfast #meals #wholefoods #fyp #foryoupage #gym #fitness #wellness ",
+        "hashtags": [
+            "breakfast",
+            "meals",
+            "wholefoods",
+            "fyp",
+            "foryoupage",
+            "gym",
+            "fitness",
+            "wellness"
+        ],
+        "mentions": null,
+        "music_id": 7527321355612670751,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "protein breakfast",
+            "high protein meals breakfast",
+            "high protein meals foods",
+            "high protein food",
+            "protein foods meals",
+            "Breakfast",
+            "high protein whole foods meals",
+            "Cottage cheese",
+            "high protein fast foods meals",
+            "protein meals ideas breakfast"
+        ],
+        "diggcount": 275000,
+        "sharecount": 38300,
+        "commentcount": 3610,
+        "playcount": 5200000,
+        "collectcount": 15056,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "breakfast😝🥰💖"
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Mukbangs & Tasting",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10041,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7527321278374546719,
+        "filepath": "test_folder/tiktok_7527321278374546719_*",
+        "duration": 50,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -25.3,
+        "volume_peak": 0.47863,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7527321355612670751,
+        "title": "original sound",
+        "author_name": "Faith Robertson",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 50.8865,
+            "preciseShootDuration": 50.8865,
+            "preciseAuditionDuration": 50.8865,
+            "preciseVideoDuration": 50.8865
+        }
+    },
+    "author_metadata": {
+        "id": 6695460548303668229,
+        "username": "faith.robertsonnn",
+        "name": "Faith Robertson",
+        "signature": "LEAD WITH LOVE ✝️🌞🏋🏼‍♀️❤️‍🔥\nMi ✨ 19 🪁 \nfitness🌀life🪷learning!!!",
+        "create_time": 1558908530,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "breakfast",
+            "id": 13480,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "The most important meal of the day, show us your best breakfast recipes 🥣"
+        },
+        {
+            "name": "meals",
+            "id": 205700,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "wholefoods",
+            "id": 653519,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryoupage",
+            "id": 88764338,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gym",
+            "id": 7882,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "From exercises to gym motivation and memes, show us how you workout!"
+        },
+        {
+            "name": "fitness",
+            "id": 9261,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Whether you're working on a new circuit, or just getting some fresh air, we're here for all things #Fitness."
+        },
+        {
+            "name": "wellness",
+            "id": 259325,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Prioritize wellness: This year, take some time for self-care and put wellness first."
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "video_metadata": {
+        "id": 7503404803867839752,
+        "time_created": "2025-05-12T12:02:54",
+        "author_id": 6796435251184632834,
+        "description": "Nine Inches Fried Banana 📍Siam, Paragon  Bangkok, Thailand #bangkok #thailand #friedbanana #siamparagon #food #foodtok #foodie #dessert ",
+        "hashtags": [
+            "bangkok",
+            "thailand",
+            "friedbanana",
+            "siamparagon",
+            "food",
+            "foodtok",
+            "foodie",
+            "dessert"
+        ],
+        "mentions": null,
+        "music_id": 7470644829996108575,
+        "schedule_time": 0,
+        "location_created": "TH",
+        "is_ad": false,
+        "suggested_words": [
+            "bangkok food",
+            "siam paragon bangkok food",
+            "nine inches fried banana",
+            "bangkok thailand",
+            "thailand food",
+            "fried banana thailand",
+            "paragon siam bangkok fried banana",
+            "siam paragon bangkok",
+            "Siam paragon",
+            "siam paragon food recommend"
+        ],
+        "diggcount": 2241,
+        "sharecount": 2928,
+        "commentcount": 233,
+        "playcount": 382900,
+        "collectcount": 623,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "NINE INCHES\nFRIED BANANA\n📍SIAM PARAGON"
+                ],
+                "stickerType": 4
+            },
+            {
+                "stickerText": [
+                    "Nine Inches Fried Banana"
+                ],
+                "stickerType": 9
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Food Tour & Recommendations",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10085,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7503404803867839752,
+        "filepath": "test_folder/tiktok_7503404803867839752_*",
+        "duration": 29,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -9,
+        "volume_peak": 1,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7470644829996108575,
+        "title": "luxurious x be your girl jersey mix",
+        "author_name": "VIP",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 60.10775,
+            "preciseShootDuration": 60.10775,
+            "preciseAuditionDuration": 60.10775,
+            "preciseVideoDuration": 60.10775
+        }
+    },
+    "author_metadata": {
+        "id": 6796435251184632834,
+        "username": "thegeekmechanic",
+        "name": "Mike M.",
+        "signature": "From PH to TH\n🇵🇭 ✈️ 🇹🇭\nFilm | Vinyl | Concerts",
+        "create_time": 1582390071,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "bangkok",
+            "id": 17128,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "thailand",
+            "id": 9128,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "🇹🇭 hi Thailand!!!😘😘😘 🇹🇭"
+        },
+        {
+            "name": "friedbanana",
+            "id": 10191691,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "siamparagon",
+            "id": 27813134,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "food",
+            "id": 5718,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foodtok",
+            "id": 1617319982244870,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Perfect recipes, incredible restaurants, and delicious food. Welcome to #FoodTok."
+        },
+        {
+            "name": "foodie",
+            "id": 251048,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Love food? Show us your favorite dishes and recipes."
+        },
+        {
+            "name": "dessert",
+            "id": 8314,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "All the #dessert inspo you need!"
+        }
+    ]
+}

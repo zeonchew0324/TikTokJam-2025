@@ -1,0 +1,237 @@
+{
+    "video_metadata": {
+        "id": 7269252217205640494,
+        "time_created": "2023-08-21T11:00:00",
+        "author_id": 7267515514519995438,
+        "description": "#fyp #bodypositivity #goviral #girls #prettygirls #italiangirl #fakebody help me 10k followe 00 (1498)#fyp#yoga#tiktok#bikini#Summer#suumervibes#hotgirl#yog#yogahamil#yogatok#yogagirl#split#fifnes#shortvideo#viral",
+        "hashtags": [
+            "fyp",
+            "yoga",
+            "tiktok",
+            "bikini",
+            "summer",
+            "suumervibes",
+            "hotgirl",
+            "yog",
+            "yogahamil",
+            "yogatok",
+            "yogagirl",
+            "split",
+            "fifnes",
+            "shortvideo",
+            "viral"
+        ],
+        "mentions": null,
+        "music_id": 0,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "yoga",
+            "Bikini Yoga",
+            "hot yoga",
+            "yoga stretches",
+            "Yoga Practice Videos",
+            "bikini",
+            "yoga pants",
+            "Yoga X Grill Brazil",
+            "Six Days"
+        ],
+        "diggcount": 23600,
+        "sharecount": 1581,
+        "commentcount": 751,
+        "playcount": 2800000,
+        "collectcount": 2895,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": false,
+        "stitch_enabled": false,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": null,
+        "diversification_id": null,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7269252217205640494,
+        "filepath": "test_folder/tiktok_7269252217205640494_*",
+        "duration": 8,
+        "height": 576,
+        "width": 1024,
+        "ratio": 540,
+        "volume_loudness": null,
+        "volume_peak": null,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 0,
+        "title": "original sound - classysexygirl198",
+        "author_name": null,
+        "original": false,
+        "schedule_search_time": 0,
+        "collected": null,
+        "precise_duration": null
+    },
+    "author_metadata": {
+        "id": 7267515514519995438,
+        "username": "classysexygirl198",
+        "name": "classysexygirl198",
+        "signature": "",
+        "create_time": 1692100375,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "yoga",
+            "id": 5258,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Make sure to stretch and show us your #Yoga practice."
+        },
+        {
+            "name": "tiktok",
+            "id": 23428,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "bikini",
+            "id": 33002,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "summer",
+            "id": 4100,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Hello #Summer."
+        },
+        {
+            "name": "suumervibes",
+            "id": 17686473,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "hotgirl",
+            "id": 59274,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "yog",
+            "id": 789653,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "yogahamil",
+            "id": 1646079524599810,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "yogatok",
+            "id": 1656963527897094,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "yogagirl",
+            "id": 298335,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "split",
+            "id": 40501,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fifnes",
+            "id": 36982825,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "shortvideo",
+            "id": 47407,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viral",
+            "id": 20884,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "¡descubre las canciones en tendencia! 🔥➡️ https://bit.ly/TendenciasTikTok_LATAM"
+        }
+    ]
+}

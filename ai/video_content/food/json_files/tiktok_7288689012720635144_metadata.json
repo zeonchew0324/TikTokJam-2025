@@ -1,0 +1,247 @@
+{
+    "video_metadata": {
+        "id": 7288689012720635144,
+        "time_created": "2023-10-11T21:15:57",
+        "author_id": 6771416079463580673,
+        "description": "Youtube>>설기양SULGI❤️ #fyp #foryou #foryoupage #foru #틱톡푸드 #틱톡미식회 #먹방 #mukbang #asmr #불닭 #짜장 #fire #mushroom #noodles #sausage",
+        "hashtags": [
+            "fyp",
+            "foryou",
+            "foryoupage",
+            "foru",
+            "틱톡푸드",
+            "틱톡미식회",
+            "먹방",
+            "mukbang",
+            "asmr",
+            "불닭",
+            "짜장",
+            "fire",
+            "mushroom",
+            "noodles",
+            "sausage"
+        ],
+        "mentions": null,
+        "music_id": 7288689079104195329,
+        "schedule_time": 0,
+        "location_created": "KR",
+        "is_ad": false,
+        "suggested_words": [
+            "Mukbang Foods ASMR",
+            "설기양sulgi mukbang",
+            "Mukbang asmr",
+            "Food mukbang",
+            "설기양sulgi",
+            "sulgi asmr mukbang",
+            "mukbang eating food",
+            "Mukbang Videos",
+            "Asmr Food",
+            "Asmr eating"
+        ],
+        "diggcount": 103600,
+        "sharecount": 2251,
+        "commentcount": 760,
+        "playcount": 3500000,
+        "collectcount": 6513,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": false,
+        "stitch_enabled": false,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Mukbangs & Tasting",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10041,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7288689012720635144,
+        "filepath": "test_folder/tiktok_7288689012720635144_*",
+        "duration": 17,
+        "height": 720,
+        "width": 1280,
+        "ratio": 720,
+        "volume_loudness": -22.6,
+        "volume_peak": 0.78524,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7288689079104195329,
+        "title": "오리지널 사운드 - 설기양SULGI",
+        "author_name": "설기양SULGI",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 17.215,
+            "preciseShootDuration": 17.215,
+            "preciseAuditionDuration": 17.215,
+            "preciseVideoDuration": 17.215
+        }
+    },
+    "author_metadata": {
+        "id": 6771416079463580673,
+        "username": "sulgiiiii",
+        "name": "설기양SULGI",
+        "signature": "SULGI ASMR💕⬇️ Click!",
+        "create_time": 1579070009,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryoupage",
+            "id": 88764338,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foru",
+            "id": 108264,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "틱톡푸드",
+            "id": 1628429332281346,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "#틱톡푸드 에서 여러분들의 데일리 푸드 영상을 공유 해보세요!~ 👨‍🍳🍳🍝🍱"
+        },
+        {
+            "name": "틱톡미식회",
+            "id": 1610136201056258,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "2020년 푸드 크리에이터 육성 프로젝트 공식 오픈! \n맛있는 것들은 다 #틱톡미식회로 모여라!\n홈베이킹, 나만의 레시피, 맛집 탐방, 길거리 음식, 인기 음식 리뷰 등,\n푸드 관련 콘텐츠를 #틱톡미식회 해시태그와 함께 올려\n틱톡 공식 푸드 크리에이터 육성 프로젝트에 참여하시면\n틱톡에서 아래와 같은 혜택을 드립니다.\n\n[우수 콘텐츠 노출 부스팅]\n#틱톡미식회 해시태그와 함께 매 월 4개 이상의 푸드 콘텐츠를 올리시는 분에 한해서\n우수 콘텐츠로 선정 시, 노출 부스팅을 지원해 드립니다.\n\n[최우수 콘텐츠 크리에이터 혜택]\n우수 콘텐츠 중에서도 1위로 선정되신 크리에이터 분께는 더 많은 노출과 계정 공식 인증의 기회를 드립니다!"
+        },
+        {
+            "name": "먹방",
+            "id": 9751866,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mukbang",
+            "id": 5600217,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "나는 먹는다. 고로 존재한다\nI eat, therefore I am"
+        },
+        {
+            "name": "asmr",
+            "id": 1248236,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "All the soothing sounds you need to massage your brain."
+        },
+        {
+            "name": "불닭",
+            "id": 39883535,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "짜장",
+            "id": 1594458880555009,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fire",
+            "id": 6926,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mushroom",
+            "id": 387129,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "noodles",
+            "id": 11706,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "When we think noodles we think comfort food! Show us your best noodles recipe 🫕"
+        },
+        {
+            "name": "sausage",
+            "id": 18454,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}
