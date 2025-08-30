@@ -13,9 +13,9 @@ Then it will return an array of centroids.
 
 
 
-
 import faiss                   # make faiss available, and gpu can be enabled later
 import numpy as np
+from sklearn.decomposition import PCA
 from ai.tech_stack.qdrant import retrieve_single_from_qdrant, retrieve_all_from_qdrant
 
 ncentroids = 4 # the number of centroids
@@ -101,8 +101,20 @@ def pca_projection(vects, n_components=3):
     args:
         vects (np.ndarray): Input vectors(embeddings and centroids) to project.
         n_components (int): Number of components to keep.
+    returns: np.ndarray: The projected vectors.
+    Note: this function is implemented using scikit learn PCA because faiss is not working
     '''
-    pass #not implemented yet
+    pcamatrix = PCA(n_components=n_components)
+    if vects.shape[0] < n_components:
+        raise ValueError(f"Number of samples ({vects.shape[0]}) must be >= n_components ({n_components}) for PCA.")
+    print('The shape of the input vectors is:', vects.shape)
+    print(f'reducing dimensionality from {vects.shape[1]} to {n_components}')
+    print("Training PCA...")
+    projmatrix = pcamatrix.fit_transform(vects)
+    print("PCA training completed.")
+    
+    print('The shape of the projected vectors is:', projmatrix.shape)
+    return projmatrix
     
 
 
@@ -130,3 +142,11 @@ if __name__ == "__main__":
 
         for video in categorized:
             print(video)
+
+    print("centroids")
+    print(centroids)
+    print("running PCA projection on the centroids...")
+    pca_proj = pca_projection(centroids, 3)
+
+    print(pca_proj)
+    print("PCA projection completed.")
