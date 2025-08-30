@@ -6,7 +6,7 @@ from twelvelabs.types import VideoSegment
 from twelvelabs.embed import TasksStatusResponse
 from twelvelabs.indexes import IndexesCreateRequestModelsItem
 from twelvelabs.tasks import TasksRetrieveResponse
-from ai.embeddings.prepare_embedding import prepare_embedding
+from ai.embed_video.prepare_embedding import prepare_embedding
 import time
 from dotenv import load_dotenv
 
@@ -109,7 +109,7 @@ def create_video_embedding(video_url, max_retries=3, retry_delay=5):
                 raise
 
 # Function to categorize video using Twelve Labs
-def categorize(video_url):
+def categorize_video(video_url):
     # 1. Upload a video
     task = twelvelabs_client.tasks.create(
         index_id=index.id, video_url=video_url)
