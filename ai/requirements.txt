@@ -1,5 +1,6 @@
 annotated-types==0.7.0
 anyio==4.10.0
+appnope==0.1.4
 asttokens==3.0.0
 bcrypt==4.3.0
 beautifulsoup4==4.13.5
@@ -22,6 +23,7 @@ decorator==5.2.1
 Deprecated==1.2.18
 executing==2.2.0
 fabric==3.2.2
+faiss-cpu==1.12.0
 Flask==3.1.2
 flask-cors==6.0.1
 fonttools==4.59.2
@@ -64,6 +66,7 @@ packaging==25.0
 pandas==2.3.2
 paramiko==4.0.0
 parso==0.8.5
+pexpect==4.9.0
 pillow==11.3.0
 platformdirs==4.4.0
 portalocker==3.2.0
@@ -72,6 +75,7 @@ prompt_toolkit==3.0.52
 proto-plus==1.26.1
 protobuf==5.29.5
 psutil==7.0.0
+ptyprocess==0.7.0
 pure_eval==0.2.3
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
