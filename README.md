@@ -2,7 +2,7 @@
 
 ## TierTok
 
-TierTok is a proof-of-concept platform that categorizes videos into distinct categories and tiers. Within each tier, content creators are compensated according to a custom algorithm that balances engagement metrics and content quality. This approach not only addresses the issue of creators competing solely within their own categories but also ensures that high-quality, emerging creators are fairly rewarded and supported.
+TierTok proof-of-concept platform that levels the playing field for video creators. While viral trends drown out quality educational and niche content on other platforms, TierTok uses AI to group videos by category, so every creator competes fairly within their own niche. Our unique rewards system splits funds into category pools and tiers, motivating creators to reach new heights. In addition to engagement, a language model evaluates each video's quality, giving a bonus to valuable content that may have low engagement, ensuring both popular and high-quality creators are fairly rewarded.
 
 ## Features
 1. **Value Evaluation Algorithm**: The **Final Tier Score (FTS)** algorithm serves as the primary tool for evaluating content value. Moving beyond simple engagement metrics, it introduces the Quality Multiplier (QM), a unique component designed to provide a significant boost to high-quality content that has not yet achieved widespread virality. The algorithm's sophistication lies in its combination of a logarithmic Raw Engagement Score (RES) and the exponential decay of the QM, ensuring a fair and nuanced assessment of all content.
