@@ -17,52 +17,6 @@ GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-# def score_video_with_gemini(s3_video_url, prompt="Please summarize the video in 3 sentences."):
-#     """
-#     Download video from S3, analyze it with Gemini, and return the response.
-    
-#     Args:
-#         s3_video_url (str): S3 URL of the video to analyze
-#         prompt (str): Custom prompt for Gemini analysis
-        
-#     Returns:
-#         str: Gemini's analysis response text
-        
-#     Raises:
-#         Exception: If download, upload, or analysis fails
-#     """
-#     temp_file_path = None
-#     uploaded_file = None
-    
-#     try:
-#         # Step 1: Download video from S3 to temporary file
-#         print(f"Starting download from S3: {s3_video_url}")
-#         temp_file_path = download_from_s3(s3_video_url)
-        
-#         # Step 2: Upload the temporary file to Gemini
-#         print("Uploading video to Gemini for analysis...")
-#         uploaded_file = client.files.upload(file=temp_file_path)
-#         print(f"Uploaded to Gemini with URI: {uploaded_file.uri}")
-        
-#         # Step 3: Generate content with Gemini
-#         print("Analyzing video with Gemini...")
-#         response = client.models.generate_content(
-#             model="gemini-2.5-flash",
-#             contents=[uploaded_file, prompt]
-#         )
-        
-#         print("Analysis complete!")
-#         return response.text
-        
-#     except Exception as e:
-#         print(f"Error in score_video_with_gemini: {str(e)}")
-#         raise
-        
-#     finally:
-#         # Clean up temporary file
-#         if temp_file_path:
-#             cleanup_temp_file(temp_file_path)
-
     
 def wait_for_file_active(uploaded_file, max_wait_time=300, check_interval=5):
     """
@@ -102,78 +56,69 @@ def wait_for_file_active(uploaded_file, max_wait_time=300, check_interval=5):
     print(f"Timeout: File did not become ACTIVE within {max_wait_time} seconds")
     return False
 
-def score_video_with_gemini(s3_video_url, prompt="Please summarize the video in 3 sentences.", max_wait_time=300):
+def score_video_with_gemini(s3_video_url, prompt="Please summarize the video in 3 sentences.", max_wait_time=300, retries=3, delay=2):
     """
     Download video from S3, analyze it with Gemini, and return the response.
-    
-    Args:
-        s3_video_url (str): S3 URL of the video to analyze
-        prompt (str): Custom prompt for Gemini analysis
-        max_wait_time (int): Maximum time to wait for file processing (default: 5 minutes)
-        
-    Returns:
-        str: Gemini's analysis response text
-        
-    Raises:
-        Exception: If download, upload, or analysis fails
+    Retry generate_content if JSON parsing fails.
     """
     temp_file_path = None
     uploaded_file = None
-    
+
     try:
-        # Step 1: Download video from S3 to temporary file
+        # Step 1: Download video from S3
         print(f"Starting download from S3: {s3_video_url}")
         temp_file_path = download_from_s3(s3_video_url)
-        
-        # Step 2: Upload the temporary file to Gemini
+
+        # Step 2: Upload to Gemini
         print("Uploading video to Gemini for analysis...")
         uploaded_file = client.files.upload(file=temp_file_path)
         print(f"Uploaded to Gemini with URI: {uploaded_file.uri}")
-        
+
         # Step 3: Wait for file to become ACTIVE
         if not wait_for_file_active(uploaded_file, max_wait_time):
             raise Exception("File did not become ACTIVE within the specified timeout")
-        
+
         generation_config = {}
         if SCHEMA:
             generation_config['response_schema'] = SCHEMA
             generation_config['response_mime_type'] = 'application/json'
 
-        # Step 4: Generate content with Gemini
-        print("Analyzing video with Gemini...")
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=[uploaded_file, prompt],
-            config=types.GenerateContentConfig(**generation_config) if generation_config else None
-        )
-        
-        response_text = response.text
-        print("Analysis complete!")
-        
-        # Parse the JSON response
-        try:
-            evaluation_data = json.loads(response_text)
+        # Step 4: Generate content with retries
+        for attempt in range(1, retries + 1):
+            print(f"Generating content with Gemini (Attempt {attempt})...")
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=[uploaded_file, prompt],
+                config=types.GenerateContentConfig(**generation_config) if generation_config else None
+            )
             
-            # Sum the scores and convert to float for normalization
-            total_score = sum(int(evaluation_data[key]['score']) for key in evaluation_data)
+            response_text = response.text
             
-            # Normalize the total score from 0-25 to 0-1
-            normalized_score = total_score / 25.0
+            try:
+                evaluation_data = json.loads(response_text)
+                
+                # Compute total and normalized scores
+                total_score = sum(int(evaluation_data[key]['score']) for key in evaluation_data)
+                normalized_score = total_score / 25.0
+                evaluation_data['total_score'] = total_score
+                evaluation_data['normalized_score'] = normalized_score
+                
+                print("Analysis complete!")
+                return evaluation_data  # success, break out of retry loop
             
-            # Add the new scores to the output dictionary
-            evaluation_data['total_score'] = total_score
-            evaluation_data['normalized_score'] = normalized_score
-            
-            return evaluation_data
-            
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON response: {str(e)}")
-            return {"error": "JSON decoding failed", "raw_response": response_text}
-            
+            except json.JSONDecodeError as e:
+                print(f"[Attempt {attempt}] JSON decode failed: {e}")
+                if attempt < retries:
+                    print(f"Retrying in {delay * attempt} seconds...")
+                    time.sleep(delay * attempt)
+                else:
+                    print("All retries failed. Returning raw response.")
+                    return {"error": "JSON decoding failed", "raw_response": response_text}
+
     except Exception as e:
         print(f"Error in score_video_with_gemini: {str(e)}")
         raise
-        
+
     finally:
         if temp_file_path:
             cleanup_temp_file(temp_file_path)
@@ -183,6 +128,7 @@ def score_video_with_gemini(s3_video_url, prompt="Please summarize the video in 
                 print(f"Deleted file from Gemini: {uploaded_file.name}")
             except Exception as e:
                 print(f"Warning: Could not delete Gemini file: {str(e)}")
+
 
 SCHEMA = {
   "type": "object",
@@ -308,7 +254,7 @@ def score_video_normalized(s3_video_url, prompt=PROMPT):
 # Example usage:
 if __name__ == "__main__":
     try:
-        s3_url = "https://tiktok-video-embeddings.s3.ap-southeast-1.amazonaws.com/videos-embed/83bcfadf_Car1.mp4"
+        s3_url = "https://tiktok-video-embeddings.s3.ap-southeast-1.amazonaws.com/videos-embed/tiktok_6751325446933056770_video.mp4"
         print(f"\nTesting with: {s3_url}")
         
         print("Scoring video...")
