@@ -156,7 +156,7 @@ def cleanup_temp_file(temp_file_path):
     except Exception as e:
         print(f"Warning: Could not clean up temporary file {temp_file_path}: {str(e)}")
 
-def list_s3_files(prefix="videos-embed/", max_files=20):
+def list_s3_urls(prefix="videos-embed/", max_files=20):
     """
     List files in the S3 bucket with the given prefix.
     
@@ -179,6 +179,7 @@ def list_s3_files(prefix="videos-embed/", max_files=20):
             return []
         
         files = []
+        s3_urls = []
         for obj in response['Contents']:
             file_info = {
                 'key': obj['Key'],
@@ -192,8 +193,46 @@ def list_s3_files(prefix="videos-embed/", max_files=20):
         for file_info in files:
             print(f"  - {file_info['key']} ({file_info['size']} bytes)")
             print(f"    URL: {file_info['url']}")
+            s3_urls.append(file_info['url'])
         
-        return files
+        return s3_urls
+        
+    except ClientError as e:
+        print(f"Error listing S3 files: {str(e)}")
+        raise
+    
+def retrieve_single_s3_url_by_video_id(video_id, max_files=1):
+    try:
+        video_filename = video_id.split("_", 1)[1]
+        prefix = f"videos-embed/{video_filename}"
+        response = s3_client.list_objects_v2(
+            Bucket=AWS_BUCKET_NAME,
+            Prefix=prefix,
+            MaxKeys=max_files
+        )
+        
+        if 'Contents' not in response:
+            print(f"No files found with prefix: {prefix}")
+            return []
+        
+        files = []
+        s3_urls = []
+        for obj in response['Contents']:
+            file_info = {
+                'key': obj['Key'],
+                'size': obj['Size'],
+                'last_modified': obj['LastModified'],
+                'url': f"https://{AWS_BUCKET_NAME}.s3.{AWS_REGION}.amazonaws.com/{obj['Key']}"
+            }
+            files.append(file_info)
+        
+        print(f"Found {len(files)} files:")
+        for file_info in files:
+            print(f"  - {file_info['key']} ({file_info['size']} bytes)")
+            print(f"    URL: {file_info['url']}")
+            s3_urls.append(file_info['url'])
+        
+        return s3_urls[0] if s3_urls else None
         
     except ClientError as e:
         print(f"Error listing S3 files: {str(e)}")

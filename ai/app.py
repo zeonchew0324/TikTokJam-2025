@@ -5,6 +5,7 @@ import pandas as pd
 from ai.bot_detection.main import aggregate_per_user, bot_probabilities
 from ai.cluster_videos.main import cluster_videos_into_category
 from ai.categorize_video.main import categorize_video_into_3_categories
+from ai.evaluate_video_quality.main import evaluate_video_quality
 
 # Create an instance of the Flask class
 # __name__ is a special variable that gets the name of the current file
@@ -47,7 +48,7 @@ def about():
 # ------------------------------------------
 
 @app.route('/admin/run-bot-user-check', methods=['POST'])
-def run_bot_user_check():
+def run_bot_user_check_endpoint():
     """
     CHECK IF USERS ARE BOTS
     EXPECTS: JSON payload with 'events': list of event dicts
@@ -86,10 +87,10 @@ def run_bot_user_check():
 
     return jsonify(response_list)
 
-@app.route('/admin/categorize-videos', methods=['GET'])
+@app.route('/admin/categorize-video', methods=['GET'])
 def categorize_videos_endpoint():
     """
-    CATEGORIZE VIDEOS
+    CATEGORIZE VIDEO
     This endpoint triggers the video categorization process.
     """
     try:
@@ -104,6 +105,17 @@ def categorize_videos_endpoint():
         return jsonify(categorize_results), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@app.route('/admin/evaluate-video/<video_id>', methods=['GET'])
+def evaluate_videos_endpoint(video_id):
+    try:
+        if not video_id:
+            return -1.0
+        
+        quality_score = evaluate_video_quality(video_id)
+        return quality_score
+    except Exception as e:
+        return -1.0
 
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development
