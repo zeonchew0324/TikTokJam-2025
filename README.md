@@ -83,6 +83,17 @@ $$QM = 1 + CQS \times MaxBonus \times e^{- EngagementScore/k}$$
 where $CQS$ is ContentQualityScore given by Gemini, MaxBonus is the maximum bonus multiplier , $k$ is the scaling factor. 
 
 $$Individual Payout = \frac{IW}{\sum{IW}}\times TierFund $$
+
+## AI embeddings categorization
+
+
+The videos are converted into 2048-dimension embedding vectors, and K-means clustering algorithm is employed to find each centroid for each category.
+
+Each video is classified into 3 categories represented by category centroids, weighted by cosine similarity
+ to give an unbiased and automated categorization workflow.
+
+
+
 ## Getting Started With Our App
 1. Clone repository:
  <pre> git clone https://github.com/zeonchew0324/TikTokJam-2025.git </pre>
