@@ -1,0 +1,156 @@
+{
+    "video_metadata": {
+        "id": 7110962198700231942,
+        "time_created": "2022-06-19T22:45:09",
+        "author_id": 7048408672993346566,
+        "description": "🤐#gaming #humor #residentevil2remake #residentevil",
+        "hashtags": [
+            "gaming",
+            "humor",
+            "residentevil2remake",
+            "residentevil"
+        ],
+        "mentions": null,
+        "music_id": 6969805703482214401,
+        "schedule_time": 0,
+        "location_created": "MX",
+        "is_ad": false,
+        "suggested_words": [
+            "resident evil 2",
+            "Games",
+            "resident evil 4 remake",
+            "Jogo"
+        ],
+        "diggcount": 2985,
+        "sharecount": 39,
+        "commentcount": 62,
+        "playcount": 169800,
+        "collectcount": 401,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "Banda, se puso algo extraño el juego 😳",
+                    "🤐"
+                ],
+                "stickerType": 4
+            },
+            {
+                "stickerText": [
+                    "Que codas tan extrañas "
+                ],
+                "stickerType": 9
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7110962198700231942,
+        "filepath": "test_folder/tiktok_7110962198700231942_*",
+        "duration": 13,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -17.6,
+        "volume_peak": 0.81283,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 6969805703482214401,
+        "title": "Yonaguni",
+        "author_name": "Bad Bunny",
+        "original": false,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 60,
+            "preciseShootDuration": 60,
+            "preciseAuditionDuration": 60,
+            "preciseVideoDuration": 60
+        }
+    },
+    "author_metadata": {
+        "id": 7048408672993346566,
+        "username": "yebgames",
+        "name": "Yebgames",
+        "signature": "Hablamos de videojuegos y cosas geek  🙈👀",
+        "create_time": 1641085701,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "gaming",
+            "id": 16057,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Stock up on extra lives, because we're celebrating the #Gaming community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "humor",
+            "id": 19336,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "¡Es hora de reírte como nunca! Los videos más divertidos están aquí en TikTok. 😂😂😂"
+        },
+        {
+            "name": "residentevil2remake",
+            "id": 1610548843970566,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "residentevil",
+            "id": 886530,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

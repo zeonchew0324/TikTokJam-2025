@@ -1,0 +1,173 @@
+{
+    "video_metadata": {
+        "id": 7515431799858793733,
+        "time_created": "2025-06-13T21:53:47",
+        "author_id": 7513177974850683960,
+        "description": "Free Education 👨‍🏫😂 Bring yr children to my school.. my school’s free.. 👨‍🏫😅UGANADA. 👨‍🏫🤣 #fyp #fypviralシ #teachersoftiktok #funnyteacher #englishteacher #trendingvideo #goviraltiktok ",
+        "hashtags": [
+            "fyp",
+            "fypviralシ",
+            "teachersoftiktok",
+            "funnyteacher",
+            "englishteacher",
+            "trendingvideo",
+            "goviraltiktok"
+        ],
+        "mentions": null,
+        "music_id": 7088708965957126918,
+        "schedule_time": 0,
+        "location_created": "NG",
+        "is_ad": false,
+        "suggested_words": [
+            "nigerian tiktok funny teacher",
+            "Funny Videos 2025"
+        ],
+        "diggcount": 40700,
+        "sharecount": 2953,
+        "commentcount": 613,
+        "playcount": 2000000,
+        "collectcount": 900,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "The most brilliant teacher Of the year 👨‍🏫😂💆🏻"
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Comedy",
+            "Performance"
+        ],
+        "diversification_id": 10003,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7515431799858793733,
+        "filepath": "test_folder/tiktok_7515431799858793733_*",
+        "duration": 7,
+        "height": 854,
+        "width": 480,
+        "ratio": 480,
+        "volume_loudness": -14.3,
+        "volume_peak": 0.50119,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7088708965957126918,
+        "title": "original sound",
+        "author_name": "Uncle Wowo",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 7.941,
+            "preciseShootDuration": 7.941,
+            "preciseAuditionDuration": 7.941,
+            "preciseVideoDuration": 7.941
+        }
+    },
+    "author_metadata": {
+        "id": 7513177974850683960,
+        "username": "mr.tummy0",
+        "name": "Mr Tummy 👨‍🏫",
+        "signature": "God first ☦️\nFunny Teacher 👨‍🏫 😂\nFree Education.. 💆🏻😉",
+        "create_time": 1749298221,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fypviralシ",
+            "id": 1666593428398085,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "teachersoftiktok",
+            "id": 1607493519937537,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Join the #TeachersofTikTok Post Contest and post videos sharing your teaching styles, insights and memorable moments. From June 12th until July 10th, sign up and post for a chance to win up to $5000 in cash! Click link for official contest rules and how to enter: https://vt.tiktok.com/ZMSSP5bCR/"
+        },
+        {
+            "name": "funnyteacher",
+            "id": 1197725,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "englishteacher",
+            "id": 643281,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trendingvideo",
+            "id": 5464941,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "goviraltiktok",
+            "id": 1630888572328965,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "video_metadata": {
+        "id": 6815581704422558978,
+        "time_created": "2020-04-14T22:57:58",
+        "author_id": 6602918877969547269,
+        "description": "#comedy In Sabne Milke Fhirse Meri le Li Part-4 😑☹️ #funny #funnyvideos #lol #haha",
+        "hashtags": [
+            "comedy",
+            "funny",
+            "funnyvideos",
+            "lol",
+            "haha"
+        ],
+        "mentions": null,
+        "music_id": 6815568890828049153,
+        "schedule_time": 0,
+        "location_created": "IN",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 3900000,
+        "sharecount": 28200,
+        "commentcount": 3413,
+        "playcount": 38700000,
+        "collectcount": 22337,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": null,
+        "diversification_id": null,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 6815581704422558978,
+        "filepath": "test_folder/tiktok_6815581704422558978_*",
+        "duration": 23,
+        "height": 960,
+        "width": 540,
+        "ratio": 540,
+        "volume_loudness": null,
+        "volume_peak": null,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 6815568890828049153,
+        "title": "original sound - lastMinute_21 ",
+        "author_name": "lastMinute_21 ",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 23,
+            "preciseShootDuration": 23,
+            "preciseAuditionDuration": 23,
+            "preciseVideoDuration": 23
+        }
+    },
+    "author_metadata": {
+        "id": 6602918877969547269,
+        "username": "lastminute_21",
+        "name": "lastMinute_21 ",
+        "signature": "INSTAGRAM - last_minute21\nBBOY | ACTOR \nEmail For Business 📧",
+        "create_time": 1537333905,
+        "verified": true,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "comedy",
+            "id": 1606334392378370,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funny",
+            "id": 5424,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "What's so #Funny?"
+        },
+        {
+            "name": "funnyvideos",
+            "id": 107738,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "lol",
+            "id": 1745,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Can you laugh any louder?🙄\nHow to shoot: \n\n1. Click the shoot icon. \n2. Click on &amp;quot;add sound&amp;quot;\n3. Add your meme text. \n4. Have fun!"
+        },
+        {
+            "name": "haha",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        }
+    ]
+}

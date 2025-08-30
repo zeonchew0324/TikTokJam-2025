@@ -1,0 +1,166 @@
+{
+    "video_metadata": {
+        "id": 7247868927445847301,
+        "time_created": "2023-06-23T21:13:10",
+        "author_id": 6874152491866162177,
+        "description": "Ini game paling favorit , kalo kalian yang mana? #rekomendasigame #gameandroid #gameoffline #gamenostalgia #gameoffline #hpkentang ",
+        "hashtags": [
+            "rekomendasigame",
+            "gameandroid",
+            "gameoffline",
+            "gamenostalgia",
+            "gameoffline",
+            "hpkentang"
+        ],
+        "mentions": null,
+        "music_id": 7247868926025042694,
+        "schedule_time": 0,
+        "location_created": "ID",
+        "is_ad": false,
+        "suggested_words": [
+            "Game",
+            "Rush Rally 3",
+            "Zombie tsunami",
+            "offline game",
+            "Android Games",
+            "game offline seru",
+            "games for android",
+            "Offline Games Recommendation",
+            "bright memory mobile",
+            "actually fun offline games"
+        ],
+        "diggcount": 11100,
+        "sharecount": 336,
+        "commentcount": 104,
+        "playcount": 2300000,
+        "collectcount": 1201,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": false,
+        "stitch_enabled": false,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7247868927445847301,
+        "filepath": "test_folder/tiktok_7247868927445847301_*",
+        "duration": 14,
+        "height": 1264,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -4.9,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7247868926025042694,
+        "title": "suara asli - AR7 ESPORTS",
+        "author_name": "D'KILL GAMING STORE",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 14.262813,
+            "preciseShootDuration": 14.262813,
+            "preciseAuditionDuration": 14.262813,
+            "preciseVideoDuration": 14.262813
+        }
+    },
+    "author_metadata": {
+        "id": 6874152491866162177,
+        "username": "dkill.gamingstore",
+        "name": "D'KILL GAMING STORE",
+        "signature": "Rekomendasi 🎮\nGame Android/iOS🔥\nLive Setiap Hari Jam 20:00PM\nLink Order ⤵️",
+        "create_time": 1600513490,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 1,
+        "duet_setting": 3,
+        "stitch_setting": 3,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 3,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "rekomendasigame",
+            "id": 1668192801496065,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gameandroid",
+            "id": 86026166,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gameoffline",
+            "id": 1608307950976002,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gamenostalgia",
+            "id": 1635439802797062,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Ainda lembra dos jogos favoritos de quando você era pequeno? ✨🎮Compartilhe com a gente a sua história com a tag #gamenostalgia e vai pra #GearBest no https://bit.ly/31ejcic pra descobrir mais produtos geniais! "
+        },
+        {
+            "name": "gameoffline",
+            "id": 1608307950976002,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "hpkentang",
+            "id": 1620166791531522,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

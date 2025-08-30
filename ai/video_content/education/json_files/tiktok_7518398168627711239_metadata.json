@@ -1,0 +1,223 @@
+{
+    "video_metadata": {
+        "id": 7518398168627711239,
+        "time_created": "2025-06-21T21:44:48",
+        "author_id": 6989971170616247322,
+        "description": "#kidsnowadays #bethatteacher #moderneducation #inspiringteacher #nextgeneration #fyp #viralvideo #mustwatch #trendingtiktok #fypシ゚viral #fypシ゚viral🖤tiktok #foryoupage #fypシ ",
+        "hashtags": [
+            "kidsnowadays",
+            "bethatteacher",
+            "moderneducation",
+            "inspiringteacher",
+            "nextgeneration",
+            "fyp",
+            "viralvideo",
+            "mustwatch",
+            "trendingtiktok",
+            "fypシ゚viral",
+            "fypシ゚viral🖤tiktok",
+            "foryoupage",
+            "fypシ"
+        ],
+        "mentions": null,
+        "music_id": 7518398196612205328,
+        "schedule_time": 0,
+        "location_created": "MY",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 8187,
+        "sharecount": 933,
+        "commentcount": 54,
+        "playcount": 22200,
+        "collectcount": 552,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": [
+            {
+                "name": "High Quality",
+                "ID": "2125222379"
+            }
+        ],
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Campus Life",
+            "Daily Life",
+            "Lifestyle"
+        ],
+        "diversification_id": 10015,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7518398168627711239,
+        "filepath": "test_folder/tiktok_7518398168627711239_*",
+        "duration": 17,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -20.2,
+        "volume_peak": 0.26915,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7518398196612205328,
+        "title": "original sound - UshaSai",
+        "author_name": "UshaSai🌻",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 17.005688,
+            "preciseShootDuration": 17.005688,
+            "preciseAuditionDuration": 17.005688,
+            "preciseVideoDuration": 17.005688
+        }
+    },
+    "author_metadata": {
+        "id": 6989971170616247322,
+        "username": "ushasai101",
+        "name": "UshaSai🌻",
+        "signature": "“MakingMistakeisBetterThanFakingPerfection”\n\n🧁Eat🍫Pray🙏🏼Sleep😴\n\n☝🏼🇲🇾❤️",
+        "create_time": 1627479831,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 3,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "kidsnowadays",
+            "id": 434108,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "bethatteacher",
+            "id": 1665325113099270,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "moderneducation",
+            "id": 1616609529664517,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "inspiringteacher",
+            "id": 1662745877342209,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "nextgeneration",
+            "id": 142540,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viralvideo",
+            "id": 85133,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mustwatch",
+            "id": 15108,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trendingtiktok",
+            "id": 1591983092873217,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fypシ゚viral",
+            "id": 1664119477821441,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fypシ゚viral🖤tiktok",
+            "id": 1685694592866306,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryoupage",
+            "id": 88764338,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fypシ",
+            "id": 1637342470396934,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "video_metadata": {
+        "id": 7537686648633543967,
+        "time_created": "2025-08-12T21:14:32",
+        "author_id": 7166090319737865258,
+        "description": "#funnyvideos #funny #funnyanimals #comedyvideo #foryou ",
+        "hashtags": [
+            "funnyvideos",
+            "funny",
+            "funnyanimals",
+            "comedyvideo",
+            "foryou"
+        ],
+        "mentions": null,
+        "music_id": 7340696920886020869,
+        "schedule_time": 0,
+        "location_created": "VN",
+        "is_ad": false,
+        "suggested_words": [
+            "Funny"
+        ],
+        "diggcount": 83300,
+        "sharecount": 17500,
+        "commentcount": 841,
+        "playcount": 2000000,
+        "collectcount": 3073,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Scripted Comedy",
+            "Comedy",
+            "Performance"
+        ],
+        "diversification_id": 10000,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7537686648633543967,
+        "filepath": "test_folder/tiktok_7537686648633543967_*",
+        "duration": 62,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -6.6,
+        "volume_peak": 1,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7340696920886020869,
+        "title": "son original",
+        "author_name": "hakimducongo_01🇨🇩🇨🇬",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 94.302,
+            "preciseShootDuration": 94.302,
+            "preciseAuditionDuration": 94.302,
+            "preciseVideoDuration": 94.302
+        }
+    },
+    "author_metadata": {
+        "id": 7166090319737865258,
+        "username": "funnypanda.media",
+        "name": "Gấu mập hề hước",
+        "signature": "Funny panda hello everyone 👋🥰\nThanks for watching the video and following👍❤",
+        "create_time": 1668486221,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "funnyvideos",
+            "id": 107738,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funny",
+            "id": 5424,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "What's so #Funny?"
+        },
+        {
+            "name": "funnyanimals",
+            "id": 487800,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "comedyvideo",
+            "id": 144835,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

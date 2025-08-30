@@ -1,0 +1,237 @@
+{
+    "video_metadata": {
+        "id": 7153107011088141614,
+        "time_created": "2022-10-11T12:28:41",
+        "author_id": 7120336714563912746,
+        "description": "Ways to learn #fyp #school #learnontiktok #schoolhacks #visuallearning #auditorylearner #teacher #teaching #student #highschool #middleschool #elementaryschool #CapCut  ",
+        "hashtags": [
+            "fyp",
+            "school",
+            "learnontiktok",
+            "schoolhacks",
+            "visuallearning",
+            "auditorylearner",
+            "teacher",
+            "teaching",
+            "student",
+            "highschool",
+            "middleschool",
+            "elementaryschool",
+            "capcut"
+        ],
+        "mentions": null,
+        "music_id": 7084930785211321094,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "scribble learner",
+            "Stress learner",
+            "teach learner",
+            "scribble method",
+            "scribble study method",
+            "what type of person are you in class",
+            "copy learner"
+        ],
+        "diggcount": 27100,
+        "sharecount": 279,
+        "commentcount": 537,
+        "playcount": 321900,
+        "collectcount": 5764,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "School ",
+                    "Middle school ",
+                    "High school ",
+                    "Which type are you?",
+                    "Did you know?"
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "School Education",
+            "Education",
+            "Culture & Education & Technology"
+        ],
+        "diversification_id": 10068,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7153107011088141614,
+        "filepath": "test_folder/tiktok_7153107011088141614_*",
+        "duration": 7,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -14.2,
+        "volume_peak": 0.76736,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7084930785211321094,
+        "title": "pacify her instrumental",
+        "author_name": "nadia",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 8.124,
+            "preciseShootDuration": 8.124,
+            "preciseAuditionDuration": 8.124,
+            "preciseVideoDuration": 8.124
+        }
+    },
+    "author_metadata": {
+        "id": 7120336714563912746,
+        "username": "easyhealthdaily",
+        "name": "Healthier You",
+        "signature": "Daily Health Facts 🍉☀️\n📩Easyhealthadvice@gmail.com\n For promos ☝🏻",
+        "create_time": 1657832707,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "school",
+            "id": 3586,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "learnontiktok",
+            "id": 1636483010861062,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Discover something new and #LearnOnTikTok 🧐 🧐"
+        },
+        {
+            "name": "schoolhacks",
+            "id": 14963587,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "visuallearning",
+            "id": 1658368609142789,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "auditorylearner",
+            "id": 1651242717160454,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "teacher",
+            "id": 21713,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "teaching",
+            "id": 147727,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "student",
+            "id": 296911,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "highschool",
+            "id": 20079,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "middleschool",
+            "id": 29859,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "elementaryschool",
+            "id": 823870,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "capcut",
+            "id": 1663935709411330,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "CapCut is a new, easy-to-use video editing tool designed for mobile platforms. CapCut provides users with a wide range of video editing functions, filters, audio &amp; visual effects, video templates, while keeping it free of charge and ads-free. Everyone can be a creator by using CapCut.  \n\nStart creating your cool videos today: \nhttps://capcut.onelink.me/XKqI/228cad85"
+        }
+    ]
+}

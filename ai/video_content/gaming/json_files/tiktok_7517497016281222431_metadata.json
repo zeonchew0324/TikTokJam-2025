@@ -1,0 +1,348 @@
+{
+    "video_metadata": {
+        "id": 7517497016281222431,
+        "time_created": "2025-06-19T11:28:13",
+        "author_id": 7470182873741214766,
+        "description": "#viralvideo #funny #gameshow #show #fyp #fy #fypシ #foryourpage  #viraltiktok #tranding #trandingvideo #trand #viral_video #you #for #tranding_video #trand #challenge #challenges #challenger #challenges_tiktok  #FamilyFun #familychallenge #familygames #familygame #challengegame #joozy",
+        "hashtags": [
+            "viralvideo",
+            "funny",
+            "gameshow",
+            "show",
+            "fyp",
+            "fy",
+            "fypシ",
+            "foryourpage",
+            "viraltiktok",
+            "tranding",
+            "trandingvideo",
+            "trand",
+            "viral_video",
+            "you",
+            "for",
+            "tranding_video",
+            "trand",
+            "challenge",
+            "challenges",
+            "challenger",
+            "challenges_tiktok",
+            "familyfun",
+            "familychallenge",
+            "familygames",
+            "familygame",
+            "challengegame",
+            "joozy"
+        ],
+        "mentions": null,
+        "music_id": 7517497054492085023,
+        "schedule_time": 0,
+        "location_created": "GB",
+        "is_ad": false,
+        "suggested_words": [
+            "joozy",
+            "game challenge",
+            "Games"
+        ],
+        "diggcount": 3517,
+        "sharecount": 156,
+        "commentcount": 41,
+        "playcount": 2400000,
+        "collectcount": 355,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Non-Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10057,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7517497016281222431,
+        "filepath": "test_folder/tiktok_7517497016281222431_*",
+        "duration": 21,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -2.2,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7517497054492085023,
+        "title": "original sound",
+        "author_name": "JOOZY",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 21.211374,
+            "preciseShootDuration": 21.211374,
+            "preciseAuditionDuration": 21.211374,
+            "preciseVideoDuration": 21.211374
+        }
+    },
+    "author_metadata": {
+        "id": 7470182873741214766,
+        "username": "joozy_2",
+        "name": "JOOZY",
+        "signature": "You feel good.\nPlease follow me !",
+        "create_time": 1739369192,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 3,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "viralvideo",
+            "id": 85133,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funny",
+            "id": 5424,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "What's so #Funny?"
+        },
+        {
+            "name": "gameshow",
+            "id": 2244504,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "show",
+            "id": 21882,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fy",
+            "id": 153828,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fypシ",
+            "id": 1637342470396934,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryourpage",
+            "id": 1598498371111942,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viraltiktok",
+            "id": 1592528792523778,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "tranding",
+            "id": 470640,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trandingvideo",
+            "id": 89046978,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trand",
+            "id": 2375827,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viral_video",
+            "id": 84715653,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "you",
+            "id": 5507,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "for",
+            "id": 8141,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "tranding_video",
+            "id": 1603084133476357,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trand",
+            "id": 2375827,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "challenge",
+            "id": 19011,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "challenges",
+            "id": 124008,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "challenger",
+            "id": 118454,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "challenges_tiktok",
+            "id": 1615732044672005,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "familyfun",
+            "id": 12510,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Gather the family for some awesome family games or show us how you have fun together! 👨‍👩‍👦‍👦"
+        },
+        {
+            "name": "familychallenge",
+            "id": 621154,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "familygames",
+            "id": 2556710,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "familygame",
+            "id": 840819,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "challengegame",
+            "id": 5585896,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "joozy",
+            "id": 1668324030788614,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

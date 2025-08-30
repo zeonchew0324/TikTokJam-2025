@@ -1,0 +1,164 @@
+{
+    "video_metadata": {
+        "id": 7525274214937529622,
+        "time_created": "2025-07-10T10:27:53",
+        "author_id": 7373677293283148833,
+        "description": "Sorry Everyone. Video not good. My video make money for my Family. #caylusblox #caylus #gaming #game #games #roblox ",
+        "hashtags": [
+            "caylusblox",
+            "caylus",
+            "gaming",
+            "game",
+            "games",
+            "roblox"
+        ],
+        "mentions": null,
+        "music_id": 7525274171761380118,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "caylus",
+            "caylusblox",
+            "Roblox Games",
+            "roblox",
+            "Video game",
+            "games",
+            "playing games",
+            "caylus roblox 666 girl and girl and dog"
+        ],
+        "diggcount": 15800,
+        "sharecount": 2543,
+        "commentcount": 0,
+        "playcount": 2000000,
+        "collectcount": 3157,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7525274214937529622,
+        "filepath": "test_folder/tiktok_7525274214937529622_*",
+        "duration": 86,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -7.5,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7525274171761380118,
+        "title": "nhạc nền",
+        "author_name": ".",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 86.152,
+            "preciseShootDuration": 86.152,
+            "preciseAuditionDuration": 86.152,
+            "preciseVideoDuration": 86.152
+        }
+    },
+    "author_metadata": {
+        "id": 7373677293283148833,
+        "username": "sievetwcx5j",
+        "name": ".",
+        "signature": "",
+        "create_time": 1716818288,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 1,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "caylusblox",
+            "id": 7418717887885475883,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "caylus",
+            "id": 54977512,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gaming",
+            "id": 16057,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Stock up on extra lives, because we're celebrating the #Gaming community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "game",
+            "id": 2006,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "games",
+            "id": 19274,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "roblox",
+            "id": 159721,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Explore and find your own favourite way to play with #Roblox!"
+        }
+    ]
+}
