@@ -87,19 +87,15 @@ def run_bot_user_check_endpoint():
 
     return jsonify(response_list)
 
-@app.route('/admin/categorize-video', methods=['GET'])
-def categorize_videos_endpoint():
+@app.route('/admin/categorize-video/<video_id>', methods=['GET'])
+def categorize_videos_endpoint(video_id):
     """
     CATEGORIZE VIDEO
     This endpoint triggers the video categorization process.
     """
     try:
-        data = request.get_json()
-        
-        if not data or "video_id" not in data:
+        if not video_id:
             return jsonify({"error": "Missing 'video_id' in request body"}), 400
-        
-        video_id = data["video_id"]
         
         categorize_results = categorize_video_into_3_categories(video_id)
         return jsonify(categorize_results), 200

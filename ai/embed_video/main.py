@@ -6,10 +6,6 @@ from ai.tech_stack.qdrant import store_video_in_qdrant
 from ai.bot_content_detection.main import detect_similar_videos
 from ai.send_requests_to_java_server.flag_creator_bots import flag_creator_bots
 
-# Get a list of video files
-video_dir = "ai/video_content"
-video_files = [f for f in os.listdir(video_dir) if f.endswith('.mp4')]
-
 # Function to embed a single video file
 def embed_single_video(video_id, s3_url):
     print(f"\nProcessing {video_id}...")
