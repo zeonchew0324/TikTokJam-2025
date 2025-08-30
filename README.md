@@ -16,6 +16,7 @@ Every video is evaluated quantitatively with an engagement score based on a few 
 
 $$EngagementScore = \alpha \times log(TotalViewCount + 1) + \beta \times WatchTimeRatio + \gamma \times CommentRatio$$
 
+where $\alpha, \beta, \gamma$ are dynamic coeffiecients that can be adjusted to represent holistic engagement metrics.
 
 ## Getting Started With Our App
 1. Clone repository:
