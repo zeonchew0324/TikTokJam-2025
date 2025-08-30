@@ -5,6 +5,7 @@ import pandas as pd
 from ai.bot_detection.main import aggregate_per_user, bot_probabilities
 from ai.categorize_video.main import categorize_video_into_3_categories
 from ai.evaluate_video_quality.main import evaluate_video_quality
+from ai.cluster_videos.main import cluster_videos_into_category
 from ai.visualize_clustering_algo.main import visualize_clustering_algo
 
 # Create an instance of the Flask class
@@ -119,6 +120,27 @@ def evaluate_video_endpoint():
     except Exception as e:
         return jsonify({"quality_score": -1.0, "error": str(e)}), 500
     
+
+@app.route('/admin/cluster-videos', methods=['GET'])
+def cluster_videos_endpoint():
+    """
+    CLUSTER VIDEOS
+    This endpoint triggers the video clustering process.
+    """
+    try:
+        cluster_videos_into_category()
+        
+        projected_embeddings = visualize_clustering_algo()
+        
+        response = {
+            "video_embeddings_3d": projected_embeddings[0],
+            "centroid_embeddings_3d": projected_embeddings[1]
+            
+        }
+        return jsonify(response), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 @app.route('/admin/visualize-clustering-algo', methods=['GET'])
 def visualize_clustering_algo_endpoint():
     """
