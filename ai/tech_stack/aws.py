@@ -1,4 +1,5 @@
 import os
+import uuid
 import boto3
 from botocore.exceptions import ClientError
 from dotenv import load_dotenv
@@ -19,9 +20,12 @@ s3_client = boto3.client(
     region_name=AWS_REGION
 )
 
-# Function to upload videos to S3
-def upload_to_s3(file_path, filename):
+# Function to upload a single video to S3
+def upload_single_to_s3(folder_path, filename):
     try:
+        video_id = f"{str(uuid.uuid4())[:8]}_{filename}"
+        file_path = os.path.join(folder_path, filename)
+        
         # Upload the file
         s3_client.upload_file(
             file_path,
@@ -36,12 +40,44 @@ def upload_to_s3(file_path, filename):
         # Generate the public URL
         url = f"https://{AWS_BUCKET_NAME}.s3.{AWS_REGION}.amazonaws.com/videos-embed/{filename}"
         print(f"Uploaded to S3: {url}")
-        return url
+        return video_id, url
 
     except ClientError as e:
         print(f"Error uploading to S3: {str(e)}")
         raise
 
+# Function to upload bunch of videos to S3 
+def upload_to_s3(folder_path):
+    video_ids_and_urls = []
+    video_files = [f for f in os.listdir(folder_path) if f.endswith('.mp4')]
+    
+    for filename in video_files:
+        try:
+            video_id = f"{str(uuid.uuid4())[:8]}_{filename}"
+            
+            file_path = os.path.join(folder_path, filename)
+            
+            # Upload the file
+            s3_client.upload_file(
+                file_path,
+                AWS_BUCKET_NAME,
+                f"videos-embed/{filename}",
+                ExtraArgs={
+                    'ACL': 'public-read',
+                    'ContentType': 'video/mp4'
+                }
+            )
+
+            # Generate the public URL
+            url = f"https://{AWS_BUCKET_NAME}.s3.{AWS_REGION}.amazonaws.com/videos-embed/{filename}"
+            print(f"Uploaded to S3: {url}")
+            video_ids_and_urls.append((video_id, url))
+
+        except ClientError as e:
+            print(f"Error uploading to S3: {str(e)}")
+            raise
+        
+    return video_ids_and_urls
 
 def download_from_s3(s3_url):
     """
