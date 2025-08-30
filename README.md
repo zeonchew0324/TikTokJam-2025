@@ -52,18 +52,32 @@ to achieve mass bot content prevention and mitigate the tail risk by summing top
 ### Tier fund allocation
 
 Each category is divided into 4 tiers, ranked by their *EngagementScore*
+
 $$
-Tier\ 1 - Top\ 5 \% \ of \ video - receives\ 32.5\%\ of\ the\ pool\ fund\newline
-Tier\ 2 - Top\ 5\%-20 \% \ of \ video - receives\ 27.5\%\ of\ the\ pool\ fund\newline
-Tier\ 3 - Top\ 20\%-50 \% of \ video - receives\ 22.5\%\ of\ the\ pool\ fund\newline
-Tier\ 4 - Bottom\ 17.5 \% \ of \ video - receives\ 17.5\%\ of\ the\ pool\ fund\newline
+Tier\ 1 - Top\ 5 \\% \ of \ video - receives\ 32.5\\%\ of\ the\ pool\ fund
 $$
+
+$$
+Tier\ 2 - Top\ 5 \\%-20 \\% \ of \ video - receives\ 27.5\\%\ of\ the\ pool\ fund
+$$
+
+$$
+Tier\ 3 - Top\ 20\\%-50 \\% of \ video - receives\ 22.5\\%\ of\ the\ pool\ fund
+$$
+
+$$
+Tier\ 4 - Bottom\ 17.5 \\% \ of \ video - receives\ 17.5\\%\ of\ the\ pool\ fund
+$$
+
 
 ### Allcoate Allocate payout from tier fund to video (content creators)
 
 Each video in the tier is allocated fund based on their individual weights $IW$
+
 $$IW = log(EngagementScore+1) \times QM$$
+
 where $QM$, quality multiplier is defined as
+
 $$QM = 1 + CQS \times MaxBonus \times e^{- EngagementScore/k}$$
 
 where $CQS$ is ContentQualityScore given by Gemini, MaxBonus is the maximum bonus multiplier , $k$ is the scaling factor. 
