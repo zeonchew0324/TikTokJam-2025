@@ -20,7 +20,7 @@ const clusteringApiService = {
     // return data;
     
     // Mock data for demonstration
-    const url = "/admin/visualize-clustering-algo"
+    const url = "https://tiertok-ai-server.onrender.com/admin/visualize-clustering-algo"
     const response = await fetch(url);
     const data = await response.json();
     const dataPoints = data.video_embeddings_3d;
@@ -72,6 +72,7 @@ function ThreeJSClusterPlot({ dataPoints, centroids }: { dataPoints: number[][],
   useEffect(() => {
     if (!mountRef.current || !dataPoints.length) return;
 
+    const SCALE = 10;
     // Scene setup
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0x0a0a0a);
@@ -125,15 +126,11 @@ function ThreeJSClusterPlot({ dataPoints, centroids }: { dataPoints: number[][],
         }
       });
 
-      const colors = [0xFE2C55, 0x25F4EE, 0xF7B500];
-      const pointMaterial = new THREE.MeshLambertMaterial({ 
-        color: colors[closestCentroid % colors.length],
-        transparent: true,
-        opacity: 0.8
-      });
+      const colors = [0xFE2C55, 0x25F4EE, 0xF7B500, 0xA450E6, 0x40D8A0];
+      const pointMaterial = new THREE.MeshBasicMaterial({ color: colors[closestCentroid % colors.length] });
       
       const pointMesh = new THREE.Mesh(pointGeometry, pointMaterial);
-      pointMesh.position.set(point[0], point[1], point[2]);
+      pointMesh.position.set(point[0] * SCALE, point[1] * SCALE, point[2] * SCALE);
       pointMesh.castShadow = true;
       dataPointsGroup.add(pointMesh);
     });
@@ -153,11 +150,10 @@ function ThreeJSClusterPlot({ dataPoints, centroids }: { dataPoints: number[][],
       });
       
       const centroidMesh = new THREE.Mesh(centroidGeometry, centroidMaterial);
-      centroidMesh.position.set(centroid[0], centroid[1], centroid[2]);
+      centroidMesh.position.set(centroid[0] * SCALE, centroid[1] * SCALE, centroid[2] * SCALE);
       centroidMesh.castShadow = true;
       centroidsGroup.add(centroidMesh);
 
-      // Add a subtle glow effect
       const glowGeometry = new THREE.SphereGeometry(0.2, 16, 16);
       const glowMaterial = new THREE.MeshBasicMaterial({
         color: colors[index % colors.length],
@@ -165,7 +161,7 @@ function ThreeJSClusterPlot({ dataPoints, centroids }: { dataPoints: number[][],
         opacity: 0.2
       });
       const glowMesh = new THREE.Mesh(glowGeometry, glowMaterial);
-      glowMesh.position.set(centroid[0], centroid[1], centroid[2]);
+      glowMesh.position.set(centroid[0] * SCALE, centroid[1] * SCALE, centroid[2] * SCALE);
       centroidsGroup.add(glowMesh);
     });
 
