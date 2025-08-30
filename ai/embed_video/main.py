@@ -2,7 +2,7 @@ import os
 import uuid
 from ai.tech_stack.aws import upload_to_s3
 from ai.tech_stack.twelve_labs import create_video_embedding
-from ai.tech_stack.qdrant import store_in_qdrant
+from ai.tech_stack.qdrant import store_video_in_qdrant
 from ai.bot_content_detection.main import detect_similar_videos
 from ai.bot_content_detection.handle_flagged_content import handle_flagged_content
 
@@ -27,12 +27,12 @@ def embed_single_video(filename):
     
     if not similar_videos:
         # Store video embeddings in Qdrant
-        store_in_qdrant(video_embedding, video_id, s3_url, filename)
+        store_video_in_qdrant(video_embedding, video_id, s3_url, filename)
         
         print(f"Successfully processed {filename}")
     else:
         # Handle flagged content (i.e., notify via API)
-        similarity_score = round(float(similar_videos[0][2]) * 100)
+        similarity_score = round(float(similar_videos[0][2]) * 100, 2)
         print(f"Similarity score: {similarity_score}, Type: {type(similarity_score)}")
         handle_flagged_content(video_id, filename)
         
@@ -43,7 +43,7 @@ def reembed_single_video(video_id, s3_url):# Generate video embeddings using Twe
     video_embedding = create_video_embedding(s3_url)
     
     # Store video embeddings in Qdrant
-    store_in_qdrant(video_embedding, video_id, s3_url)
+    store_video_in_qdrant(video_embedding, video_id, s3_url)
     
     print(f"Successfully re-embedded {video_id}")
 
@@ -66,7 +66,7 @@ def embed_videos():
             
             if not similar_videos:
                 # Store video embeddings in Qdrant
-                store_in_qdrant(video_embedding, video_id, s3_url)
+                store_video_in_qdrant(video_embedding, video_id, s3_url)
                 
                 print(f"Successfully processed {filename}")
             else:
@@ -80,4 +80,4 @@ def embed_videos():
             print(f"Error processing {filename}: {str(e)}")
             
 if __name__ == "__main__":
-    embed_single_video("Car1.mp4")
+    embed_videos()

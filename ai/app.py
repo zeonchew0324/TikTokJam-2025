@@ -3,6 +3,8 @@ from flask import Flask, jsonify, render_template, request
 import pandas as pd
 
 from bot_detection.bot_user import aggregate_per_user, bot_probabilities
+from ai.cluster_videos.main import cluster_videos_into_category
+from ai.categorize_video.main import categorize_video_into_3_categories
 
 # Create an instance of the Flask class
 # __name__ is a special variable that gets the name of the current file
@@ -83,6 +85,25 @@ def run_bot_user_check():
         })
 
     return jsonify(response_list)
+
+@app.route('/admin/categorize-videos', methods=['GET'])
+def categorize_videos_endpoint():
+    """
+    CATEGORIZE VIDEOS
+    This endpoint triggers the video categorization process.
+    """
+    try:
+        data = request.get_json()
+        
+        if not data or "video_id" not in data:
+            return jsonify({"error": "Missing 'video_id' in request body"}), 400
+        
+        video_id = data["video_id"]
+        
+        categorize_results = categorize_video_into_3_categories(video_id)
+        return jsonify(categorize_results), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development

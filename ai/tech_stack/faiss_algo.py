@@ -17,7 +17,7 @@ ncentroids = 4 # the number of centroids
 niter = 20
 verbose = True
 
-def faissclustering(vidembed, ncentroids=100, niter=20, verbose=True):
+def cluster_videos(vidembed, ncentroids=100, niter=20, verbose=True):
     """
     Clusters video embeddings using FAISS KMeans and assigns each centroid to its nearest video embedding.
 
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     qembed = np.array([embed1, embed2]) # create a query embedding array with the two retrieved embeddings
     print(qembed.shape)
     print(vidembed.shape)
-    centroid_categories = faissclustering(vidembed, ncentroids=ncentroids, niter=niter, verbose=verbose)
+    centroid_categories = cluster_videos(vidembed, ncentroids=ncentroids, niter=niter, verbose=verbose)
     print("centroid_categories:")
     for centroid, video in centroid_categories:
         print(f"Centroid: {centroid}, Nearest Video: {video}")
