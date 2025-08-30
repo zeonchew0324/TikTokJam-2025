@@ -29,6 +29,7 @@ public class VideoPayoutCalculatorService {
                 totalPayout += (videoWeight / tierTotalWeight) * tierFund;
             }
         }
+
         return totalPayout;
     }
 }

@@ -7,6 +7,7 @@ import com.backend.tier_tok.repository.ProfitPoolRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
@@ -25,6 +26,7 @@ public class ProfitPoolService {
 
     // Scheduled operation to distribute funds from big pool to category pool,
     // and update video tier fund for each category
+    @Transactional
     public ProfitPoolDistributionResponseDTO distributeFundsToCategories() {
         Optional<ProfitPoolEntity> profitPoolOpt = profitPoolRepository.findById(PROFIT_POOL_ID);
         if (profitPoolOpt.isPresent()) {
