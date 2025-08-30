@@ -17,6 +17,20 @@ export function BotWatchTab() {
     setUsers(data)
     setIsScanning(false)
     setStatus('complete')
+
+    // try {
+    //   // Assume backend endpoint is /api/admin/bot-scan (POST triggers scan, GET fetches results)
+    //   await fetch('/api/admin/bot-scan', { method: 'POST' })
+    //   const resp = await fetch('/api/admin/bot-scan', { method: 'GET' })
+    //   if (!resp.ok) throw new Error('Failed to fetch suspicious users')
+    //   const data = await resp.json()
+    //   setUsers(data)
+    // } catch (err) {
+    //   setToast('Failed to fetch suspicious users')
+    // } finally {
+    //   setIsScanning(false)
+    //   setStatus('complete')
+    // }
   }
 
   function confirmBan(userId: string) {

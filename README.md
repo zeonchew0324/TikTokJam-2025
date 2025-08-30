@@ -1,15 +1,15 @@
-<img src="TierTok.jpg" width="300" height="200" />
+<img src="TierTok.jpg" width="200" height="200" />
 
 ## TierTok
 
-TierTok is a proof-of-concept platform that categorizes videos into distinct categories and tiers. Within each tier, content creators are compensated according to a custom algorithm that balances engagement metrics and content quality. This approach not only addresses the issue of creators competing solely within their own categories but also ensures that high-quality, emerging creators are fairly rewarded and supported.
+TierTok proof-of-concept platform that levels the playing field for video creators. While viral trends drown out quality educational and niche content on other platforms, TierTok uses AI to group videos by category, so every creator competes fairly within their own niche. Our unique rewards system splits funds into category pools and tiers, motivating creators to reach new heights. In addition to engagement, a language model evaluates each video's quality, giving a bonus to valuable content that may have low engagement, ensuring both popular and high-quality creators are fairly rewarded.
 
 ## Features
 1. **Value Evaluation Algorithm**: The **Final Tier Score (FTS)** algorithm serves as the primary tool for evaluating content value. Moving beyond simple engagement metrics, it introduces the Quality Multiplier (QM), a unique component designed to provide a significant boost to high-quality content that has not yet achieved widespread virality. The algorithm's sophistication lies in its combination of a logarithmic Raw Engagement Score (RES) and the exponential decay of the QM, ensuring a fair and nuanced assessment of all content.
 
 2. **Tiered, Categorical Pool System**: This system establishes a merit-based reward structure by first organizing content into distinct categories using a **clustering algorithm**. After this categorization, the **Final Tier Score (FTS)** is used to rank videos within each cluster. Based on their FTS, videos are assigned to specific tiers (e.g., Bronze, Silver, Gold, Platinum). This approach ensures that rewards are distributed equitably, based on both content quality and genuine engagement.
 
-3. **Fraud Detection Bot**: 
+3. **Fraud Detection Bot**: To ensure fairness and authenticity, TierTok employs automated fraud detection tools targeting both user activity and content uploads. Bot detection scans randomly sample user accounts and apply an Isolation Forest anomaly detection model to recent engagement analytics, identifying suspicious patterns such as mass liking or following. For content integrity, new video uploads are checked for high similarity against existing videos using embedding vectors and cosine similarity. Potential spam or reuploads are automatically flagged and routed to admins for manual review, ensuring that all flagged cases are verified before any action is taken.
 
 ## Algorithm
 In contrast to the traditional accumulation video views, the total view count of a video is calculated
@@ -35,6 +35,69 @@ Every video is evaluated quantitatively with an engagement score based on a few 
 $$EngagementScore = \alpha \times log(TotalViewCount + 1) + \beta \times WatchTimeRatio + \gamma \times CommentRatio$$
 
 where $\alpha, \beta, \gamma$ are dynamic coeffiecients that can be adjusted to represent holistic engagement metrics.
+
+### Payout
+
+The total payout is aggregated and allocated to *category pool* using weights calculated from the videos in each pool
+
+$${pool \ fund}_{i} = \frac{w_i}{\sum{w}} \times total \ fund$$
+
+
+where $w_i$ is the *weights* for each category, calculated by:
+
+$$w_i = \sum_{k=1}^n{EngagementScore_{sorted}}$$
+
+to achieve mass bot content prevention and mitigate the tail risk by summing top n engagement scores 
+
+### Tier fund allocation
+
+Each category is divided into 4 tiers, ranked by their *EngagementScore*
+
+$$
+Tier\ 1 - Top\ 5 \\% \ of \ video - receives\ 32.5\\%\ of\ the\ pool\ fund
+$$
+
+$$
+Tier\ 2 - Top\ 5 \\%-20 \\% \ of \ video - receives\ 27.5\\%\ of\ the\ pool\ fund
+$$
+
+$$
+Tier\ 3 - Top\ 20\\%-50 \\% of \ video - receives\ 22.5\\%\ of\ the\ pool\ fund
+$$
+
+$$
+Tier\ 4 - Bottom\ 17.5 \\% \ of \ video - receives\ 17.5\\%\ of\ the\ pool\ fund
+$$
+
+
+### Allocate payout from tier fund to video (content creators)
+
+Each video in the tier is allocated fund based on their individual weights $IW$
+
+$$IW = log(EngagementScore+1) \times QM$$
+
+where $QM$, quality multiplier is defined as
+
+$$QM = 1 + CQS \times MaxBonus \times e^{- EngagementScore/k}$$
+
+where $CQS$ is ContentQualityScore given by Gemini, MaxBonus is the maximum bonus multiplier , $k$ is the scaling factor. 
+
+$$Individual Payout = \frac{IW}{\sum{IW}}\times TierFund $$
+
+## AI embeddings categorization
+
+
+The videos are converted into 2048-dimension embedding vectors through [TwelveLabs](https://www.twelvelabs.io/) API
+, and K-means clustering algorithm is employed using [FAISS](https://ai.meta.com/tools/faiss/) to find each centroid for each category.
+
+Each video is classified into 3 categories represented by category centroids, weighted by cosine similarity
+ to give an unbiased and automated categorization workflow.
+
+The Principal Component Analysis (PCA) of the vectors is done using [Scikit-Learn](https://scikit-learn.org/stable/index.html).
+
+The frontend 3D plot for the embeddings and centroids vectors is visualized with [Three.js](https://threejs.org/)
+
+
 
 ## Getting Started With Our App
 1. Clone repository:

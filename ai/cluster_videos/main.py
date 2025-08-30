@@ -1,14 +1,19 @@
-from ai.tech_stack.qdrant import retrieve_all_from_qdrant, VIDEO_COLLECTION_NAME
+from ai.tech_stack.qdrant import retrieve_all_from_qdrant, VIDEO_COLLECTION_NAME, CENTROID_COLLECTION_NAME, delete_all_vectors
 from ai.tech_stack.faiss_algo import cluster_videos
 from ai.cluster_videos.label_centroids import label_centroids
 
 def cluster_videos_into_category():
     # Retrieve all video embeddings from Qdrant
     video_embeddings = retrieve_all_from_qdrant(collection_name=VIDEO_COLLECTION_NAME)
+    centroid_embeddings = retrieve_all_from_qdrant(collection_name=CENTROID_COLLECTION_NAME)
     
-    if video_embeddings.size == 0:
+    if video_embeddings.size is None:
         print("No video embeddings found in Qdrant.")
         return
+    
+    if centroid_embeddings.size:
+        print("Centroids already exist in Qdrant. Update clusters.")
+        delete_all_vectors()
     
     # Cluster video embeddings using FAISS KMeans
     centroid_categories = cluster_videos(video_embeddings)

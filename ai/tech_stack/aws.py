@@ -30,7 +30,7 @@ def upload_single_to_s3(folder_path, filename):
         s3_client.upload_file(
             file_path,
             AWS_BUCKET_NAME,
-            f"videos-embed/{filename}",
+            f"videos-embed/{video_id}",
             ExtraArgs={
                 'ACL': 'public-read',
                 'ContentType': 'video/mp4'
