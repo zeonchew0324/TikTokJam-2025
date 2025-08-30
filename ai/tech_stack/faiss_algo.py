@@ -70,7 +70,7 @@ def categorize_video(vidquery, centroids, k=3):
     '''
 
     #creates the centroid ndarray of dimension ncentroids * 2048
-    centroids = np.array([centroid for centroid, _ in centroid_categories])
+    centroids = np.array([centroid for centroid, _ in centroids])
     print("Centroids shape:", centroids.shape)
     #since we are going to use l2distance for similarity, the input needs to be l2 normalized
     vidquery = vidquery / np.linalg.norm(vidquery, axis=1, keepdims=True)
