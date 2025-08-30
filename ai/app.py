@@ -7,12 +7,12 @@ from ai.categorize_video.main import categorize_video_into_3_categories
 from ai.evaluate_video_quality.main import evaluate_video_quality, evaluate_video_quality_batch
 from ai.cluster_videos.main import cluster_videos_into_category
 from ai.visualize_clustering_algo.main import visualize_clustering_algo
-
+from flask_cors import CORS
 # Create an instance of the Flask class
 # __name__ is a special variable that gets the name of the current file
 # This helps Flask find resources like templates and static files
 app = Flask(__name__)
-
+CORS(app)  # Enable CORS for all routes
 # Define a route for the homepage
 # The @app.route decorator binds a URL to a function
 @app.route('/')
