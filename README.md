@@ -1,4 +1,4 @@
-<img src="TierTok.jpg" width="300" height="200" />
+<img src="TierTok.jpg" width="250" height="200" />
 
 ## TierTok
 
