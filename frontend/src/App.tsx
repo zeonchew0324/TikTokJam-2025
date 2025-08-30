@@ -10,7 +10,7 @@ export type UploadedVideo = {
   id: string;
   url: string;
   title: string;
-  description: string;
+  description: string; // Only description is required for the UI now
   creator: string;
   hashtags: string[];
 }
