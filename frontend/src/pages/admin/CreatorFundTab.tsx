@@ -23,7 +23,8 @@ const apiService = {
   // },
 
   async getClusteringData(): Promise<ClusteringData> {
-    const url = "https://tiertok-ai-server.onrender.com/admin/visualize-clustering-algo";
+    // const url = "https://tiertok-ai-server.onrender.com/admin/visualize-clustering-algo";
+    const url = "skibidi"
     const response = await fetch(url);
     const data = await response.json();
     return { 

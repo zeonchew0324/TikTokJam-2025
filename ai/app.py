@@ -4,7 +4,7 @@ import pandas as pd
 
 from ai.bot_detection.main import aggregate_per_user, bot_probabilities
 from ai.categorize_video.main import categorize_video_into_3_categories
-from ai.evaluate_video_quality.main import evaluate_video_quality
+from ai.evaluate_video_quality.main import evaluate_video_quality, evaluate_video_quality_batch
 from ai.visualize_clustering_algo.main import visualize_clustering_algo
 
 # Create an instance of the Flask class
@@ -115,6 +115,22 @@ def evaluate_video_endpoint():
 
     try:
         quality_score = evaluate_video_quality(video_id)
+        return jsonify({"quality_score": float(quality_score)})
+    except Exception as e:
+        return jsonify({"quality_score": -1.0, "error": str(e)}), 500
+    
+@app.route('/admin/evaluate-video-batch', methods=['GET'])
+def evaluate_video_endpoint():
+    """
+    EVALUATE VIDEO QUALITY
+    This endpoint triggers the video quality evaluation process.
+    """
+    video_id = request.args.get('video_id')
+    if not video_id:
+        return jsonify({"error": "Missing video_id"}), 400
+
+    try:
+        quality_score = evaluate_video_quality_batch(video_id)
         return jsonify({"quality_score": float(quality_score)})
     except Exception as e:
         return jsonify({"quality_score": -1.0, "error": str(e)}), 500
