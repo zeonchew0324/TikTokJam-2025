@@ -36,6 +36,18 @@ $$EngagementScore = \alpha \times log(TotalViewCount + 1) + \beta \times WatchTi
 
 where $\alpha, \beta, \gamma$ are dynamic coeffiecients that can be adjusted to represent holistic engagement metrics.
 
+### Payout
+
+The total payout is aggregated and allocated to *category pool* using weights calculated from the videos in each pool
+
+$${pool \ fund}_{i} = \frac{w_i}{\sum{w}} \times total \ fund$$
+
+
+where $w_i$ is the *weights* for each category, calculated by:
+
+$$w_i = \sum_{k=1}^n{EngagementScore_{sorted}}$$
+
+to achieve mass bot content prevention and mitigate the tail risk by summing top n engagement scores 
 ## Getting Started With Our App
 1. Clone repository:
  <pre> git clone https://github.com/zeonchew0324/TikTokJam-2025.git </pre>
