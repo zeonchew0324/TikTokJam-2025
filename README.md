@@ -9,7 +9,7 @@ TierTok is a proof-of-concept platform that categorizes videos into distinct cat
 
 2. **Tiered, Categorical Pool System**: This system establishes a merit-based reward structure by first organizing content into distinct categories using a **clustering algorithm**. After this categorization, the **Final Tier Score (FTS)** is used to rank videos within each cluster. Based on their FTS, videos are assigned to specific tiers (e.g., Bronze, Silver, Gold, Platinum). This approach ensures that rewards are distributed equitably, based on both content quality and genuine engagement.
 
-3. **Fraud Detection Bot**: 
+3. **Fraud Detection Bot**: To ensure fairness and authenticity, TierTok employs automated fraud detection tools targeting both user activity and content uploads. Bot detection scans randomly sample user accounts and apply an Isolation Forest anomaly detection model to recent engagement analytics, identifying suspicious patterns such as mass liking or following. For content integrity, new video uploads are checked for high similarity against existing videos using embedding vectors and cosine similarity. Potential spam or reuploads are automatically flagged and routed to admins for manual review, ensuring that all flagged cases are verified before any action is taken.
 
 ## Algorithm
 In contrast to the traditional accumulation video views, the total view count of a video is calculated
@@ -70,7 +70,7 @@ Tier\ 4 - Bottom\ 17.5 \\% \ of \ video - receives\ 17.5\\%\ of\ the\ pool\ fund
 $$
 
 
-### Allcoate Allocate payout from tier fund to video (content creators)
+### Allocate payout from tier fund to video (content creators)
 
 Each video in the tier is allocated fund based on their individual weights $IW$
 
