@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { fetchUserVideosMock, type VideoSummary } from './mockRevenue'
+import { fetchUserVideos, type VideoSummary } from './getRevenue'
 import '../../stylesheets/Revenue.css'
 
 export function RevenueOverviewPage(props: { onSelectVideo: (videoId: string) => void }) {
@@ -13,7 +13,7 @@ export function RevenueOverviewPage(props: { onSelectVideo: (videoId: string) =>
     async function load() {
       setLoading(true)
       try {
-        const data = await fetchUserVideosMock()
+        const data = await fetchUserVideos()
         if (!cancelled) setVideos(data)
       } catch (e: any) {
         if (!cancelled) setError(e?.message ?? 'Failed to load videos')

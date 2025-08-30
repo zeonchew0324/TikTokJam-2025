@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { fetchVideoRevenueMock, type CategorySegment, type RevenueResponse } from './mockRevenue'
+import { fetchVideoRevenue, type CategorySegment, type RevenueResponse } from './getRevenue'
 
 export function VideoAnalyticsPage(props: { videoId: string; onBack: () => void }) {
   const { videoId, onBack } = props
@@ -13,7 +13,7 @@ export function VideoAnalyticsPage(props: { videoId: string; onBack: () => void 
     async function load() {
       setLoading(true)
       try {
-        const json = await fetchVideoRevenueMock(videoId)
+        const json = await fetchVideoRevenue(videoId)
         if (!cancelled) {
           setData(json)
           setSelected(json.categories[0]?.categoryId ?? 'education')
