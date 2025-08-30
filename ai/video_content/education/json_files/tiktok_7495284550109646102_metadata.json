@@ -1,0 +1,178 @@
+{
+    "video_metadata": {
+        "id": 7495284550109646102,
+        "time_created": "2025-04-20T14:52:18",
+        "author_id": 7452101977926911009,
+        "description": "#viralvideo #foryoupage #growmyaccount #unfreezemyacount #motivational #teacher #education #knowledge #health ",
+        "hashtags": [
+            "viralvideo",
+            "foryoupage",
+            "growmyaccount",
+            "unfreezemyacount",
+            "motivational",
+            "teacher",
+            "education",
+            "knowledge",
+            "health"
+        ],
+        "mentions": null,
+        "music_id": 7495284546843233046,
+        "schedule_time": 0,
+        "location_created": "PL",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 13900,
+        "sharecount": 15400,
+        "commentcount": 266,
+        "playcount": 331800,
+        "collectcount": 1156,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": null,
+        "diversification_id": 10083,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7495284550109646102,
+        "filepath": "test_folder/tiktok_7495284550109646102_*",
+        "duration": 18,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -14.2,
+        "volume_peak": 0.60256,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7495284546843233046,
+        "title": "original sound - Motivational Teacher",
+        "author_name": "musafarhalak091",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 18.416313,
+            "preciseShootDuration": 18.416313,
+            "preciseAuditionDuration": 18.416313,
+            "preciseVideoDuration": 18.416313
+        }
+    },
+    "author_metadata": {
+        "id": 7452101977926911009,
+        "username": "musafarhalak091",
+        "name": "musafarhalak091",
+        "signature": "",
+        "create_time": 1740477206,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "viralvideo",
+            "id": 85133,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryoupage",
+            "id": 88764338,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "growmyaccount",
+            "id": 12061748,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "unfreezemyacount",
+            "id": 1652442087671809,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "motivational",
+            "id": 24675,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "teacher",
+            "id": 21713,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "education",
+            "id": 97277,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "knowledge",
+            "id": 39574,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "health",
+            "id": 13566,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

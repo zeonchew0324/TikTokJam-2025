@@ -1,0 +1,175 @@
+{
+    "video_metadata": {
+        "id": 7008423875465841921,
+        "time_created": "2021-09-16T15:04:03",
+        "author_id": 7001353564024144923,
+        "description": "Suprise (Flash Runner! All Levels Gameplay Walkthrough for Android and iOs) #art #mobilegame #androidgames #iosgame #funnygame #relaxinggame #guess",
+        "hashtags": [
+            "art",
+            "mobilegame",
+            "androidgames",
+            "iosgame",
+            "funnygame",
+            "relaxinggame",
+            "guess"
+        ],
+        "mentions": null,
+        "music_id": 7008423802644204289,
+        "schedule_time": 0,
+        "location_created": "MM",
+        "is_ad": false,
+        "suggested_words": [
+            "Mobile Games",
+            "games",
+            "Games To Download"
+        ],
+        "diggcount": 441,
+        "sharecount": 10,
+        "commentcount": 14,
+        "playcount": 31400,
+        "collectcount": 6,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "Surprise Gift for\n1K Followers❤"
+                ],
+                "stickerType": 9
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7008423875465841921,
+        "filepath": "test_folder/tiktok_7008423875465841921_*",
+        "duration": 54,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -9.3,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7008423802644204289,
+        "title": "original sound",
+        "author_name": "Enjoyable",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 54,
+            "preciseShootDuration": 54,
+            "preciseAuditionDuration": 54,
+            "preciseVideoDuration": 54
+        }
+    },
+    "author_metadata": {
+        "id": 7001353564024144923,
+        "username": "enjoyable111",
+        "name": "Enjoyable",
+        "signature": "Funny moments, Funny Games, Guess the Games, Guess for fun, Relaxing Games, Art",
+        "create_time": 1630131195,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "art",
+            "id": 5261,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mobilegame",
+            "id": 11057235,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Charge your battery and stock up on extra lives, because we're celebrating the #MobileGame community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "androidgames",
+            "id": 46727493,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "iosgame",
+            "id": 1608407473085442,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funnygame",
+            "id": 4764161,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "relaxinggame",
+            "id": 1618234445551621,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "guess",
+            "id": 57637,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

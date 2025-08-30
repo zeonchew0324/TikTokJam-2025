@@ -1,0 +1,146 @@
+{
+    "video_metadata": {
+        "id": 7476827074032979218,
+        "time_created": "2025-03-01T21:07:44",
+        "author_id": 7242547641573295109,
+        "description": "Sige na maam #simulatorgames #simulator #gaming #fyp #pinoy ",
+        "hashtags": [
+            "simulatorgames",
+            "simulator",
+            "gaming",
+            "fyp",
+            "pinoy"
+        ],
+        "mentions": null,
+        "music_id": 7476827155561843457,
+        "schedule_time": 0,
+        "location_created": "PH",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 96700,
+        "sharecount": 14900,
+        "commentcount": 858,
+        "playcount": 3700000,
+        "collectcount": 8919,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": false,
+        "stitch_enabled": false,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7476827074032979218,
+        "filepath": "test_folder/tiktok_7476827074032979218_*",
+        "duration": 102,
+        "height": 576,
+        "width": 1024,
+        "ratio": 540,
+        "volume_loudness": -17.2,
+        "volume_peak": 1,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7476827155561843457,
+        "title": "original sound - JamSuitOfficial",
+        "author_name": "JamSuitOfficial",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 102.713,
+            "preciseShootDuration": 102.713,
+            "preciseAuditionDuration": 102.713,
+            "preciseVideoDuration": 102.713
+        }
+    },
+    "author_metadata": {
+        "id": 7242547641573295109,
+        "username": "jamsuitofficial",
+        "name": "JamSuitOfficial",
+        "signature": "Reach me at: Jamsuit0670@gmail.com",
+        "create_time": 1686287059,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "simulatorgames",
+            "id": 1650822932885509,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "simulator",
+            "id": 1786523,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gaming",
+            "id": 16057,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Stock up on extra lives, because we're celebrating the #Gaming community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "pinoy",
+            "id": 24910,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

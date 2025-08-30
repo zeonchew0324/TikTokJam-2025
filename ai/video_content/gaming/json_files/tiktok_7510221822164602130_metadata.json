@@ -1,0 +1,171 @@
+{
+    "video_metadata": {
+        "id": 7510221822164602130,
+        "time_created": "2025-05-30T20:56:25",
+        "author_id": 7395300746024977413,
+        "description": "#likes #FarazXGamer #gaming #gaming #1million #pakvedio25 ",
+        "hashtags": [
+            "likes",
+            "farazxgamer",
+            "gaming",
+            "gaming",
+            "1million",
+            "pakvedio25"
+        ],
+        "mentions": null,
+        "music_id": 7395733865317566481,
+        "schedule_time": 0,
+        "location_created": "PK",
+        "is_ad": false,
+        "suggested_words": [
+            "gameplay gta 5",
+            "Gta 5 Game",
+            "Gta5",
+            "gta 5 videos",
+            "gta 5 level 1",
+            "gta 5 city code",
+            "gta 5 game download"
+        ],
+        "diggcount": 1740,
+        "sharecount": 281,
+        "commentcount": 67,
+        "playcount": 217900,
+        "collectcount": 293,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": false,
+        "stitch_enabled": false,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "GTA   5   751",
+                    "☠️"
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10056,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7510221822164602130,
+        "filepath": "test_folder/tiktok_7510221822164602130_*",
+        "duration": 24,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -13.3,
+        "volume_peak": 0.93325,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7395733865317566481,
+        "title": "Montagem Bionica Espectral - Ultra Slowed + Reverb",
+        "author_name": "DJ OLIVEIRA ORIGINAL",
+        "original": false,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 60,
+            "preciseShootDuration": 60,
+            "preciseAuditionDuration": 60,
+            "preciseVideoDuration": 60
+        }
+    },
+    "author_metadata": {
+        "id": 7395300746024977413,
+        "username": "ahmedxgamer4",
+        "name": "AhmedXGamer",
+        "signature": "1.M Like 100.0K Follower 500.0K view",
+        "create_time": 1722341659,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "likes",
+            "id": 7724,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "farazxgamer",
+            "id": 7500142016878084112,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "gaming",
+            "id": 16057,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Stock up on extra lives, because we're celebrating the #Gaming community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "gaming",
+            "id": 16057,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Stock up on extra lives, because we're celebrating the #Gaming community. Show us what you're playing, where you play, and your top recommendations!"
+        },
+        {
+            "name": "1million",
+            "id": 1618875494896645,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "pakvedio25",
+            "id": 7493866751336284176,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

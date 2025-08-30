@@ -1,0 +1,159 @@
+{
+    "video_metadata": {
+        "id": 7479441624146251038,
+        "time_created": "2025-03-08T22:14:16",
+        "author_id": 7339626460175369258,
+        "description": "One of the most expensive educational options today is sending our children into the school system. #publicschool #schoolsystem #education #childhood #fyp ",
+        "hashtags": [
+            "publicschool",
+            "schoolsystem",
+            "education",
+            "childhood",
+            "fyp"
+        ],
+        "mentions": null,
+        "music_id": 7479446838702066463,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "educational school system",
+            "educational system",
+            "educational system video",
+            "why school is good",
+            "private school vs public school"
+        ],
+        "diggcount": 259100,
+        "sharecount": 32500,
+        "commentcount": 4198,
+        "playcount": 2000000,
+        "collectcount": 30265,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "The real price of \na “free” education"
+                ],
+                "stickerType": 9
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Social Issues",
+            "Society",
+            "Society"
+        ],
+        "diversification_id": 10087,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7479441624146251038,
+        "filepath": "test_folder/tiktok_7479441624146251038_*",
+        "duration": 19,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -26.1,
+        "volume_peak": 0.71614,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7479446838702066463,
+        "title": "original sound",
+        "author_name": "Mandy Davis",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 19.826939,
+            "preciseShootDuration": 19.826939,
+            "preciseAuditionDuration": 19.826939,
+            "preciseVideoDuration": 19.826939
+        }
+    },
+    "author_metadata": {
+        "id": 7339626460175369258,
+        "username": "homebuilteducation",
+        "name": "Mandy Davis",
+        "signature": "Former School Principal.\nSaying what your school won’t.\n\n291K+ on Instagram",
+        "create_time": 1708890050,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 3,
+        "stitch_setting": 3,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "publicschool",
+            "id": 1563044,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "schoolsystem",
+            "id": 145370,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "education",
+            "id": 97277,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "childhood",
+            "id": 14372,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

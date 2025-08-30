@@ -1,0 +1,155 @@
+{
+    "video_metadata": {
+        "id": 7006136181754809627,
+        "time_created": "2021-09-10T11:06:38",
+        "author_id": 6811417054563468290,
+        "description": "Education is everything #teacher #school #schoollife #teacherlife #fypdongggggggg #fypシ",
+        "hashtags": [
+            "teacher",
+            "school",
+            "schoollife",
+            "teacherlife",
+            "fypdongggggggg",
+            "fypシ"
+        ],
+        "mentions": null,
+        "music_id": 6977348201787443970,
+        "schedule_time": 0,
+        "location_created": "MY",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 280700,
+        "sharecount": 11500,
+        "commentcount": 1406,
+        "playcount": 1600000,
+        "collectcount": 60056,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Professional Personal Development",
+            "Education",
+            "Culture & Education & Technology"
+        ],
+        "diversification_id": 10091,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7006136181754809627,
+        "filepath": "test_folder/tiktok_7006136181754809627_*",
+        "duration": 13,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -23.1,
+        "volume_peak": 0.4217,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 6977348201787443970,
+        "title": "original sound",
+        "author_name": "freethinking ENGLISH",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 13,
+            "preciseShootDuration": 13,
+            "preciseAuditionDuration": 13,
+            "preciseVideoDuration": 13
+        }
+    },
+    "author_metadata": {
+        "id": 6811417054563468290,
+        "username": "hudaroslan",
+        "name": "Huda Roslan",
+        "signature": "An English language teacher who loves doing fun things!",
+        "create_time": 1585878087,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "teacher",
+            "id": 21713,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "school",
+            "id": 3586,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "schoollife",
+            "id": 60252,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "teacherlife",
+            "id": 562763,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "POV: Back to school...but this time you're the teacher."
+        },
+        {
+            "name": "fypdongggggggg",
+            "id": 1674893053234177,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fypシ",
+            "id": 1637342470396934,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

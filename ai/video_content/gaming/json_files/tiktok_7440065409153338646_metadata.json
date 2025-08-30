@@ -1,0 +1,178 @@
+{
+    "video_metadata": {
+        "id": 7440065409153338646,
+        "time_created": "2024-11-22T19:33:42",
+        "author_id": 6825955517942039558,
+        "description": "That’s insane 🐔 #funny #comedy #game #filter #voice #mercuri_88 ",
+        "hashtags": [
+            "funny",
+            "comedy",
+            "game",
+            "filter",
+            "voice",
+            "mercuri_88"
+        ],
+        "mentions": null,
+        "music_id": 7085791307943954433,
+        "schedule_time": 0,
+        "location_created": "IT",
+        "is_ad": false,
+        "suggested_words": [
+            "voice game filter",
+            "voice game",
+            "game filter",
+            "scream chicken filter",
+            "Game",
+            "game filter effects",
+            "voice filter",
+            "manuel mercuri",
+            "voice filter effect",
+            "scream chicken game"
+        ],
+        "diggcount": 13500,
+        "sharecount": 759,
+        "commentcount": 503,
+        "playcount": 1100000,
+        "collectcount": 1863,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": [
+            {
+                "name": "Scream Chicken",
+                "ID": "747719082"
+            }
+        ],
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "INSANE CHICKEN FILTER"
+                ],
+                "stickerType": 9
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Non-Video Games",
+            "Games",
+            "Entertainment"
+        ],
+        "diversification_id": 10057,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7440065409153338646,
+        "filepath": "test_folder/tiktok_7440065409153338646_*",
+        "duration": 46,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -17.1,
+        "volume_peak": 0.47315,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7085791307943954433,
+        "title": "L$d",
+        "author_name": "Luclover",
+        "original": false,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 59.88,
+            "preciseShootDuration": 59.88,
+            "preciseAuditionDuration": 59.88,
+            "preciseVideoDuration": 60
+        }
+    },
+    "author_metadata": {
+        "id": 6825955517942039558,
+        "username": "mercuri_88",
+        "name": "Manuel Mercuri",
+        "signature": "🇮🇹 Acrobat & Creator\n💥 Comedy • Stunts • POV\n📩 manuel@role-talent.com",
+        "create_time": 1589264157,
+        "verified": true,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "funny",
+            "id": 5424,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "What's so #Funny?"
+        },
+        {
+            "name": "comedy",
+            "id": 1606334392378370,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "game",
+            "id": 2006,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "filter",
+            "id": 25668,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "voice",
+            "id": 19994,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mercuri_88",
+            "id": 1671489356805125,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

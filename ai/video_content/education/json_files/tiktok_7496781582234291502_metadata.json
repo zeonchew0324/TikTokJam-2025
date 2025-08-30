@@ -1,0 +1,154 @@
+{
+    "video_metadata": {
+        "id": 7496781582234291502,
+        "time_created": "2025-04-24T15:44:08",
+        "author_id": 7302120509986866222,
+        "description": "#China Education System 👍 # # #Facts # #Viral #Viral #Asmr",
+        "hashtags": [
+            "china",
+            "facts",
+            "viral",
+            "viral",
+            "asmr"
+        ],
+        "mentions": null,
+        "music_id": 7496782108208417582,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "china's education system",
+            "china children education system",
+            "facts about education system",
+            "Chinese international students",
+            "china education verses ghana education",
+            "chinese student tiktok",
+            "china technical"
+        ],
+        "diggcount": 262,
+        "sharecount": 138,
+        "commentcount": 9,
+        "playcount": 20500,
+        "collectcount": 44,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Campus Life",
+            "Daily Life",
+            "Lifestyle"
+        ],
+        "diversification_id": 10015,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7496781582234291502,
+        "filepath": "test_folder/tiktok_7496781582234291502_*",
+        "duration": 27,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -17.4,
+        "volume_peak": 0.60954,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7496782108208417582,
+        "title": "original sound",
+        "author_name": "mikejzkqsvj",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 27.768126,
+            "preciseShootDuration": 27.768126,
+            "preciseAuditionDuration": 27.768126,
+            "preciseVideoDuration": 27.768126
+        }
+    },
+    "author_metadata": {
+        "id": 7302120509986866222,
+        "username": "mikejzkqsvj",
+        "name": "mikejzkqsvj",
+        "signature": "",
+        "create_time": 1700157890,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "china",
+            "id": 5873,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "🇨🇳🇨🇳🇨🇳中国的童鞋们，记得在视频下标注#China 或者#中国，让全球的小伙伴都能发现你们哦🤗"
+        },
+        {
+            "name": "facts",
+            "id": 17641,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viral",
+            "id": 20884,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "¡descubre las canciones en tendencia! 🔥➡️ https://bit.ly/TendenciasTikTok_LATAM"
+        },
+        {
+            "name": "viral",
+            "id": 20884,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "¡descubre las canciones en tendencia! 🔥➡️ https://bit.ly/TendenciasTikTok_LATAM"
+        },
+        {
+            "name": "asmr",
+            "id": 1248236,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "All the soothing sounds you need to massage your brain."
+        }
+    ]
+}

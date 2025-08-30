@@ -1,0 +1,229 @@
+{
+    "video_metadata": {
+        "id": 7465389210267110698,
+        "time_created": "2025-01-30T01:24:00",
+        "author_id": 7408204136951645226,
+        "description": "You wonder where the noise comes from? Check the video for educational purposes #viralvideo #dfw #fortworth #dallas #mechanic #trendingvideo #goviral #foeyoupage #automotive #foryou #fyp #trending #technician ",
+        "hashtags": [
+            "viralvideo",
+            "dfw",
+            "fortworth",
+            "dallas",
+            "mechanic",
+            "trendingvideo",
+            "goviral",
+            "foeyoupage",
+            "automotive",
+            "foryou",
+            "fyp",
+            "trending",
+            "technician"
+        ],
+        "mentions": null,
+        "music_id": 7465389395703139118,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "ball joints noise",
+            "wheel bearing noise",
+            "rocker arm valve",
+            "rubber bushing sound",
+            "bearing alternator",
+            "shock absorber",
+            "power steering",
+            "brake pads noise",
+            "upper lower swing arm",
+            "brake pad"
+        ],
+        "diggcount": 3400000,
+        "sharecount": 731400,
+        "commentcount": 15700,
+        "playcount": 56300000,
+        "collectcount": 1611734,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Cars, Trucks & Motorcycles",
+            "Auto & Vehicle",
+            "Auto & Vehicle"
+        ],
+        "diversification_id": 10062,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7465389210267110698,
+        "filepath": "test_folder/tiktok_7465389210267110698_*",
+        "duration": 38,
+        "height": 826,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -13.8,
+        "volume_peak": 0.92257,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7465389395703139118,
+        "title": "original sound",
+        "author_name": "Black Eagle Autos",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 38.4,
+            "preciseShootDuration": 38.4,
+            "preciseAuditionDuration": 38.4,
+            "preciseVideoDuration": 38.4
+        }
+    },
+    "author_metadata": {
+        "id": 7408204136951645226,
+        "username": "black.eagle.autos",
+        "name": "Black Eagle Autos",
+        "signature": "Black Eagle Autos\n3421 Brandon Ln, Fort Worth, TX 76116 \n682-255-8393",
+        "create_time": 1724857104,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 3,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "viralvideo",
+            "id": 85133,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "dfw",
+            "id": 468308,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fortworth",
+            "id": 139818,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "dallas",
+            "id": 8644,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "mechanic",
+            "id": 2284342,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Whether you’re upgrading your ride or just making some much needed repairs, show us your inner #mechanic"
+        },
+        {
+            "name": "trendingvideo",
+            "id": 5464941,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "goviral",
+            "id": 151602,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foeyoupage",
+            "id": 1603925392190469,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "automotive",
+            "id": 516080,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foryou",
+            "id": 42164,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "fyp",
+            "id": 229207,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trending",
+            "id": 20105,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Discover the top viral trends, sounds and effects of the week! 🔥"
+        },
+        {
+            "name": "technician",
+            "id": 32140,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

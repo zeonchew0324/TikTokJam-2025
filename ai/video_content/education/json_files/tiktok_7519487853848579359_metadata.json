@@ -1,0 +1,157 @@
+{
+    "video_metadata": {
+        "id": 7519487853848579359,
+        "time_created": "2025-06-24T20:14:12",
+        "author_id": 7504935044188832798,
+        "description": "Learn English Prepositions #english #grammar #education #learning #prepositions ",
+        "hashtags": [
+            "english",
+            "grammar",
+            "education",
+            "learning",
+            "prepositions"
+        ],
+        "mentions": null,
+        "music_id": 7519487915949329183,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "grammar english learning prepositions",
+            "english grammar prepositions",
+            "english prepositions",
+            "learn preposition",
+            "english masterclass",
+            "english",
+            "prepositions in grammar",
+            "preposition",
+            "grammar",
+            "prepositions in english speaking"
+        ],
+        "diggcount": 151000,
+        "sharecount": 34400,
+        "commentcount": 3002,
+        "playcount": 4100000,
+        "collectcount": 41969,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Professional Personal Development",
+            "Education",
+            "Culture & Education & Technology"
+        ],
+        "diversification_id": 10091,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7519487853848579359,
+        "filepath": "test_folder/tiktok_7519487853848579359_*",
+        "duration": 67,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -10.3,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7519487915949329183,
+        "title": "original sound",
+        "author_name": "EnglishMasterclass",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 67.631,
+            "preciseShootDuration": 67.631,
+            "preciseAuditionDuration": 67.631,
+            "preciseVideoDuration": 67.631
+        }
+    },
+    "author_metadata": {
+        "id": 7504935044188832798,
+        "username": "englishmasterclass0",
+        "name": "EnglishMasterclass",
+        "signature": "For special english notes msg me on +92460035575",
+        "create_time": 1747379109,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "english",
+            "id": 17797,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "grammar",
+            "id": 369060,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "education",
+            "id": 97277,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "learning",
+            "id": 19175,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "prepositions",
+            "id": 10557161,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

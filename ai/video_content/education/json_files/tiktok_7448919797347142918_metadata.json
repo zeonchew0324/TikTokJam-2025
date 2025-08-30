@@ -1,0 +1,148 @@
+{
+    "video_metadata": {
+        "id": 7448919797347142918,
+        "time_created": "2024-12-16T16:13:21",
+        "author_id": 7081336877862061058,
+        "description": "our new Brilliant teacher 🤣 #creatorsearchinsights2024  #searchengineoptimization  #funnyeducationalvidoes  funny educational video  videos for you to lough ",
+        "hashtags": [
+            "creatorsearchinsights2024",
+            "searchengineoptimization",
+            "funnyeducationalvidoes"
+        ],
+        "mentions": null,
+        "music_id": 6980960643218295578,
+        "schedule_time": 0,
+        "location_created": "NA",
+        "is_ad": false,
+        "suggested_words": [
+            "our new english teacher from china",
+            "Teacher Funny Videos",
+            "Funny Teachers",
+            "Funny video",
+            "funny video 2024",
+            "Funny",
+            "funny videos laugh till you cry",
+            "Funny Videos To Laugh",
+            "Japan Brazil Canada Philippines Meme",
+            "very very funny videos you laugh so hard"
+        ],
+        "diggcount": 26200,
+        "sharecount": 6247,
+        "commentcount": 1916,
+        "playcount": 1600000,
+        "collectcount": 1713,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "our new English teacher from China 🤣",
+                    "educational funny videos ",
+                    "funny videos "
+                ],
+                "stickerType": 4
+            }
+        ],
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Lip-sync",
+            "Lip-sync",
+            "Performance"
+        ],
+        "diversification_id": 10071,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7448919797347142918,
+        "filepath": "test_folder/tiktok_7448919797347142918_*",
+        "duration": 19,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -2.2,
+        "volume_peak": 1,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 6980960643218295578,
+        "title": "original sound - Adnan Official",
+        "author_name": "Azira Samat",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 19,
+            "preciseShootDuration": 19,
+            "preciseAuditionDuration": 19,
+            "preciseVideoDuration": 19
+        }
+    },
+    "author_metadata": {
+        "id": 7081336877862061058,
+        "username": "mr_adventure__",
+        "name": "adventure 🇳🇦",
+        "signature": "LAUGHTER IS THE BEST MEDICINE FOR THE SOUL. new account @Adventure🇳🇦",
+        "create_time": 1666558961,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "creatorsearchinsights2024",
+            "id": 7347621485202112554,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "searchengineoptimization",
+            "id": 1628259826486278,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funnyeducationalvidoes",
+            "id": 7198661080283873322,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

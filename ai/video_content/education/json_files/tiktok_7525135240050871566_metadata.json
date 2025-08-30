@@ -1,0 +1,121 @@
+{
+    "video_metadata": {
+        "id": 7525135240050871566,
+        "time_created": "2025-07-10T01:28:41",
+        "author_id": 7210792860892234798,
+        "description": "The Department of Education exists because states have long histories of discriminating against students, as Rep. #JahanaHayes explains. No matter where they live, students deserve equal opportunity to a quality education, but Secretary McMahon continues to neglect her responsibility to deliver that.",
+        "hashtags": [
+            "jahanahayes"
+        ],
+        "mentions": null,
+        "music_id": 7525135382611725070,
+        "schedule_time": 0,
+        "location_created": "US",
+        "is_ad": false,
+        "suggested_words": [
+            "jaden hayes",
+            "education videos for students",
+            "civil education videos for students",
+            "Vince Mcmahon Allegations",
+            "graduation of education students",
+            "education students acting surprised",
+            "Shane McMahon",
+            "great business education students",
+            "english education students",
+            "Tim McMahon"
+        ],
+        "diggcount": 84500,
+        "sharecount": 5322,
+        "commentcount": 1636,
+        "playcount": 357700,
+        "collectcount": 6476,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Social Issues",
+            "Society",
+            "Society"
+        ],
+        "diversification_id": 10087,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7525135240050871566,
+        "filepath": "test_folder/tiktok_7525135240050871566_*",
+        "duration": 107,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -21.6,
+        "volume_peak": 0.93325,
+        "has_original_audio": false,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7525135382611725070,
+        "title": "original sound",
+        "author_name": "The Leadership Conference",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 107.964,
+            "preciseShootDuration": 107.964,
+            "preciseAuditionDuration": 107.964,
+            "preciseVideoDuration": 107.964
+        }
+    },
+    "author_metadata": {
+        "id": 7210792860892234798,
+        "username": "civilrightsorg",
+        "name": "The Leadership Conference",
+        "signature": "We are a coalition of diverse Americans fighting for our democracy and rights.",
+        "create_time": 1678893697,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "jahanahayes",
+            "id": 1680640727195653,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

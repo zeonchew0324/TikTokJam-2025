@@ -1,0 +1,157 @@
+{
+    "video_metadata": {
+        "id": 7500208528515157270,
+        "time_created": "2025-05-03T21:19:43",
+        "author_id": 7456025167799682081,
+        "description": "English teacher #comedy #funnymoments #shorts #viralditiktok #funnyvideos😂 ",
+        "hashtags": [
+            "comedy",
+            "funnymoments",
+            "shorts",
+            "viralditiktok",
+            "funnyvideos😂"
+        ],
+        "mentions": null,
+        "music_id": 7500208524162894614,
+        "schedule_time": 0,
+        "location_created": "GB",
+        "is_ad": false,
+        "suggested_words": [
+            "English Teacher",
+            "Funny Teachers",
+            "Funny Videos",
+            "english teacher tik tok",
+            "Funny",
+            "mark adams",
+            "funny videos to laugh till you cry",
+            "Funny African Videos",
+            "english",
+            "English TikTok"
+        ],
+        "diggcount": 67700,
+        "sharecount": 6381,
+        "commentcount": 1580,
+        "playcount": 986900,
+        "collectcount": 8071,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Scripted Comedy",
+            "Comedy",
+            "Performance"
+        ],
+        "diversification_id": 10000,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7500208528515157270,
+        "filepath": "test_folder/tiktok_7500208528515157270_*",
+        "duration": 59,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -7.2,
+        "volume_peak": 1,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7500208524162894614,
+        "title": "original sound",
+        "author_name": "marrk.adam fan official",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 59.8465,
+            "preciseShootDuration": 59.8465,
+            "preciseAuditionDuration": 59.8465,
+            "preciseVideoDuration": 59.8465
+        }
+    },
+    "author_metadata": {
+        "id": 7456025167799682081,
+        "username": "marrk.adamfanofficial",
+        "name": "marrk.adam fan official",
+        "signature": "",
+        "create_time": 1735992038,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "comedy",
+            "id": 1606334392378370,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "funnymoments",
+            "id": 8510,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "shorts",
+            "id": 15667,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "viralditiktok",
+            "id": 1659497263387650,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Challenge, Musik, dan Effect paling viral minggu ini di https://bit.ly/ViralDiTikTok"
+        },
+        {
+            "name": "funnyvideos😂",
+            "id": 1617937572869125,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

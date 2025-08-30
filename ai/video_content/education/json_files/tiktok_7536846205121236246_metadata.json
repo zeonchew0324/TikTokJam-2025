@@ -1,0 +1,182 @@
+{
+    "video_metadata": {
+        "id": 7536846205121236246,
+        "time_created": "2025-08-10T14:52:44",
+        "author_id": 7493074034315166742,
+        "description": "Part 116! Learn English Vocabulary.#enlishlanguge #vocabulary #englishvocabulary #study #englishgrammar #usa🇺🇸 #travel #education #creatorsearch ",
+        "hashtags": [
+            "enlishlanguge",
+            "vocabulary",
+            "englishvocabulary",
+            "study",
+            "englishgrammar",
+            "usa🇺🇸",
+            "travel",
+            "education",
+            "creatorsearch"
+        ],
+        "mentions": null,
+        "music_id": 7536846203402259222,
+        "schedule_time": 0,
+        "location_created": "GB",
+        "is_ad": false,
+        "suggested_words": [],
+        "diggcount": 13700,
+        "sharecount": 945,
+        "commentcount": 141,
+        "playcount": 867700,
+        "collectcount": 1092,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Professional Personal Development",
+            "Education",
+            "Culture & Education & Technology"
+        ],
+        "diversification_id": 10091,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7536846205121236246,
+        "filepath": "test_folder/tiktok_7536846205121236246_*",
+        "duration": 62,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -17.4,
+        "volume_peak": 0.90157,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 1,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7536846203402259222,
+        "title": "original sound",
+        "author_name": "Learn English",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 62.537125,
+            "preciseShootDuration": 62.537125,
+            "preciseAuditionDuration": 62.537125,
+            "preciseVideoDuration": 62.537125
+        }
+    },
+    "author_metadata": {
+        "id": 7493074034315166742,
+        "username": "learnenglish922",
+        "name": "Learn English",
+        "signature": "Enhance your English skills with a Daily\nVocabulary Quiz \nFollow us For More",
+        "create_time": 1744617456,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 0,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "enlishlanguge",
+            "id": 7479655490700443670,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "vocabulary",
+            "id": 821248,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "englishvocabulary",
+            "id": 8243028,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "study",
+            "id": 73549,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "englishgrammar",
+            "id": 1598204627731461,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "usa🇺🇸",
+            "id": 1592388850236422,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "travel",
+            "id": 7884,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "🌟The world is a book and those who don't travel read only one page 🏄🌴Now recollect your best travel memories from your camera roll, 📷and share the stories behind!"
+        },
+        {
+            "name": "education",
+            "id": 97277,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "creatorsearch",
+            "id": 1673726784516101,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}

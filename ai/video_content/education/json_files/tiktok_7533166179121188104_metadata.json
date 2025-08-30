@@ -1,0 +1,146 @@
+{
+    "video_metadata": {
+        "id": 7533166179121188104,
+        "time_created": "2025-07-31T16:52:13",
+        "author_id": 6998260182086419457,
+        "description": "🎓 They never taught us the truth... 🤯 Time to wake up! 🚨📚 #EducationLies #TruthRevealed #WakeUpCall #SchoolSystemExposed #ThinkForYourse ",
+        "hashtags": [
+            "educationlies",
+            "truthrevealed",
+            "wakeupcall",
+            "schoolsystemexposed",
+            "thinkforyourse"
+        ],
+        "mentions": null,
+        "music_id": 7533166211326757648,
+        "schedule_time": 0,
+        "location_created": "AU",
+        "is_ad": false,
+        "suggested_words": [
+            "education",
+            "truth wake up",
+            "the truth wake up"
+        ],
+        "diggcount": 6148,
+        "sharecount": 1592,
+        "commentcount": 133,
+        "playcount": 142100,
+        "collectcount": 1451,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": null,
+        "diversification_id": null,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7533166179121188104,
+        "filepath": "test_folder/tiktok_7533166179121188104_*",
+        "duration": 34,
+        "height": 1024,
+        "width": 576,
+        "ratio": 540,
+        "volume_loudness": -17.9,
+        "volume_peak": 0.68391,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": null,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7533166211326757648,
+        "title": "original sound",
+        "author_name": "LiveGood",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 34.19425,
+            "preciseShootDuration": 34.19425,
+            "preciseAuditionDuration": 34.19425,
+            "preciseVideoDuration": 34.19425
+        }
+    },
+    "author_metadata": {
+        "id": 6998260182086419457,
+        "username": "livegood_forever",
+        "name": "LiveGood",
+        "signature": "Want My Secret To Make Money 💰 Online Click on My Link Below",
+        "create_time": 1629446717,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": true,
+        "comment_setting": 0,
+        "duet_setting": 0,
+        "stitch_setting": 3,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "educationlies",
+            "id": 7191995534368849966,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "truthrevealed",
+            "id": 1968808,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "wakeupcall",
+            "id": 79078,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "schoolsystemexposed",
+            "id": 7067987144706359343,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "thinkforyourse",
+            "id": 1674301513044998,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}
