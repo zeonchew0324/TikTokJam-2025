@@ -52,11 +52,3 @@ def parse_video_url_map(file_path):
         return []
 
     return parsed_data
-
-if __name__ == "__main__":
-    # Assuming the file is in the same directory as the script
-    input_file = "ai/embed_video/video_url_map.txt"
-    video_urls = parse_video_url_map(input_file)
-
-    if video_urls:
-        print(video_urls)

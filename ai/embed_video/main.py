@@ -1,8 +1,8 @@
 from ai.tech_stack.twelve_labs import create_video_embedding
-from ai.tech_stack.qdrant import store_video_in_qdrant
+from ai.tech_stack.qdrant import store_video_in_qdrant, retrieve_all_video_ids
 from ai.bot_content_detection.main import detect_similar_videos
 from ai.send_requests_to_java_server.flag_creator_bots import flag_creator_bots
-from ai.embed_video.parse_video_ids_and_s3_urls import parse_video_url_map
+from ai.scripts.parse_video_ids_and_s3_urls import parse_video_url_map
 
 # Function to embed a single video file
 def embed_single_video(video_id, s3_url):
@@ -38,9 +38,13 @@ def reembed_single_video(video_id, s3_url):# Generate video embeddings using Twe
 
 # Function to embed videos from the S3 bucket
 def embed_videos(video_ids_and_urls):
+    all_video_ids = retrieve_all_video_ids()
     for video_id, s3_url in video_ids_and_urls:
         try:
             print(f"\nProcessing {video_id}...")
+            
+            if video_id in all_video_ids:
+                continue
             
             # Generate video embeddings using Twelve Labs
             video_embedding = create_video_embedding(s3_url)
@@ -57,13 +61,13 @@ def embed_videos(video_ids_and_urls):
                 # Handle flagged content (i.e., notify via API)
                 similarity_score = round(float(similar_videos[0][2]) * 100, 2)
                 print(f"Similarity score: {similarity_score}, Type: {type(similarity_score)}")
-                flag_creator_bots(video_id, similarity_score)
+                # flag_creator_bots(video_id, similarity_score)
         
                 print(f"Video {video_id} flagged as potential bot-generated content due to similarity with existing videos.")
         except Exception as e:
             print(f"Error processing {video_id}: {str(e)}")
             
 if __name__ == "__main__":
-    input_file = "ai/embed_video/video_url_map.txt"
+    input_file = "ai/scripts/video_url_map.txt"
     video_ids_and_urls = parse_video_url_map(input_file)
     embed_videos(video_ids_and_urls)

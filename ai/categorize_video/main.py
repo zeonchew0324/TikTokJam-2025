@@ -1,13 +1,16 @@
 from ai.tech_stack.qdrant import retrieve_all_from_qdrant, CENTROID_COLLECTION_NAME, retrieve_video_embedding_by_id, retrieve_category_by_embedding
 from ai.tech_stack.faiss_algo import categorize_video
 
-centroid_embeddings = retrieve_all_from_qdrant(CENTROID_COLLECTION_NAME)
-
 def categorize_video_into_3_categories(video_id):
     video_embedding = retrieve_video_embedding_by_id(video_id)
+    centroid_embeddings = retrieve_all_from_qdrant(CENTROID_COLLECTION_NAME)
     
     if video_embedding is None:
         print(f"Video ID {video_id} not found.")
+        return
+    
+    if centroid_embeddings is None:
+        print("No centroids found.")
         return
 
     category_embeddings_and_similarity_scores = categorize_video(video_embedding, centroid_embeddings)

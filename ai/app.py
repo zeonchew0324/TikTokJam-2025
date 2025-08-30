@@ -3,9 +3,9 @@ from flask import Flask, jsonify, render_template, request
 import pandas as pd
 
 from ai.bot_detection.main import aggregate_per_user, bot_probabilities
-from ai.cluster_videos.main import cluster_videos_into_category
 from ai.categorize_video.main import categorize_video_into_3_categories
 from ai.evaluate_video_quality.main import evaluate_video_quality
+from ai.visualize_clustering_algo.main import visualize_clustering_algo
 
 # Create an instance of the Flask class
 # __name__ is a special variable that gets the name of the current file
@@ -105,6 +105,10 @@ def categorize_videos_endpoint():
     
 @app.route('/admin/evaluate-video', methods=['GET'])
 def evaluate_video_endpoint():
+    """
+    EVALUATE VIDEO QUALITY
+    This endpoint triggers the video quality evaluation process.
+    """
     video_id = request.args.get('video_id')
     if not video_id:
         return jsonify({"quality_score": -1.0, "error": "Missing video_id"}), 400
@@ -114,6 +118,24 @@ def evaluate_video_endpoint():
         return jsonify({"quality_score": float(quality_score)})
     except Exception as e:
         return jsonify({"quality_score": -1.0, "error": str(e)}), 500
+    
+@app.route('/admin/visualize-clustering-algo', methods=['GET'])
+def visualize_clustering_algo_endpoint():
+    """
+    CLUSTER VIDEOS
+    This endpoint triggers the video clustering process.
+    """
+    try:
+        projected_embeddings = visualize_clustering_algo()
+        
+        response = {
+            "video_embeddings_3d": projected_embeddings[0],
+            "centroid_embeddings_3d": projected_embeddings[1]
+            
+        }
+        return jsonify(response), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 # This conditional block ensures the web server runs only when the script is executed directly
 # The debug=True flag enables the debugger and reloader, which are very useful during development

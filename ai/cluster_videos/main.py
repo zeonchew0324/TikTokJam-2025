@@ -6,7 +6,7 @@ def cluster_videos_into_category():
     # Retrieve all video embeddings from Qdrant
     video_embeddings = retrieve_all_from_qdrant(collection_name=VIDEO_COLLECTION_NAME)
     
-    if video_embeddings.size == 0:
+    if video_embeddings.size is None:
         print("No video embeddings found in Qdrant.")
         return
     
