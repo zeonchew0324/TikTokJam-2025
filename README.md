@@ -54,19 +54,19 @@ to achieve mass bot content prevention and mitigate the tail risk by summing top
 Each category is divided into 4 tiers, ranked by their *EngagementScore*
 
 $$
-Tier\ 1 - Top\ 5 \\% \ of \ video - receives\ 32.5\%\ of\ the\ pool\ fund
+Tier\ 1 - Top\ 5 \% \ of \ video - receives\ 32.5\%\ of\ the\ pool\ fund
 $$
 
 $$
-Tier\ 2 - Top\ 5 \\%-20 \\% \ of \ video - receives\ 27.5\%\ of\ the\ pool\ fund
+Tier\ 2 - Top\ 5 \%-20 \% \ of \ video - receives\ 27.5\%\ of\ the\ pool\ fund
 $$
 
 $$
-Tier\ 3 - Top\ 20\\%-50 \\% of \ video - receives\ 22.5\%\ of\ the\ pool\ fund
+Tier\ 3 - Top\ 20\%-50 \% of \ video - receives\ 22.5\%\ of\ the\ pool\ fund
 $$
 
 $$
-Tier\ 4 - Bottom\ 17.5 \\% \ of \ video - receives\ 17.5\%\ of\ the\ pool\ fund
+Tier\ 4 - Bottom\ 17.5 \% \ of \ video - receives\ 17.5\%\ of\ the\ pool\ fund
 $$
 
 
