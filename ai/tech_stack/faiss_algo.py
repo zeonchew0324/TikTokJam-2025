@@ -14,7 +14,7 @@ Then it will return an array of centroids.
 
 import faiss                   # make faiss available, and gpu can be enabled later
 import numpy as np
-
+from ai.tech_stack.qdrant import retrieve_all_from_qdrant, CENTROID_COLLECTION_NAME, retrieve_single_from_qdrant
 ncentroids = 4 # the number of centroids
 
 niter = 20
@@ -68,6 +68,7 @@ def categorize_video(vidquery, centroids, k=3):
     #creates the centroid ndarray of dimension ncentroids * 2048
     print("Centroids shape:", centroids.shape)
     #since we are going to use l2distance for similarity, the input needs to be l2 normalized
+    vidquery = vidquery.reshape(-1, 2048)
     vidquery = vidquery / np.linalg.norm(vidquery, axis=1, keepdims=True)
     centroids = centroids / np.linalg.norm(centroids, axis=1, keepdims=True)
     print("vidquery shape:", vidquery.shape)
@@ -82,48 +83,7 @@ def categorize_video(vidquery, centroids, k=3):
     cossim = 1 - dist / 2
     print("cossim shape:", cossim.shape)
     # create a list to hold the results
-    results = []
-    for i in range(vidquery.shape[0]):
-        # for each video in the query, find the most similar centroids
-        similar_centroids = []
-        for j in range(k):
-            similar_centroids.append((centroids[ind[i][j]], cossim[i][j]))
-        results.append(tuple(similar_centroids))
-    return results
-
-"""
-if __name__ == "__main__":
-    VIDEO_COLLECTION_NAME = "video_embeddings"
-    vidembed = retrieve_all_from_qdrant(VIDEO_COLLECTION_NAME) # retrieve all video embeddings from qdrant
-    embed1 = retrieve_single_from_qdrant(VIDEO_COLLECTION_NAME,9274612216458326251) # retrieve a single video embedding from qdrant using point_id
-    embed2 = retrieve_single_from_qdrant(VIDEO_COLLECTION_NAME,10693639038944902041) # retrieve a single video embedding from qdrant using point_id
-    qembed = np.array([embed1, embed2]) # create a query embedding array with the two retrieved embeddings
-    print(qembed.shape)
-    print(vidembed.shape)
-    centroid_categories = cluster_videos(vidembed, ncentroids=ncentroids, niter=niter, verbose=verbose)
-    print("centroid_categories:")
-    centroids = np.array([centroid for centroid, _ in centroid_categories])
-    print('centroids.shape = ')
-    print(centroids.shape)
-    for centroid, video in centroid_categories:
-        print(f"Centroid: {centroid}, Nearest Video: {video}")
-
-        # categorize the query embedding
-        categorized = categorize_video(qembed, centroids, k=3)
-        print('shape of categorized:')
-        print("len of categorized:", len(categorized))
-        print("Categorized Video:")
-
-        for video in categorized:
-            print(video)
-
-    print("centroids")
-    print(centroids)
-    print("running PCA projection on the centroids...")
-    pca_proj = pca_projection(centroids, 3)
-
-    print(pca_proj)
-    print("PCA projection completed.")
-    print("Visualizing embeddings and centroids in 3D PCA projection...")
-    print(visualize_embeddings_centroids_pca(vidembed, centroids))
-"""
+    similar_centroids = []
+    for j in range(k):
+        similar_centroids.append((centroids[ind[0][j]], cossim[0][j]))
+    return similar_centroids

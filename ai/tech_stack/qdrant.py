@@ -270,3 +270,24 @@ def retrieve_all_video_ids():
     except Exception as e:
         print(f"Error retrieving all video IDs from Qdrant: {str(e)}")
         raise
+
+# Function to delete all vectors from a qdrant collection
+def delete_all_vectors(collection_name=CENTROID_COLLECTION_NAME):
+    if not qdrant_client:
+        raise ValueError("Qdrant client not configured")
+
+    try:
+        print(f"Deleting all vectors from collection: {collection_name}...")
+
+        qdrant_client.delete_vectors(
+            collection_name=collection_name,
+            delete_filter=Filter(
+                must=[
+                    FieldCondition(key="video_id", match=MatchValue(value="*")),
+                ]
+            )
+        )
+        print(f"Deleted all vectors from {collection_name}.")
+    except Exception as e:
+        print(f"Error deleting vectors from Qdrant: {str(e)}")
+        raise

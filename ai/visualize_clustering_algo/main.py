@@ -17,4 +17,9 @@ def visualize_clustering_algo():
         return
     
     print("Visualizing video and centroid embeddings...")
-    return project_embeddings_to_3d(video_embeddings, centroid_embeddings)
+    video_embeddings_3d, centroid_embeddings_3d = project_embeddings_to_3d(video_embeddings, centroid_embeddings)
+    
+    video_embeddings_3d = video_embeddings_3d.tolist()
+    centroid_embeddings_3d = centroid_embeddings_3d.tolist()
+    
+    return video_embeddings_3d, centroid_embeddings_3d
