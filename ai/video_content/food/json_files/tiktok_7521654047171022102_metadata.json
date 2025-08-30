@@ -1,25 +1,27 @@
 {
     "video_metadata": {
-        "id": 7524676327295749384,
-        "time_created": "2025-07-08T19:47:15",
-        "author_id": 7015422992856908805,
-        "description": "spicy food#asmr spicy🌶🌶 food eating #asmr eating #eatingfyp ",
+        "id": 7521654047171022102,
+        "time_created": "2025-06-30T16:19:19",
+        "author_id": 7517959248417948694,
+        "description": "Morning food 🤣🙈😆 #goviral #fyp #viralvideos ",
         "hashtags": [
-            "asmr",
-            "asmr",
-            "eatingfyp"
+            "goviral",
+            "fyp",
+            "viralvideos"
         ],
         "mentions": null,
-        "music_id": 6684790151849183233,
+        "music_id": 7521654032973253398,
         "schedule_time": 0,
-        "location_created": "PK",
+        "location_created": "NG",
         "is_ad": false,
-        "suggested_words": [],
-        "diggcount": 129,
+        "suggested_words": [
+            "Morning Food"
+        ],
+        "diggcount": 184,
         "sharecount": 3,
-        "commentcount": 10,
-        "playcount": 9737,
-        "collectcount": 9,
+        "commentcount": 6,
+        "playcount": 10500,
+        "collectcount": 8,
         "repostcount": 0,
         "warn_info": [],
         "original_item": false,
@@ -40,11 +42,10 @@
         "stitch_display": 0,
         "index_enabled": true,
         "diversification_labels": [
-            "Mukbangs & Tasting",
-            "Food & Drink",
-            "Lifestyle"
+            "Comedy",
+            "Performance"
         ],
-        "diversification_id": 10041,
+        "diversification_id": 10003,
         "channel_tags": [],
         "keyword_tags": null,
         "is_ai_gc": false,
@@ -52,13 +53,13 @@
         "ai_gc_description": null
     },
     "file_metadata": {
-        "id": 7524676327295749384,
-        "filepath": "test_folder/tiktok_7524676327295749384_*",
-        "duration": 110,
-        "height": 1024,
-        "width": 576,
-        "ratio": 540,
-        "volume_loudness": -10.9,
+        "id": 7521654047171022102,
+        "filepath": "test_folder/tiktok_7521654047171022102_*",
+        "duration": 12,
+        "height": 854,
+        "width": 480,
+        "ratio": 480,
+        "volume_loudness": -12.8,
         "volume_peak": 1,
         "has_original_audio": true,
         "enable_audio_caption": true,
@@ -66,29 +67,29 @@
         "is_slide": false
     },
     "music_metadata": {
-        "id": 6684790151849183233,
-        "title": "MIC Drop (Steve Aoki Remix) [Full Length Edition]",
-        "author_name": "BTS",
-        "original": false,
+        "id": 7521654032973253398,
+        "title": "original sound",
+        "author_name": "jyzteee comedy",
+        "original": true,
         "schedule_search_time": 0,
         "collected": false,
         "precise_duration": {
-            "preciseDuration": 60,
-            "preciseShootDuration": 60,
-            "preciseAuditionDuration": 60,
-            "preciseVideoDuration": 60
+            "preciseDuration": 12.617,
+            "preciseShootDuration": 12.617,
+            "preciseAuditionDuration": 12.617,
+            "preciseVideoDuration": 12.617
         }
     },
     "author_metadata": {
-        "id": 7015422992856908805,
-        "username": "asmrbliss0",
-        "name": "AHSANG 🌈🩵☁",
-        "signature": "",
-        "create_time": 1643262880,
+        "id": 7517959248417948694,
+        "username": "jyzteee.comedy",
+        "name": "jyzteee comedy",
+        "signature": "I am fearless \nContent creator",
+        "create_time": 1750411441,
         "verified": false,
         "ftc": false,
         "relation": 0,
-        "open_favorite": true,
+        "open_favorite": false,
         "comment_setting": 0,
         "duet_setting": 0,
         "stitch_setting": 0,
@@ -101,24 +102,24 @@
     },
     "hashtags_metadata": [
         {
-            "name": "asmr",
-            "id": 1248236,
+            "name": "goviral",
+            "id": 151602,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
+            "description": ""
         },
         {
-            "name": "asmr",
-            "id": 1248236,
+            "name": "fyp",
+            "id": 229207,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
+            "description": ""
         },
         {
-            "name": "eatingfyp",
-            "id": 1669605020722182,
+            "name": "viralvideos",
+            "id": 1549168,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,

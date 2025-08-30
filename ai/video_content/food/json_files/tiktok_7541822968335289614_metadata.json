@@ -1,38 +1,38 @@
 {
     "video_metadata": {
-        "id": 7540477425814179079,
-        "time_created": "2025-08-20T09:43:39",
-        "author_id": 7203364177024238619,
-        "description": "#spicynoodles #spicyfood #asmr #spicychicken #mukbang ",
+        "id": 7541822968335289614,
+        "time_created": "2025-08-24T00:45:36",
+        "author_id": 6775767249909203974,
+        "description": "My favorite rice cakes ever! These are literally so flavorful and so delicious! Yall need to try these! Get some ASAP!!! I LOVE YALLLLL BYEEEEEEE 💖💖💖💖💖🍀🍀🍀🍀🍀🍀🍀🍀 #foryoupage #mukbang #asmr #trending #ricecake ",
         "hashtags": [
-            "spicynoodles",
-            "spicyfood",
+            "foryoupage",
+            "mukbang",
             "asmr",
-            "spicychicken",
-            "mukbang"
+            "trending",
+            "ricecake"
         ],
         "mentions": null,
-        "music_id": 7540477467186694929,
+        "music_id": 7541823087668054839,
         "schedule_time": 0,
-        "location_created": "ID",
+        "location_created": "US",
         "is_ad": false,
         "suggested_words": [
-            "mukbang ",
-            "mukbang spicy foods",
-            "Mukbang Food",
-            "Mukbang asmr",
-            "Mukbang Food ASMR",
-            "spicy food",
-            "Spicy Mukbang",
-            "Spicy Noodles",
-            "ASMR Food",
-            "Mukbang Asmr Spicy Noodle"
+            "rice cakes",
+            "rice cake mukbang",
+            "Asmr Mukbang Rice Cake",
+            "rice cake cheese",
+            "Mukbang ASMR",
+            "mukbang food",
+            "rice",
+            "asmr food eating",
+            "Rice Crispy Cakes",
+            "flavorful fried rice"
         ],
-        "diggcount": 47200,
-        "sharecount": 5016,
-        "commentcount": 2001,
-        "playcount": 1500000,
-        "collectcount": 4188,
+        "diggcount": 428600,
+        "sharecount": 48900,
+        "commentcount": 4972,
+        "playcount": 8700000,
+        "collectcount": 30885,
         "repostcount": 0,
         "warn_info": [],
         "original_item": false,
@@ -46,7 +46,14 @@
         "private_item": false,
         "duet_enabled": true,
         "stitch_enabled": true,
-        "stickers_on_item": null,
+        "stickers_on_item": [
+            {
+                "stickerText": [
+                    "Rice Cakes 💖"
+                ],
+                "stickerType": 9
+            }
+        ],
         "share_enabled": true,
         "comments": null,
         "duet_display": 0,
@@ -65,39 +72,39 @@
         "ai_gc_description": null
     },
     "file_metadata": {
-        "id": 7540477425814179079,
-        "filepath": "test_folder/tiktok_7540477425814179079_*",
-        "duration": 102,
+        "id": 7541822968335289614,
+        "filepath": "test_folder/tiktok_7541822968335289614_*",
+        "duration": 23,
         "height": 1024,
         "width": 576,
         "ratio": 540,
-        "volume_loudness": -30.2,
-        "volume_peak": 0.69984,
+        "volume_loudness": -36.5,
+        "volume_peak": 0.12162,
         "has_original_audio": true,
         "enable_audio_caption": true,
-        "no_caption_reason": null,
+        "no_caption_reason": 1,
         "is_slide": false
     },
     "music_metadata": {
-        "id": 7540477467186694929,
-        "title": "suara asli - whizky mukbang",
-        "author_name": "whizky mukbang",
+        "id": 7541823087668054839,
+        "title": "original sound",
+        "author_name": "Aaronmyarbrough💖",
         "original": true,
         "schedule_search_time": 0,
         "collected": false,
         "precise_duration": {
-            "preciseDuration": 102.03425,
-            "preciseShootDuration": 102.03425,
-            "preciseAuditionDuration": 102.03425,
-            "preciseVideoDuration": 102.03425
+            "preciseDuration": 23.222813,
+            "preciseShootDuration": 23.222813,
+            "preciseAuditionDuration": 23.222813,
+            "preciseVideoDuration": 23.222813
         }
     },
     "author_metadata": {
-        "id": 7203364177024238619,
-        "username": "princewhizky",
-        "name": "whizky mukbang",
-        "signature": "Mau jajanan murah dan enak😋😋?\nscroll aja keranjang di bawah\n👇👇",
-        "create_time": 1677164008,
+        "id": 6775767249909203974,
+        "username": "aaronmyarbrough",
+        "name": "Aaronmyarbrough💖",
+        "signature": "@AaronMichelle🩷 \n💌-Aaronmyarbrough24@gmail.com\n👩🏽‍❤️‍💋‍👩🏾🧚🏽‍♀️✨",
+        "create_time": 1577667747,
         "verified": false,
         "ftc": false,
         "relation": 0,
@@ -114,32 +121,8 @@
     },
     "hashtags_metadata": [
         {
-            "name": "spicynoodles",
-            "id": 8357018,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "spicyfood",
-            "id": 4144632,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "asmr",
-            "id": 1248236,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
-        },
-        {
-            "name": "spicychicken",
-            "id": 2485056,
+            "name": "foryoupage",
+            "id": 88764338,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
@@ -152,6 +135,30 @@
             "sub_type": 0,
             "is_commerce": false,
             "description": "나는 먹는다. 고로 존재한다\nI eat, therefore I am"
+        },
+        {
+            "name": "asmr",
+            "id": 1248236,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "All the soothing sounds you need to massage your brain."
+        },
+        {
+            "name": "trending",
+            "id": 20105,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Discover the top viral trends, sounds and effects of the week! 🔥"
+        },
+        {
+            "name": "ricecake",
+            "id": 10098076,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
         }
     ]
 }

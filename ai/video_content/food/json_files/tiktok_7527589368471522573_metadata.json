@@ -1,38 +1,32 @@
 {
     "video_metadata": {
-        "id": 7540477425814179079,
-        "time_created": "2025-08-20T09:43:39",
-        "author_id": 7203364177024238619,
-        "description": "#spicynoodles #spicyfood #asmr #spicychicken #mukbang ",
+        "id": 7527589368471522573,
+        "time_created": "2025-07-16T16:11:34",
+        "author_id": 7183282486251340842,
+        "description": "#Food#Foodchina🥪🌭🍔🍔#china#usatiktokfamily#family ",
         "hashtags": [
-            "spicynoodles",
-            "spicyfood",
-            "asmr",
-            "spicychicken",
-            "mukbang"
+            "food",
+            "foodchina🥪🌭🍔🍔",
+            "china",
+            "usatiktokfamily",
+            "family"
         ],
         "mentions": null,
-        "music_id": 7540477467186694929,
+        "music_id": 7527589329821928205,
         "schedule_time": 0,
-        "location_created": "ID",
+        "location_created": "VN",
         "is_ad": false,
         "suggested_words": [
-            "mukbang ",
-            "mukbang spicy foods",
-            "Mukbang Food",
-            "Mukbang asmr",
-            "Mukbang Food ASMR",
-            "spicy food",
-            "Spicy Mukbang",
-            "Spicy Noodles",
-            "ASMR Food",
-            "Mukbang Asmr Spicy Noodle"
+            "food china",
+            "food china family",
+            "chinese eating food",
+            "chinese snack store"
         ],
-        "diggcount": 47200,
-        "sharecount": 5016,
-        "commentcount": 2001,
-        "playcount": 1500000,
-        "collectcount": 4188,
+        "diggcount": 23600,
+        "sharecount": 865,
+        "commentcount": 2432,
+        "playcount": 2400000,
+        "collectcount": 4104,
         "repostcount": 0,
         "warn_info": [],
         "original_item": false,
@@ -53,11 +47,11 @@
         "stitch_display": 0,
         "index_enabled": true,
         "diversification_labels": [
-            "Mukbangs & Tasting",
-            "Food & Drink",
-            "Lifestyle"
+            "Scripted Drama",
+            "Scripted Drama",
+            "Performance"
         ],
-        "diversification_id": 10041,
+        "diversification_id": 10004,
         "channel_tags": [],
         "keyword_tags": null,
         "is_ai_gc": false,
@@ -65,39 +59,39 @@
         "ai_gc_description": null
     },
     "file_metadata": {
-        "id": 7540477425814179079,
-        "filepath": "test_folder/tiktok_7540477425814179079_*",
-        "duration": 102,
+        "id": 7527589368471522573,
+        "filepath": "test_folder/tiktok_7527589368471522573_*",
+        "duration": 293,
         "height": 1024,
         "width": 576,
         "ratio": 540,
-        "volume_loudness": -30.2,
-        "volume_peak": 0.69984,
+        "volume_loudness": -10.4,
+        "volume_peak": 1,
         "has_original_audio": true,
         "enable_audio_caption": true,
         "no_caption_reason": null,
         "is_slide": false
     },
     "music_metadata": {
-        "id": 7540477467186694929,
-        "title": "suara asli - whizky mukbang",
-        "author_name": "whizky mukbang",
+        "id": 7527589329821928205,
+        "title": "nhạc nền - Food",
+        "author_name": "Food",
         "original": true,
         "schedule_search_time": 0,
         "collected": false,
         "precise_duration": {
-            "preciseDuration": 102.03425,
-            "preciseShootDuration": 102.03425,
-            "preciseAuditionDuration": 102.03425,
-            "preciseVideoDuration": 102.03425
+            "preciseDuration": 293.74695,
+            "preciseShootDuration": 293.74695,
+            "preciseAuditionDuration": 293.74695,
+            "preciseVideoDuration": 293.74695
         }
     },
     "author_metadata": {
-        "id": 7203364177024238619,
-        "username": "princewhizky",
-        "name": "whizky mukbang",
-        "signature": "Mau jajanan murah dan enak😋😋?\nscroll aja keranjang di bawah\n👇👇",
-        "create_time": 1677164008,
+        "id": 7183282486251340842,
+        "username": "foodchina1232",
+        "name": "Food",
+        "signature": "hi",
+        "create_time": 1672584548,
         "verified": false,
         "ftc": false,
         "relation": 0,
@@ -114,44 +108,44 @@
     },
     "hashtags_metadata": [
         {
-            "name": "spicynoodles",
-            "id": 8357018,
+            "name": "food",
+            "id": 5718,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
             "description": ""
         },
         {
-            "name": "spicyfood",
-            "id": 4144632,
+            "name": "foodchina🥪🌭🍔🍔",
+            "id": 7403354167015997470,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
             "description": ""
         },
         {
-            "name": "asmr",
-            "id": 1248236,
+            "name": "china",
+            "id": 5873,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
+            "description": "🇨🇳🇨🇳🇨🇳中国的童鞋们，记得在视频下标注#China 或者#中国，让全球的小伙伴都能发现你们哦🤗"
         },
         {
-            "name": "spicychicken",
-            "id": 2485056,
+            "name": "usatiktokfamily",
+            "id": 1617898290179078,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
             "description": ""
         },
         {
-            "name": "mukbang",
-            "id": 5600217,
+            "name": "family",
+            "id": 5163,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
-            "description": "나는 먹는다. 고로 존재한다\nI eat, therefore I am"
+            "description": "Here's to all the families on TikTok."
         }
     ]
 }

@@ -1,46 +1,35 @@
 {
     "video_metadata": {
-        "id": 7500594249658830102,
-        "time_created": "2025-05-04T22:16:32",
-        "author_id": 7208122260169835525,
-        "description": "Another request ? A long asmr vid ! Cr:@Closer Food #asmr #asmrsounds #asmrvideo #evaqt #closerfood🎀 #spring #food #longvideo #satisfyingvideos #fyp #popular ",
+        "id": 7336498082202324242,
+        "time_created": "2024-02-17T17:19:35",
+        "author_id": 7195515632891446298,
+        "description": "#trendfood #food #foodie #foodlover #viralfood #fyp #cooking #cookwithme #foodtiktok #foodtrend #trendingvideo #chicken #kfc ",
         "hashtags": [
-            "asmr",
-            "asmrsounds",
-            "asmrvideo",
-            "evaqt",
-            "closerfood🎀",
-            "spring",
+            "trendfood",
             "food",
-            "longvideo",
-            "satisfyingvideos",
+            "foodie",
+            "foodlover",
+            "viralfood",
             "fyp",
-            "popular"
+            "cooking",
+            "cookwithme",
+            "foodtiktok",
+            "foodtrend",
+            "trendingvideo",
+            "chicken",
+            "kfc"
         ],
-        "mentions": [
-            "6957898118311822338"
-        ],
-        "music_id": 7425305480727889936,
+        "mentions": null,
+        "music_id": 7279168096333203458,
         "schedule_time": 0,
-        "location_created": "FR",
+        "location_created": "NP",
         "is_ad": false,
-        "suggested_words": [
-            "closer food",
-            "ASMR Food",
-            "ASMR Videos",
-            "Closer Food ASMR",
-            "asmr closer eating",
-            "asmr eating with closer food",
-            "satisfying",
-            "Asmr Eating",
-            "ASMR De Comida",
-            "ASMR Eating Food"
-        ],
-        "diggcount": 52700,
-        "sharecount": 7188,
-        "commentcount": 4302,
-        "playcount": 3700000,
-        "collectcount": 9748,
+        "suggested_words": [],
+        "diggcount": 269300,
+        "sharecount": 45000,
+        "commentcount": 9452,
+        "playcount": 10800000,
+        "collectcount": 39494,
         "repostcount": 0,
         "warn_info": [],
         "original_item": false,
@@ -52,8 +41,8 @@
         "take_down": 0,
         "effect_stickers": null,
         "private_item": false,
-        "duet_enabled": false,
-        "stitch_enabled": false,
+        "duet_enabled": true,
+        "stitch_enabled": true,
         "stickers_on_item": null,
         "share_enabled": true,
         "comments": null,
@@ -61,11 +50,11 @@
         "stitch_display": 0,
         "index_enabled": true,
         "diversification_labels": [
-            "Oddly Satisfying",
-            "Daily Life",
+            "Cooking",
+            "Food & Drink",
             "Lifestyle"
         ],
-        "diversification_id": 10037,
+        "diversification_id": 10040,
         "channel_tags": [],
         "keyword_tags": null,
         "is_ai_gc": false,
@@ -73,23 +62,23 @@
         "ai_gc_description": null
     },
     "file_metadata": {
-        "id": 7500594249658830102,
-        "filepath": "test_folder/tiktok_7500594249658830102_*",
-        "duration": 1583,
-        "height": 1024,
+        "id": 7336498082202324242,
+        "filepath": "test_folder/tiktok_7336498082202324242_*",
+        "duration": 33,
+        "height": 768,
         "width": 576,
         "ratio": 540,
-        "volume_loudness": -12.4,
+        "volume_loudness": -8.8,
         "volume_peak": 1,
-        "has_original_audio": true,
-        "enable_audio_caption": true,
-        "no_caption_reason": 3,
+        "has_original_audio": false,
+        "enable_audio_caption": false,
+        "no_caption_reason": 2,
         "is_slide": false
     },
     "music_metadata": {
-        "id": 7425305480727889936,
-        "title": "miffy cafe",
-        "author_name": "sakuracloud",
+        "id": 7279168096333203458,
+        "title": "Greedy (Slowed + Reverb) - It's Obvious That You Want Me, I Would Want Myself",
+        "author_name": "3slow2",
         "original": false,
         "schedule_search_time": 0,
         "collected": false,
@@ -97,15 +86,15 @@
             "preciseDuration": 60,
             "preciseShootDuration": 60,
             "preciseAuditionDuration": 60,
-            "preciseVideoDuration": 6000
+            "preciseVideoDuration": 60
         }
     },
     "author_metadata": {
-        "id": 7208122260169835525,
-        "username": "evaqt._",
-        "name": "imthedeva",
-        "signature": "🎀\nSpam=block 🚫💗\nLuv u for 15.4k!",
-        "create_time": 1678271781,
+        "id": 7195515632891446298,
+        "username": "24x7hungry",
+        "name": "24x7 Hungry",
+        "signature": "Follow 😋",
+        "create_time": 1675336634,
         "verified": false,
         "ftc": false,
         "relation": 0,
@@ -122,52 +111,12 @@
     },
     "hashtags_metadata": [
         {
-            "name": "asmr",
-            "id": 1248236,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": "All the soothing sounds you need to massage your brain."
-        },
-        {
-            "name": "asmrsounds",
-            "id": 17764927,
+            "name": "trendfood",
+            "id": 1629519122326529,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
             "description": ""
-        },
-        {
-            "name": "asmrvideo",
-            "id": 35830639,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "evaqt",
-            "id": 18974498,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "closerfood🎀",
-            "id": 7133203123127975963,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": ""
-        },
-        {
-            "name": "spring",
-            "id": 11308,
-            "type": 1,
-            "sub_type": 0,
-            "is_commerce": false,
-            "description": "Breathe in the fresh air and celebrate all things #Spring."
         },
         {
             "name": "food",
@@ -178,16 +127,24 @@
             "description": ""
         },
         {
-            "name": "longvideo",
-            "id": 10441227,
+            "name": "foodie",
+            "id": 251048,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
-            "description": ""
+            "description": "Love food? Show us your favorite dishes and recipes."
         },
         {
-            "name": "satisfyingvideos",
-            "id": 14071337,
+            "name": "foodlover",
+            "id": 105344,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Tell us why you love food, or what food you love the most with the #FoodLover hashtag for the chance to win $1,000 cash and have your account featured in the Food Fest hub on Discover! T&Cs: https://bit.ly/3cqjUzH"
+        },
+        {
+            "name": "viralfood",
+            "id": 84153529,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,
@@ -202,8 +159,56 @@
             "description": ""
         },
         {
-            "name": "popular",
-            "id": 5637,
+            "name": "cooking",
+            "id": 18973,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "cookwithme",
+            "id": null,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": null
+        },
+        {
+            "name": "foodtiktok",
+            "id": 1599163184670722,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Your one-stop shop for perfect recipes, delicious desserts, and food inspiration."
+        },
+        {
+            "name": "foodtrend",
+            "id": 25184346,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "trendingvideo",
+            "id": 5464941,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "chicken",
+            "id": 13532,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "kfc",
+            "id": 44873,
             "type": 1,
             "sub_type": 0,
             "is_commerce": false,

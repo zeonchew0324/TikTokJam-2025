@@ -1,0 +1,229 @@
+{
+    "video_metadata": {
+        "id": 7534264450384219398,
+        "time_created": "2025-08-03T15:54:13",
+        "author_id": 7299811778928919558,
+        "description": "Chicken Curry With Onion Ring Fried Shrimp Kielbasa MukBang! #asmr #mukbang #bonggil #asmrsegments #food #asmrfood #foodblogger #foodlover #koreanfood #satisfyingeats #tiktokfood #explore #yummy ",
+        "hashtags": [
+            "asmr",
+            "mukbang",
+            "bonggil",
+            "asmrsegments",
+            "food",
+            "asmrfood",
+            "foodblogger",
+            "foodlover",
+            "koreanfood",
+            "satisfyingeats",
+            "tiktokfood",
+            "explore",
+            "yummy"
+        ],
+        "mentions": null,
+        "music_id": 7534264547272624901,
+        "schedule_time": 0,
+        "location_created": "UA",
+        "is_ad": false,
+        "suggested_words": [
+            "Mukbang ASMR",
+            "Mukbang Food ASMR",
+            "Asmr food",
+            "mukbang food",
+            "Mukbang Videos",
+            "asmr food mukbang shrimp",
+            "mukbang bonggil asmr",
+            "Curry",
+            "mukbang bonggil",
+            "bonggil mukbang chicken"
+        ],
+        "diggcount": 39800,
+        "sharecount": 3949,
+        "commentcount": 859,
+        "playcount": 1200000,
+        "collectcount": 4146,
+        "repostcount": 0,
+        "warn_info": [],
+        "original_item": false,
+        "offical_item": false,
+        "secret": false,
+        "for_friend": false,
+        "digged": false,
+        "item_comment_status": 0,
+        "take_down": 0,
+        "effect_stickers": null,
+        "private_item": false,
+        "duet_enabled": false,
+        "stitch_enabled": false,
+        "stickers_on_item": null,
+        "share_enabled": true,
+        "comments": null,
+        "duet_display": 0,
+        "stitch_display": 0,
+        "index_enabled": true,
+        "diversification_labels": [
+            "Mukbangs & Tasting",
+            "Food & Drink",
+            "Lifestyle"
+        ],
+        "diversification_id": 10041,
+        "channel_tags": [],
+        "keyword_tags": null,
+        "is_ai_gc": false,
+        "aigc_label_type": null,
+        "ai_gc_description": null
+    },
+    "file_metadata": {
+        "id": 7534264450384219398,
+        "filepath": "test_folder/tiktok_7534264450384219398_*",
+        "duration": 387,
+        "height": 576,
+        "width": 1024,
+        "ratio": 540,
+        "volume_loudness": -29.5,
+        "volume_peak": 0.88105,
+        "has_original_audio": true,
+        "enable_audio_caption": true,
+        "no_caption_reason": 3,
+        "is_slide": false
+    },
+    "music_metadata": {
+        "id": 7534264547272624901,
+        "title": "оригинальный звук",
+        "author_name": "ASMR | Eating",
+        "original": true,
+        "schedule_search_time": 0,
+        "collected": false,
+        "precise_duration": {
+            "preciseDuration": 387.082,
+            "preciseShootDuration": 387.082,
+            "preciseAuditionDuration": 387.082,
+            "preciseVideoDuration": 387.082
+        }
+    },
+    "author_metadata": {
+        "id": 7299811778928919558,
+        "username": "bonggil.eating.show",
+        "name": "ASMR | Eating",
+        "signature": "One cannot think well, love well, sleep well, \nif one has not dined well 💯",
+        "create_time": 1699619901,
+        "verified": false,
+        "ftc": false,
+        "relation": 0,
+        "open_favorite": false,
+        "comment_setting": 0,
+        "duet_setting": 3,
+        "stitch_setting": 3,
+        "private_account": false,
+        "secret": false,
+        "is_ad_virtual": false,
+        "download_setting": 0,
+        "recommend_reason": "",
+        "suggest_account_bind": false
+    },
+    "hashtags_metadata": [
+        {
+            "name": "asmr",
+            "id": 1248236,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "All the soothing sounds you need to massage your brain."
+        },
+        {
+            "name": "mukbang",
+            "id": 5600217,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "나는 먹는다. 고로 존재한다\nI eat, therefore I am"
+        },
+        {
+            "name": "bonggil",
+            "id": 1616034753135622,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "asmrsegments",
+            "id": 7287231728794468357,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "food",
+            "id": 5718,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "asmrfood",
+            "id": 36480711,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Delight your ears with meals that are crunchy, moist or loud!"
+        },
+        {
+            "name": "foodblogger",
+            "id": 2868548,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "foodlover",
+            "id": 105344,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Tell us why you love food, or what food you love the most with the #FoodLover hashtag for the chance to win $1,000 cash and have your account featured in the Food Fest hub on Discover! T&Cs: https://bit.ly/3cqjUzH"
+        },
+        {
+            "name": "koreanfood",
+            "id": 298623,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "satisfyingeats",
+            "id": 1597856299514885,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        },
+        {
+            "name": "tiktokfood",
+            "id": 1582562928207885,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Celebrate all the crunchy, gooey, juicy, and extreme wonders of #TikTokFood. Share your ASMR, mukbang, and visually stimulating foodie creations."
+        },
+        {
+            "name": "explore",
+            "id": 33019,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": "Show us how you #Explore the world"
+        },
+        {
+            "name": "yummy",
+            "id": 8694,
+            "type": 1,
+            "sub_type": 0,
+            "is_commerce": false,
+            "description": ""
+        }
+    ]
+}
