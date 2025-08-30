@@ -15,16 +15,23 @@ def categorize_video_into_3_categories(video_id):
 
     category_embeddings_and_similarity_scores = categorize_video(video_embedding, centroid_embeddings)
     
+    total_score = sum(score for _, score in category_embeddings_and_similarity_scores)
+    
+    if total_score == 0:
+        print("Total similarity score is zero, cannot compute percentages.")
+        return
+    
     results = []
     
     for embedding, score in category_embeddings_and_similarity_scores:
         category = retrieve_category_by_embedding(embedding)
         if category:
-            score = round(float(score) * 100, 2)
-            print(f"Video ID {video_id} is categorized as {category} with a similarity score of {score}.")
+            percentage = (score / total_score) * 100
+            percentage = round(percentage, 2)
+            print(f"Video ID {video_id} is categorized as {category} with a percentage of {percentage}.")
             result = {
                 "category": category,
-                "similarity_score": score
+                "percentage": percentage
             }
             results.append(result)
     
